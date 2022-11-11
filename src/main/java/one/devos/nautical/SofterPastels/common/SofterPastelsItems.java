@@ -22,21 +22,21 @@ public class SofterPastelsItems {
     public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item PEANUT_BUTTER_ICE_CREAM = registerItem("peanut_butter_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
 
-    public static final Item WHITE_POWDER = registerItem("white_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item LIGHT_RED_PASTEL_POWDER = registerItem("light_red_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item RED_PASTEL_POWDER = registerItem("red_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item ORANGE_PASTEL_POWDER = registerItem("orange_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item YELLOW_PASTEL_POWDER = registerItem("yellow_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item LIGHT_GREEN_PASTEL_POWDER = registerItem("light_green_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item GREEN_PASTEL_POWDER = registerItem("green_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item LIGHT_BLUE_PASTEL_POWDER = registerItem("light_blue_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item BLUE_PASTEL_POWDER = registerItem("blue_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item PURPLE_PASTEL_POWDER = registerItem("purple_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item MAGENTA_PASTEL_POWDER = registerItem("magenta_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item BROWN_PASTEL_POWDER = registerItem("brown_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item BLACK_PASTEL_POWDER = registerItem("black_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item LIGHT_GRAY_PASTEL_POWDER = registerItem("light_gray_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
-    public static final Item GRAY_PASTEL_POWDER = registerItem("gray_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item WHITE_POWDER = registerItem("white_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item LIGHT_RED_PASTEL_POWDER = registerItem("light_red_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item RED_PASTEL_POWDER = registerItem("red_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item ORANGE_PASTEL_POWDER = registerItem("orange_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item YELLOW_PASTEL_POWDER = registerItem("yellow_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item LIGHT_GREEN_PASTEL_POWDER = registerItem("light_green_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item GREEN_PASTEL_POWDER = registerItem("green_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item LIGHT_BLUE_PASTEL_POWDER = registerItem("light_blue_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item BLUE_PASTEL_POWDER = registerItem("blue_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item PURPLE_PASTEL_POWDER = registerItem("purple_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item MAGENTA_PASTEL_POWDER = registerItem("magenta_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item BROWN_PASTEL_POWDER = registerItem("brown_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item BLACK_PASTEL_POWDER = registerItem("black_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item LIGHT_GRAY_PASTEL_POWDER = registerItem("light_gray_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
+//    public static final Item GRAY_PASTEL_POWDER = registerItem("gray_pastel_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).maxCount(64)));
 
     public static final Item WHITE_TAFFY = registerItem("white_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.INVISIBILITY, 600, 0), 1.0F).build())));
     public static final Item LIGHT_RED_TAFFY = registerItem("light_red_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0), 1.0F).build())));
