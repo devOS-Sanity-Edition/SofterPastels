@@ -35,7 +35,7 @@ public class SofterPastels implements ModInitializer {
             keepStaticTitle();
             addTab(Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK), "blocks", null);
             addTab(Icon.of(GlassBlocks.RED_GLASS_ITEM), "decorations", null);
-            addTab(Icon.of(SofterPastelsItems.BASE_TAFFY), "items", null);
+            addTab(Icon.of(SofterPastelsItems.WHITE_TAFFY), "items", null);
             addTab(Icon.of(SofterPastelsBlocks.PASTEL_GRASS), "natural", null);
 
             addButton(ItemGroupButton.github("https://github.com/devOS-Sanity-Edition/SofterPastels"));
