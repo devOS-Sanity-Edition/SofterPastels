@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "softerpastels:item/bad_ice_cream"
+  }
+}

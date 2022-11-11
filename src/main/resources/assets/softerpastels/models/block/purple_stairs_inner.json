@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "softerpastels:block/purple",
+        "top": "softerpastels:block/purple",
+        "side": "softerpastels:block/purple"
+    }
+}

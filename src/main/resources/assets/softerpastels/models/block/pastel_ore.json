@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "particle": "softerpastels:block/pastel_ore",
+        "end": "softerpastels:block/pastel_ore_top",
+        "side": "softerpastels:block/pastel_ore"
+    }
+}

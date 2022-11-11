@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "softerpastels",
+    "version": "${version}",
+    "name": "Softer Pastels",
+    "description": "Mod that adds blocks and foods from the discontinued mod \"Pastel Wonderland\".",
+    "authors": [
+        "devOS: Sanity Edition",
+        "Team Nautical"
+    ],
+    "contributors": [
+        "asoji", "CARTER_1234"
+    ],
+    "contact": {
+        "website": "https://devos.one/",
+        "repo": "https://github.com/devOS-Sanity-Edition/SofterPastels"
+    },
+    "license": "MIT",
+    "icon": "assets/softerpastels/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "one.devos.nautical.SofterPastels.client.SofterPastelsClient"
+        ],
+        "main": [
+            "one.devos.nautical.SofterPastels.SofterPastels"
+        ]
+    },
+    "mixins": [
+        "softerpastels.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.10",
+        "fabric": "*",
+        "minecraft": "1.19.2"
+    }
+}

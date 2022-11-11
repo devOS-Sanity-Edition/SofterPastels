@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "softerpastels:block/blue_leaves"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "top": "softerpastels:block/yellow",
+        "bottom": "softerpastels:block/yellow",
+        "side": "softerpastels:block/yellow"
+    }
+}
