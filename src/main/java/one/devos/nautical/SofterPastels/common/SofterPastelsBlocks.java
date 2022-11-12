@@ -147,19 +147,7 @@ public class SofterPastelsBlocks {
     public static final Block GRAY_PASTEL_STAIR_BLOCK = registerBlock("gray_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block GRAY_PASTEL_WOOL_BLOCK = registerBlock("gray_wool", new Block(copy(WHITE_WOOL)), 0);
 
-    //Natural
-    public static final Block PASTEL_GRASS = registerBlock("pastel_grass", new GrassBlock(DirtLike()), 3);
-    public static final Block PASTEL_DIRT = registerBlock("pastel_dirt", new Block(DirtLike()), 3);
-    public static final Block PASTEL_STONE = registerBlock("pastel_stone", new Block(copy(STONE)), 3);
-    public static final Block PASTEL_SAND = registerBlock("pastel_sand", new SandBlock(PastelSandColor, SandLike()), 3);
-    public static final Block PASTEL_LOG = registerBlock("pastel_log", new RotatedPillarBlock(copy(OAK_LOG)), 3);
-    public static final Block PASTEL_ORE = registerBlock("pastel_ore", new Block(copy(IRON_ORE)), 3);
-    public static final Block LIGHT_BLUE_LEAVES = registerBlock("light_blue_leaves", new LeavesBlock(PastelLeaves()), 3);
-    public static final Block LIGHT_RED_LEAVES = registerBlock("light_red_leaves", new LeavesBlock(PastelLeaves()), 3);
-    public static final Block LIGHT_GREEN_LEAVES = registerBlock("light_green_leaves", new LeavesBlock(PastelLeaves()), 3);
-    public static final Block YELLOW_LEAVES = registerBlock("yellow_leaves", new LeavesBlock(PastelLeaves()), 3);
-
-    public static final Block PEANUT_CROP = registerCrop("peanut_crop", new PeanutCropBlock(crops()));
+    public static final Block PEANUT_CROP = registerCrop("peanut_crop", new PeanutCropBlock(Crops()));
 
     public static void init() {
         GlassBlocks.init();

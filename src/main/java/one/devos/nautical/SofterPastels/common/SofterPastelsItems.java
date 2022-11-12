@@ -76,14 +76,11 @@ public class SofterPastelsItems {
     public static final Item GRAY_COTTON_CANDY = registerItem("gray_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item GRAY_HARD_CANDY = registerItem("gray_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
-    public static final Item BURNED_CANDY = registerItem("burned_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.HARM, 1, 1), 1.0F).build())));
-    public static final Item BAD_ICE_CREAM = registerItem("bad_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.POISON, 6000, 1), 1.0F).effect(new MobEffectInstance(MobEffects.HUNGER, 6000, 0), 1.0F).effect(new MobEffectInstance(MobEffects.CONFUSION, 6000, 0), 1.0F).effect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 6000, 1), 1.0F).effect(new MobEffectInstance(MobEffects.BLINDNESS, 6000, 1), 1.0F).build())));
-    public static final Item PEANUT_CHOKER = registerItem("peanut_choker", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
     public static final Item PEANUT_BUTTER = registerItem("peanut_butter", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(9).saturationMod(5).build())));
 
     public static final Item COTTON_CANDY_ICE_CREAM = registerItem("cotton_candy_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item CHOCOLATE_ICE_CREAM = registerItem("chocolate_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
-    public static final Item STRAWYBERRY_ICE_CREAM = registerItem("strawberry_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
+    public static final Item STRAWBERRY_ICE_CREAM = registerItem("strawberry_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item PEANUT_BUTTER_ICE_CREAM = registerItem("peanut_butter_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
 

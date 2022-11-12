@@ -6,13 +6,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
-import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
-
-import static one.devos.nautical.SofterPastels.common.SofterPastelsBlocks.PASTEL_SAND;
-import static one.devos.nautical.SofterPastels.utils.BlockProperties.PastelSandColor;
 
 @Environment(EnvType.CLIENT)
 public class SofterPastelsClient implements ClientModInitializer {
@@ -92,8 +86,5 @@ public class SofterPastelsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS_PANE, RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putItem(GlassBlocks.GRAY_GLASS_ITEM, RenderType.translucent());
         BlockRenderLayerMap.INSTANCE.putItem(GlassBlocks.GRAY_GLASS_PANE_ITEM, RenderType.translucent());
-
-        ColorProviderRegistry.BLOCK.register((blockState, blockAndTintGetter, blockPos, i) -> PastelSandColor, PASTEL_SAND);
-        ColorProviderRegistry.ITEM.register((itemStack, i) -> PastelSandColor, PASTEL_SAND);
     }
 }
