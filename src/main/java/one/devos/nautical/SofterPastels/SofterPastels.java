@@ -28,7 +28,6 @@ public class SofterPastels implements ModInitializer {
         }
     }
 
-
     public static final OwoItemGroup SP_ITEM_GROUP = new OwoItemGroup(new ResourceLocation(MOD_ID, "softerpastels")) {
         @Override
         protected void setup() {
@@ -55,7 +54,7 @@ public class SofterPastels implements ModInitializer {
         SofterPastelsBlocks.init();
         SofterPastelsItems.init();
 
-        LOGGER.info("[" + MOD_NAME + "] Version " + VERSION + " loaded." );
+        LOGGER.info("[" + MOD_NAME + "] Version " + VERSION + " loaded.");
         LOGGER.info("[" + MOD_NAME + "] " + "Getting ready to load some soft sweet eye candy.");
     }
 }

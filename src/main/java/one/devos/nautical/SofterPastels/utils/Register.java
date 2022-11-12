@@ -31,6 +31,7 @@ public class Register {
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), item);
     }
+
     public static BlockItem registerBlockItem(String name, Block block, int tab, Item.Properties properties) {
         return Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, properties));
     }

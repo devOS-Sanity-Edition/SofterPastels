@@ -6,6 +6,9 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
+// for devenv - sodium
+project.ext.jomlVersion = "1.10.5"
+
 repositories {
     // Add repositories to retrieve artifacts from in here.
     // You should only use this when depending on other mods because
@@ -14,6 +17,24 @@ repositories {
     // for more information about repositories.
 
     maven { url 'https://maven.wispforest.io' }
+
+    // for devenv - sodium
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 dependencies {
@@ -29,6 +50,11 @@ dependencies {
     // include this if you don't want force your users to install owo
     // sentinel will warn them and give the option to download it automatically
     include "io.wispforest:owo-sentinel:${project.owo_version}"
+
+    // for devenv
+    modImplementation "maven.modrinth:sodium:mc1.19.2-0.4.4"
+    // for sodium
+    implementation "org.joml:joml:${jomlVersion}"
 }
 
 processResources {
