@@ -13,13 +13,13 @@
   "block.softerpastels.gray_pastel_block": "Gray Pastel Block",
   "block.softerpastels.black_pastel_block": "Black Pastel Block",
   "block.softerpastels.brown_pastel_block": "Brown Pastel Block",
-  "block.softerpastels.white_block": "White Block",
+  "block.softerpastels.white_pastel_block": "White Pastel Block",
 
   "block.softerpastels.light_red_pastel_powder_block": "Light Red Pastel Powder Block",
   "block.softerpastels.red_pastel_powder_block": "Red Pastel Powder Block",
   "block.softerpastels.orange_pastel_powder_block": "Orange Pastel Powder Block",
   "block.softerpastels.yellow_pastel_powder_block": "Yellow Pastel Powder Block",
-  "block.softerpastels.light_pastel_green_powder_block": "Light Green Pastel Powder Block",
+  "block.softerpastels.light_green_pastel_powder_block": "Light Green Pastel Powder Block",
   "block.softerpastels.green_pastel_powder_block": "Green Pastel Powder Block",
   "block.softerpastels.light_blue_pastel_powder_block": "Light Blue Pastel Powder Block",
   "block.softerpastels.blue_pastel_powder_block": "Blue Pastel Powder Block",
@@ -29,7 +29,7 @@
   "block.softerpastels.gray_pastel_powder_block": "Gray Pastel Powder Block",
   "block.softerpastels.black_pastel_powder_block": "Black Pastel Powder Block",
   "block.softerpastels.brown_pastel_powder_block": "Brown Pastel Powder Block",
-  "block.softerpastels.white_powder_block": "White Powder Block",
+  "block.softerpastels.white_pastel_powder_block": "White Pastel Powder Block",
 
   "block.softerpastels.light_red_fence": "Light Red Pastel Fence",
   "block.softerpastels.red_fence": "Red Pastel Fence",
@@ -44,7 +44,7 @@
   "block.softerpastels.black_fence": "Black Pastel Fence",
   "block.softerpastels.light_gray_fence": "Light Gray Pastel Fence",
   "block.softerpastels.gray_fence": "Gray Pastel Fence",
-  "block.softerpastels.white_fence": "White Fence",
+  "block.softerpastels.white_fence": "White Pastel Fence",
   "block.softerpastels.brown_fence": "Brown Pastel Fence",
 
   "block.softerpastels.light_red_fence_gate": "Light Red Pastel Fence Gate",
@@ -60,7 +60,7 @@
   "block.softerpastels.black_fence_gate": "Black Pastel Fence Gate",
   "block.softerpastels.light_gray_fence_gate": "Light Gray Pastel Fence Gate",
   "block.softerpastels.gray_fence_gate": "Gray Pastel Fence Gate",
-  "block.softerpastels.white_fence_gate": "White Fence Gate",
+  "block.softerpastels.white_fence_gate": "White Pastel Fence Gate",
   "block.softerpastels.brown_fence_gate": "Brown Pastel Fence Gate",
 
   "block.softerpastels.light_red_wall": "Light Red Pastel Wall",
@@ -76,7 +76,7 @@
   "block.softerpastels.black_wall": "Black Pastel Wall",
   "block.softerpastels.light_gray_wall": "Light Gray Pastel Wall",
   "block.softerpastels.gray_wall": "Gray Pastel Wall",
-  "block.softerpastels.white_wall": "White Wall",
+  "block.softerpastels.white_wall": "White Pastel Wall",
   "block.softerpastels.brown_wall": "Brown Pastel Wall",
 
   "block.softerpastels.light_red_glass": "Light Red Pastel Glass",
@@ -92,7 +92,7 @@
   "block.softerpastels.black_glass": "Black Pastel Glass",
   "block.softerpastels.light_gray_glass": "Light Gray Pastel Glass",
   "block.softerpastels.gray_glass": "Gray Pastel Glass",
-  "block.softerpastels.white_glass": "White Glass",
+  "block.softerpastels.white_glass": "White Pastel Glass",
   "block.softerpastels.brown_glass": "Brown Pastel Glass",
 
   "block.softerpastels.light_red_glass_pane": "Light Red Pastel Glass Pane",
@@ -108,7 +108,7 @@
   "block.softerpastels.black_glass_pane": "Black Pastel Glass Pane",
   "block.softerpastels.light_gray_glass_pane": "Light Gray Pastel Glass Pane",
   "block.softerpastels.gray_glass_pane": "Gray Pastel Glass Pane",
-  "block.softerpastels.white_glass_pane": "White Glass Pane",
+  "block.softerpastels.white_glass_pane": "White Pastel Glass Pane",
   "block.softerpastels.brown_glass_pane": "Brown Pastel Glass Pane",
 
   "block.softerpastels.light_red_slab": "Light Red Pastel Slab",
@@ -124,7 +124,7 @@
   "block.softerpastels.black_slab": "Black Pastel Slab",
   "block.softerpastels.light_gray_slab": "Light Gray Pastel Slab",
   "block.softerpastels.gray_slab": "Gray Pastel Slab",
-  "block.softerpastels.white_slab": "White Slab",
+  "block.softerpastels.white_slab": "White Pastel Slab",
   "block.softerpastels.brown_slab": "Brown Pastel Slab",
 
   "block.softerpastels.light_red_stairs": "Light Red Pastel Stairs",
@@ -140,7 +140,7 @@
   "block.softerpastels.black_stairs": "Black Pastel Stairs",
   "block.softerpastels.light_gray_stairs": "Light Gray Pastel Stairs",
   "block.softerpastels.gray_stairs": "Gray Pastel Stairs",
-  "block.softerpastels.white_stairs": "White Stairs",
+  "block.softerpastels.white_stairs": "White Pastel Stairs",
   "block.softerpastels.brown_stairs": "Brown Pastel Stairs",
 
   "block.softerpastels.light_red_wool": "Light Red Pastel Wool",
@@ -156,7 +156,7 @@
   "block.softerpastels.black_wool": "Black Pastel Wool",
   "block.softerpastels.light_gray_wool": "Light Gray Pastel Wool",
   "block.softerpastels.gray_wool": "Gray Pastel Wool",
-  "block.softerpastels.white_wool": "White Wool",
+  "block.softerpastels.white_wool": "White Pastel Wool",
   "block.softerpastels.brown_wool": "Brown Pastel Wool",
 
   "block.softerpastels.light_red_log": "Light Red Pastel Log",
@@ -199,7 +199,7 @@
   "block.softerpastels.light_red_glowstone": "Light Red Pastel Glowstone",
   "block.softerpastels.light_blue_glowstone": "Light Blue Pastel Glowstone",
 
-  "item.softerpastels.white_powder": "White Powder",
+  "item.softerpastels.white_pastel_powder": "White Pastel Powder",
   "item.softerpastels.light_red_pastel_powder": "Light Red Pastel Powder",
   "item.softerpastels.red_pastel_powder": "Red Pastel Powder",
   "item.softerpastels.orange_pastel_powder": "Orange Pastel Powder",

@@ -12,8 +12,8 @@ import static one.devos.nautical.SofterPastels.utils.Register.registerBlock;
 import static one.devos.nautical.SofterPastels.utils.Register.registerCrop;
 
 public class SofterPastelsBlocks {
-    public static final Block WHITE_BLOCK = registerBlock("white_block", new Block(PastelBlock()), 0);
-    public static final Block WHITE_POWDER_BLOCK = registerBlock("white_powder_block", new ConcretePowderBlock(WHITE_BLOCK, PastelPowder()), 0);
+    public static final Block WHITE_PASTEL_BLOCK = registerBlock("white_pastel_block", new Block(PastelBlock()), 0);
+    public static final Block WHITE_PASTEL_POWDER_BLOCK = registerBlock("white_pastel_powder_block", new ConcretePowderBlock(WHITE_PASTEL_BLOCK, PastelPowder()), 0);
     public static final Block WHITE_PASTEL_FENCE_BLOCK = registerBlock("white_fence", new FenceBlock(copy(WHITE_CONCRETE)), 1);
     public static final Block WHITE_PASTEL_FENCE_GATE_BLOCK = registerBlock("white_fence_gate", new FenceGateBlock(copy(WHITE_CONCRETE)), 1);
     public static final Block WHITE_PASTEL_WALL_BLOCK = registerBlock("white_wall", new WallBlock(copy(WHITE_CONCRETE)), 1);

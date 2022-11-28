@@ -40,10 +40,6 @@ public class SofterPastelsItems {
     public static final Item GREEN_COTTON_CANDY = registerItem("green_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().build())));
     public static final Item GREEN_HARD_CANDY = registerItem("green_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
-    public static final Item CYAN_TAFFY = registerItem("cyan_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0), 1.0F).build())));
-    public static final Item CYAN_COTTON_CANDY = registerItem("cyan_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
-    public static final Item CYAN_HARD_CANDY = registerItem("cyan_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
-
     public static final Item LIGHT_BLUE_TAFFY = registerItem("light_blue_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 0), 1.0F).build())));
     public static final Item LIGHT_BLUE_COTTON_CANDY = registerItem("light_blue_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item LIGHT_BLUE_HARD_CANDY = registerItem("light_blue_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
