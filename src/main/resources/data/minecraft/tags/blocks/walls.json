@@ -1,6 +1,7 @@
 {
     "replace": "false",
     "values": [
+        "softerpastels:white_wall",
         "softerpastels:light_red_wall",
         "softerpastels:red_wall",
         "softerpastels:orange_wall",
@@ -11,10 +12,9 @@
         "softerpastels:blue_wall",
         "softerpastels:purple_wall",
         "softerpastels:magenta_wall",
+        "softerpastels:brown_wall",
         "softerpastels:black_wall",
         "softerpastels:light_gray_wall",
-        "softerpastels:gray_wall",
-        "softerpastels:white_wall",
-        "softerpastels:brown_wall"
+        "softerpastels:gray_wall"
     ]
 }
