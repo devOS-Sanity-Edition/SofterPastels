@@ -159,78 +159,6 @@
   "block.softerpastels.white_wool": "White Pastel Wool",
   "block.softerpastels.brown_wool": "Brown Pastel Wool",
 
-  "block.softerpastels.light_red_log": "Light Red Pastel Log",
-  "block.softerpastels.yellow_log": "Yellow Pastel Log",
-  "block.softerpastels.light_green_log": "Light Green Pastel Log",
-  "block.softerpastels.light_blue_log": "Light Blue Pastel Log",
-
-  "block.softerpastels.light_red_plank": "Light Red Pastel Plank",
-  "block.softerpastels.yellow_plank": "Yellow Pastel Plank",
-  "block.softerpastels.light_green_plank": "Light Green Pastel Plank",
-  "block.softerpastels.light_blue_plank": "Light Blue Pastel Plank",
-
-  "block.softerpastels.light_red_plank_stairs": "Light Red Pastel Plank Stairs",
-  "block.softerpastels.yellow_plank_stairs": "Yellow Pastel Plank Stairs",
-  "block.softerpastels.light_green_plank_stairs": "Light Green Pastel Plank Stairs",
-  "block.softerpastels.light_blue_plank_stairs": "Light Blue Pastel Plank Stairs",
-
-  "block.softerpastels.light_red_plank_slab": "Light Red Pastel Plank Slab",
-  "block.softerpastels.yellow_plank_slab": "Yellow Pastel Plank Slab",
-  "block.softerpastels.light_green_plank_slab": "Light Green Pastel Plank Slab",
-  "block.softerpastels.light_blue_plank_slab": "Light Blue Pastel Plank Slab",
-
-  "block.softerpastels.light_red_plank_fence_gate": "Light Red Pastel Plank Fence Gate",
-  "block.softerpastels.yellow_plank_fence_gate": "Yellow Pastel Plank Fence Gate",
-  "block.softerpastels.light_green_plank_fence_gate": "Light Green Pastel Plank Fence Gate",
-  "block.softerpastels.light_blue_plank_fence_gate": "Light Blue Pastel Plank Fence Gate",
-
-  "block.softerpastels.pastel_dirt": "Pastel Dirt",
-  "block.softerpastels.pastel_grass": "Pastel Grass",
-  "block.softerpastels.pastel_stone": "Pastel Stone",
-  "block.softerpastels.pastel_sand": "Pastel Sand",
-  "block.softerpastels.pastel_log": "Pastel Log",
-  "block.softerpastels.pastel_ore": "Pastel Ore",
-
-  "block.softerpastels.light_blue_leaves": "Light Blue Pastel Leaves",
-  "block.softerpastels.light_green_leaves": "Light Green Pastel Leaves",
-  "block.softerpastels.light_red_leaves": "Light Red Pastel Leaves",
-  "block.softerpastels.yellow_leaves": "Yellow Pastel Leaves",
-
-  "block.softerpastels.light_red_glowstone": "Light Red Pastel Glowstone",
-  "block.softerpastels.light_blue_glowstone": "Light Blue Pastel Glowstone",
-
-  "item.softerpastels.white_pastel_powder": "White Pastel Powder",
-  "item.softerpastels.light_red_pastel_powder": "Light Red Pastel Powder",
-  "item.softerpastels.red_pastel_powder": "Red Pastel Powder",
-  "item.softerpastels.orange_pastel_powder": "Orange Pastel Powder",
-  "item.softerpastels.yellow_pastel_powder": "Yellow Pastel Powder",
-  "item.softerpastels.light_green_pastel_powder": "Light Green Pastel Powder",
-  "item.softerpastels.green_pastel_powder": "Green Pastel Powder",
-  "item.softerpastels.light_blue_pastel_powder": "Light Blue Pastel Powder",
-  "item.softerpastels.blue_pastel_powder": "Blue Pastel Powder",
-  "item.softerpastels.purple_pastel_powder": "Purple Pastel Powder",
-  "item.softerpastels.magenta_pastel_powder": "Magenta Pastel Powder",
-  "item.softerpastels.brown_pastel_powder": "Brown Pastel Powder",
-  "item.softerpastels.black_pastel_powder": "Black Pastel Powder",
-  "item.softerpastels.light_gray_pastel_powder": "Light Gray Pastel Powder",
-  "item.softerpastels.gray_pastel_powder": "Gray Pastel Powder",
-
-
-  "item.softerpastels.pastel_boots": "Pastel Boots",
-  "item.softerpastels.pastel_leggings": "Pastel Leggings",
-  "item.softerpastels.pastel_chestplate": "Pastel Chestplate",
-  "item.softerpastels.pastel_helmet": "Pastel Helmet",
-  "item.softerpastels.pastel_sword": "Pastel Sword",
-  "item.softerpastels.pastel_shovel": "Pastel Shovel",
-  "item.softerpastels.pastel_pickaxe": "Pastel Pickaxe",
-  "item.softerpastels.pastel_axe": "Pastel Axe",
-  "item.softerpastels.pastel_hoe": "Pastel Hoe",
-
-  "item.softerpastels.pastel_ingot": "Pastel Ingot",
-  "item.softerpastels.mallard_spawn_egg": "Mallard Spawn Egg",
-
-  "item.softerpastels.raw_mallard": "Raw Mallard",
-  "item.softerpastels.cooked_mallard": "Cooked Mallard",
 
   "item.softerpastels.peanut": "Peanut",
   "item.softerpastels.peanut_choker": "Peanut Brittle",
@@ -291,14 +219,10 @@
   "item.softerpastels.light_gray_hard_candy": "Light Gray Hard Candy",
   "item.softerpastels.gray_hard_candy": "Gray Hard Candy",
 
-  "item.softerpastels.burned_candy": "Burned Candy",
-  "item.softerpastels.bad_ice_cream": "Bad Ice Cream",
-
   "itemGroup.softerpastels.softerpastels": "Softer Pastels",
   "itemGroup.softerpastels.softerpastels.tab.blocks": "Blocks",
   "itemGroup.softerpastels.softerpastels.tab.decorations": "Decorations",
   "itemGroup.softerpastels.softerpastels.tab.items": "Items",
-  "itemGroup.softerpastels.softerpastels.tab.natural": "Natural",
   "itemGroup.softerpastels.softerpastels.button.github": "GitHub",
   "itemGroup.softerpastels.softerpastels.button.issues": "Issues"
 }
