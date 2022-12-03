@@ -22,6 +22,7 @@ repositories {
             includeGroup("maven.modrinth")
         }
     }
+    maven { url = uri("https://storage.googleapis.com/devan-maven/") }
 }
 
 
@@ -35,6 +36,8 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:${property("fabric_version")}")
 
     modImplementation("io.wispforest:owo-lib:${property("owo_version")}")
+    modImplementation("net.devtech:arrp:${property("arrp_version")}")
+
     include("io.wispforest:owo-sentinel:${property("owo_version")}")
 
     // for devenv
@@ -65,10 +68,19 @@ tasks {
 
         // select the repositories you want to publish to
         repositories {
-            // uncomment to publish to the local maven
-            // mavenLocal()
+            maven {
+                url = uri("https://mvn.devos.one/${System.getenv("PUBLISH_SUFFIX")}/")
+                credentials {
+                    username = System.getenv("MAVEN_USER")
+                    password = System.getenv("MAVEN_PASS")
+                }
+
+                authentication { create<BasicAuthentication>("basic") }
+            }
         }
     }
+
+
 }
 
 java {

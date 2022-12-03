@@ -3,6 +3,7 @@ package one.devos.nautical.SofterPastels;
 import io.wispforest.owo.itemgroup.Icon;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
 import io.wispforest.owo.itemgroup.gui.ItemGroupButton;
+import net.devtech.arrp.api.RRPCallback;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.ResourceLocation;
@@ -10,13 +11,18 @@ import net.minecraft.world.item.ItemStack;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
+import one.devos.nautical.SofterPastels.common.datagen.LootTables;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import net.devtech.arrp.api.RuntimeResourcePack;
 
 public class SofterPastels implements ModInitializer {
     public static final String MOD_ID = "softerpastels";
     public static final String VERSION = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getVersion().getFriendlyString();
     public static final String MOD_NAME = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getName();
+    public static final RuntimeResourcePack RUNTIME_RESOURCE_PACK = RuntimeResourcePack.create(new ResourceLocation(MOD_ID, "arrp"));
+
 
     public static final Logger LOGGER = LogManager.getLogger(MOD_NAME);
 
@@ -52,6 +58,10 @@ public class SofterPastels implements ModInitializer {
         SP_ITEM_GROUP.initialize();
         SofterPastelsBlocks.init();
         SofterPastelsItems.init();
+
+        LootTables.init();
+
+        RRPCallback.EVENT.register(a -> a.add(SofterPastels.RUNTIME_RESOURCE_PACK));
 
         LOGGER.info("[" + MOD_NAME + "] Version " + VERSION + " loaded.");
         LOGGER.info("[" + MOD_NAME + "] " + "Getting ready to load some soft sweet eye candy.");
