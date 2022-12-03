@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/slab",
-    "textures": {
-        "top": "softerpastels:block/light_blue_plank",
-        "bottom": "softerpastels:block/light_blue_plank",
-        "side": "softerpastels:block/light_blue_plank"
-    }
-}
