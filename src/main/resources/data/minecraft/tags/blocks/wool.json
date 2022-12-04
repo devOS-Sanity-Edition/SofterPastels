@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "softerpastels:white_wool",
+        "softerpastels:light_red_wool",
+        "softerpastels:red_wool",
+        "softerpastels:orange_wool",
+        "softerpastels:yellow_wool",
+        "softerpastels:light_green_wool",
+        "softerpastels:green_wool",
+        "softerpastels:light_blue_wool",
+        "softerpastels:blue_wool",
+        "softerpastels:purple_wool",
+        "softerpastels:magenta_wool",
+        "softerpastels:brown_wool",
+        "softerpastels:black_wool",
+        "softerpastels:light_gray_wool",
+        "softerpastels:gray_wool"
+    ]
+}
