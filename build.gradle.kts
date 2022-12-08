@@ -39,6 +39,8 @@ dependencies {
     modImplementation("net.devtech:arrp:${property("arrp_version")}")
 
     include("io.wispforest:owo-sentinel:${property("owo_version")}")
+    include("net.devtech:arrp:${property("arrp_version")}")
+
 
     // for devenv
     modImplementation("maven.modrinth:sodium:mc1.19.2-0.4.4")
