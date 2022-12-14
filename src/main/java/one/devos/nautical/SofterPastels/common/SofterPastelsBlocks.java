@@ -120,15 +120,6 @@ public class SofterPastelsBlocks {
     public static final Block BROWN_PASTEL_STAIR_BLOCK = registerBlock("brown_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block BROWN_PASTEL_WOOL_BLOCK = registerBlock("brown_wool", new Block(copy(WHITE_WOOL)), 0);
 
-    public static final Block BLACK_PASTEL_BLOCK = registerBlock("black_pastel_block", new Block(PastelBlock()), 0);
-    public static final Block BLACK_PASTEL_POWDER_BLOCK = registerBlock("black_pastel_powder_block", new ConcretePowderBlock(BLACK_PASTEL_BLOCK, PastelPowder()), 0);
-    public static final Block BLACK_PASTEL_FENCE_BLOCK = registerBlock("black_fence", new FenceBlock(copy(WHITE_CONCRETE)), 1);
-    public static final Block BLACK_PASTEL_FENCE_GATE_BLOCK = registerBlock("black_fence_gate", new FenceGateBlock(copy(WHITE_CONCRETE)), 1);
-    public static final Block BLACK_PASTEL_WALL_BLOCK = registerBlock("brown_wall", new WallBlock(copy(WHITE_CONCRETE)), 1);
-    public static final Block BLACK_PASTEL_SLAB_BLOCK = registerBlock("black_slab", new SlabBlock(copy(WHITE_CONCRETE)), 0);
-    public static final Block BLACK_PASTEL_STAIR_BLOCK = registerBlock("black_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
-    public static final Block BLACK_PASTEL_WOOL_BLOCK = registerBlock("black_wool", new Block(copy(WHITE_WOOL)), 0);
-
     public static final Block LIGHT_GRAY_PASTEL_BLOCK = registerBlock("light_gray_pastel_block", new Block(PastelBlock()), 0);
     public static final Block LIGHT_GRAY_PASTEL_POWDER_BLOCK = registerBlock("light_gray_pastel_powder_block", new ConcretePowderBlock(LIGHT_GRAY_PASTEL_BLOCK, PastelPowder()), 0);
     public static final Block LIGHT_GRAY_PASTEL_FENCE_BLOCK = registerBlock("light_gray_fence", new FenceBlock(copy(WHITE_CONCRETE)), 1);
@@ -146,6 +137,15 @@ public class SofterPastelsBlocks {
     public static final Block GRAY_PASTEL_SLAB_BLOCK = registerBlock("gray_slab", new SlabBlock(copy(WHITE_CONCRETE)), 0);
     public static final Block GRAY_PASTEL_STAIR_BLOCK = registerBlock("gray_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block GRAY_PASTEL_WOOL_BLOCK = registerBlock("gray_wool", new Block(copy(WHITE_WOOL)), 0);
+
+    public static final Block BLACK_PASTEL_BLOCK = registerBlock("black_pastel_block", new Block(PastelBlock()), 0);
+    public static final Block BLACK_PASTEL_POWDER_BLOCK = registerBlock("black_pastel_powder_block", new ConcretePowderBlock(BLACK_PASTEL_BLOCK, PastelPowder()), 0);
+    public static final Block BLACK_PASTEL_FENCE_BLOCK = registerBlock("black_fence", new FenceBlock(copy(WHITE_CONCRETE)), 1);
+    public static final Block BLACK_PASTEL_FENCE_GATE_BLOCK = registerBlock("black_fence_gate", new FenceGateBlock(copy(WHITE_CONCRETE)), 1);
+    public static final Block BLACK_PASTEL_WALL_BLOCK = registerBlock("brown_wall", new WallBlock(copy(WHITE_CONCRETE)), 1);
+    public static final Block BLACK_PASTEL_SLAB_BLOCK = registerBlock("black_slab", new SlabBlock(copy(WHITE_CONCRETE)), 0);
+    public static final Block BLACK_PASTEL_STAIR_BLOCK = registerBlock("black_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
+    public static final Block BLACK_PASTEL_WOOL_BLOCK = registerBlock("black_wool", new Block(copy(WHITE_WOOL)), 0);
 
     public static final Block PEANUT_CROP = registerCrop("peanut_crop", new PeanutCropBlock(Crops()));
 

@@ -12,6 +12,7 @@ import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
 import one.devos.nautical.SofterPastels.common.datagen.LootTables;
+import one.devos.nautical.SofterPastels.common.datagen.Recipes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -60,6 +61,7 @@ public class SofterPastels implements ModInitializer {
         SofterPastelsItems.init();
 
         LootTables.init();
+        Recipes.init();
 
         RRPCallback.EVENT.register(a -> a.add(SofterPastels.RUNTIME_RESOURCE_PACK));
 

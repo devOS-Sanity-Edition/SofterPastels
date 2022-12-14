@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "softerpastels:item/light_red_powder"
+    }
+}

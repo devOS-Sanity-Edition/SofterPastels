@@ -60,9 +60,6 @@ public class SofterPastelsItems {
     public static final Item BROWN_COTTON_CANDY = registerItem("brown_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item BROWN_HARD_CANDY = registerItem("brown_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
-    public static final Item BLACK_TAFFY = registerItem("black_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0), 1.0F).build())));
-    public static final Item BLACK_COTTON_CANDY = registerItem("black_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
-    public static final Item BLACK_HARD_CANDY = registerItem("black_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
     public static final Item LIGHT_GRAY_TAFFY = registerItem("light_gray_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 1.0F).build())));
     public static final Item LIGHT_GRAY_COTTON_CANDY = registerItem("light_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
@@ -72,6 +69,10 @@ public class SofterPastelsItems {
     public static final Item GRAY_COTTON_CANDY = registerItem("gray_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item GRAY_HARD_CANDY = registerItem("gray_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
+    public static final Item BLACK_TAFFY = registerItem("black_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0), 1.0F).build())));
+    public static final Item BLACK_COTTON_CANDY = registerItem("black_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
+    public static final Item BLACK_HARD_CANDY = registerItem("black_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
+
     public static final Item PEANUT_BUTTER = registerItem("peanut_butter", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(9).saturationMod(5).build())));
 
     public static final Item COTTON_CANDY_ICE_CREAM = registerItem("cotton_candy_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
@@ -80,8 +81,26 @@ public class SofterPastelsItems {
     public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item PEANUT_BUTTER_ICE_CREAM = registerItem("peanut_butter_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
 
-    //crops
+    public static final Item WHITE_POWDER = registerItem("white_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item LIGHT_RED_POWDER = registerItem("light_red_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item RED_POWDER = registerItem("red_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item ORANGE_POWDER = registerItem("orange_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item YELLOW_POWDER = registerItem("yellow_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item LIGHT_GREEN_POWDER = registerItem("light_green_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item GREEN_POWDER = registerItem("green_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item LIGHT_BLUE_POWDER = registerItem("light_blue_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item BLUE_POWDER = registerItem("blue_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item PURPLE_POWDER = registerItem("purple_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item MAGENTA_POWDER = registerItem("magenta_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item BROWN_POWDER = registerItem("brown_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item BLACK_POWDER = registerItem("black_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item LIGHT_GRAY_POWDER = registerItem("light_gray_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+    public static final Item GRAY_POWDER = registerItem("gray_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
 
+    public static final Item POWDER = registerItem("powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
+
+
+    //crops
     public static final Item PEANUT = registerBlockItem("peanut", PEANUT_CROP, 2, new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(4).saturationMod(3).fast().build()));
 
     public static void init() { }

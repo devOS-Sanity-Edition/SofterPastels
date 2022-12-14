@@ -144,6 +144,5 @@ public class LootTables {
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_slab"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_slab"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_stairs"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_stairs"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_wool"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_wool"))));
-
     }
 }
