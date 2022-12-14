@@ -2,7 +2,13 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "softerpastels:red_glass"
+                }
+            ],
             "conditions": [
                 {
                     "condition": "minecraft:match_tool",
@@ -10,21 +16,12 @@
                         "enchantments": [
                             {
                                 "enchantment": "minecraft:silk_touch",
-                                "levels": {
-                                    "min": 1
-                                }
+                                "levels": 1
                             }
                         ]
                     }
                 }
-            ],
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "softerpastels:red_glass"
-                }
-            ],
-            "rolls": 1.0
+            ]
         }
     ]
 }

@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "softerpastels:white_glass"
+                    "name": "softerpastels:blue_glass_pane"
                 }
             ],
             "conditions": [
