@@ -3,13 +3,13 @@
     "id": "softerpastels",
     "version": "${version}",
     "name": "Softer Pastels",
-    "description": "Mod that adds blocks and foods from the discontinued mod \"Pastel Wonderland\".",
+    "description": "A mod that adds a lot of Pastel-colored blocks, maybe for a softer vibe. Originally from the discontinued \"Pastel Wonderland\".",
     "authors": [
         "devOS: Sanity Edition",
         "Team Nautical"
     ],
     "contributors": [
-        "asoji", "CARTER_1234"
+        "asoji", "CARTER_1234", "Stereo528"
     ],
     "contact": {
         "website": "https://devos.one/",
