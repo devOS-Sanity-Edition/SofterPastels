@@ -11,6 +11,7 @@ repositories {
     mavenCentral()
     maven { url = uri("https://maven.wispforest.io") }
     maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
+    maven { url = uri("https://maven.terraformersmc.com/") }
     exclusiveContent {
         forRepository {
             maven {
@@ -44,6 +45,8 @@ dependencies {
 
     // for devenv
     modImplementation("maven.modrinth:sodium:mc1.19.2-0.4.4")
+    modImplementation("com.terraformersmc:modmenu:4.1.2")
+    modImplementation("dev.emi:emi:0.5.0")
     implementation("org.joml:joml:1.10.5")
 }
 
