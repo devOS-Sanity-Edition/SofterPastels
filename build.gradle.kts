@@ -46,7 +46,7 @@ dependencies {
     // for devenv
     modImplementation("maven.modrinth:sodium:mc1.19.2-0.4.4")
     modImplementation("com.terraformersmc:modmenu:4.1.2")
-    modImplementation("dev.emi:emi:0.5.0-1.19.2")
+    modImplementation("dev.emi:emi:0.5.3+1.19.2")
     implementation("org.joml:joml:1.10.5")
 }
 

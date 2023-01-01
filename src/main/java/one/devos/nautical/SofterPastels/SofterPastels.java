@@ -49,7 +49,6 @@ public class SofterPastels implements ModInitializer {
 
         @Override
         public ItemStack makeIcon() {
-//            return new ItemStack(HiddenItems.LOGO); // this crashes the game atm
             return new ItemStack(SofterPastelsBlocks.RED_PASTEL_BLOCK);
         }
     };
