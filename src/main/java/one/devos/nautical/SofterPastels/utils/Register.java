@@ -42,14 +42,14 @@ public class Register {
     }
 
     // Datagen
-    public static byte[] registerPowderBaseRecipe(String recipeName, Item ingredientItem, Item powderItem) {
+    public static byte[] registerPowderBaseRecipe(String recipeName, Item ingredientItem) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Items.WHITE_DYE))
                         .add(JIngredient.ingredient()
                                 .item(ingredientItem)),
-                JResult.itemStack(powderItem, 4)
+                JResult.itemStack(SofterPastelsItems.POWDER, 4)
         ));
     }
 
@@ -216,6 +216,21 @@ public class Register {
                 JKeys.keys()
                         .key("A", JIngredient.ingredient().item(ingredientItem)),
                 JResult.itemStack(pastelGlassPaneItem, 16)
+        ));
+    }
+
+    public static byte[] registerTaffyRecipe(String recipeName, Item associatedPowder, Item pastelCandyItem) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
+                JIngredients.ingredients()
+                        .add(JIngredient.ingredient()
+                                .item(Items.PAPER))
+                        .add(JIngredient.ingredient()
+                                .item(Items.HONEYCOMB))
+                        .add(JIngredient.ingredient()
+                                .item(associatedPowder))
+                        .add(JIngredient.ingredient()
+                                .item(Items.SUGAR)),
+                JResult.itemStack(pastelCandyItem, 4)
         ));
     }
 }

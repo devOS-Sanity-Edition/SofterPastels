@@ -17,12 +17,12 @@ repositories {
     // for more information about repositories.
 
     maven { url 'https://maven.wispforest.io' }
+    maven { url 'https://storage.googleapis.com/devan-maven/' }
+    maven { url 'https://maven.terraformersmc.com/' }
 
     // for devenv - sodium
     mavenCentral()
-    maven {
-        url "https://oss.sonatype.org/content/repositories/snapshots/"
-    }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 
     exclusiveContent {
         forRepository {
@@ -46,6 +46,8 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 
     modImplementation "io.wispforest:owo-lib:${project.owo_version}"
+    modImplementation "net.devtech:arrp:${project.arrp_version}"
+    modImplementation "dev.emi:emi:${project.emi_version}"
 
     // include this if you don't want force your users to install owo
     // sentinel will warn them and give the option to download it automatically

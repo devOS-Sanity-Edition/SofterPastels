@@ -1,25 +1,17 @@
 package one.devos.nautical.SofterPastels.common.datagen;
 
-import net.devtech.arrp.api.RRPCallback;
-import net.devtech.arrp.json.recipe.*;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
-import one.devos.nautical.SofterPastels.utils.*;
-
-import static net.devtech.arrp.api.RuntimeResourcePack.id;
-import static net.devtech.arrp.json.loot.JLootTable.*;
-import static one.devos.nautical.SofterPastels.SofterPastels.MOD_ID;
+import one.devos.nautical.SofterPastels.utils.Register;
 
 public class Recipes {
     public static void init() {
         // Powder base recipe
-        Register.registerPowderBaseRecipe("powder_gic", Items.GLOW_INK_SAC, SofterPastelsItems.POWDER);
-        Register.registerPowderBaseRecipe("powder_gd", Items.GLOWSTONE_DUST, SofterPastelsItems.POWDER);
+        Register.registerPowderBaseRecipe("powder_gic", Items.GLOW_INK_SAC);
+        Register.registerPowderBaseRecipe("powder_gb", Items.GLOW_BERRIES);
+        Register.registerPowderBaseRecipe("powder_gd", Items.GLOWSTONE_DUST);
 
         // Actual colored powders
         Register.registerColoredPowderRecipe("white_powder", Items.WHITE_DYE, SofterPastelsItems.WHITE_POWDER);
@@ -241,5 +233,22 @@ public class Recipes {
         Register.registerGlassPaneRectangleRecipe("light_gray_glass_pane_rectangle", GlassBlocks.LIGHT_GRAY_GLASS_ITEM, GlassBlocks.LIGHT_GRAY_GLASS_PANE_ITEM);
         Register.registerGlassPaneRectangleRecipe("gray_glass_pane_rectangle", GlassBlocks.GRAY_GLASS_ITEM, GlassBlocks.GRAY_GLASS_PANE_ITEM);
         Register.registerGlassPaneRectangleRecipe("black_glass_pane_rectangle", GlassBlocks.BLACK_GLASS_ITEM, GlassBlocks.BLACK_GLASS_PANE_ITEM);
+
+        Register.registerTaffyRecipe("white_taffy", SofterPastelsItems.WHITE_POWDER, SofterPastelsItems.WHITE_TAFFY);
+        Register.registerTaffyRecipe("light_red_taffy", SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsItems.LIGHT_RED_TAFFY);
+        Register.registerTaffyRecipe("red_taffy", SofterPastelsItems.RED_POWDER, SofterPastelsItems.RED_TAFFY);
+        Register.registerTaffyRecipe("orange_taffy", SofterPastelsItems.ORANGE_POWDER, SofterPastelsItems.ORANGE_TAFFY);
+        Register.registerTaffyRecipe("yellow_taffy", SofterPastelsItems.YELLOW_POWDER, SofterPastelsItems.YELLOW_TAFFY);
+        Register.registerTaffyRecipe("light_green_taffy", SofterPastelsItems.LIGHT_GREEN_POWDER, SofterPastelsItems.LIGHT_GREEN_TAFFY);
+        Register.registerTaffyRecipe("green_taffy", SofterPastelsItems.GREEN_POWDER, SofterPastelsItems.GREEN_TAFFY);
+        Register.registerTaffyRecipe("light_blue_taffy", SofterPastelsItems.LIGHT_BLUE_POWDER, SofterPastelsItems.LIGHT_BLUE_TAFFY);
+        Register.registerTaffyRecipe("blue_taffy", SofterPastelsItems.BLUE_POWDER, SofterPastelsItems.BLUE_TAFFY);
+        Register.registerTaffyRecipe("purple_taffy", SofterPastelsItems.PURPLE_POWDER, SofterPastelsItems.PURPLE_TAFFY);
+        Register.registerTaffyRecipe("magenta_taffy", SofterPastelsItems.MAGENTA_POWDER, SofterPastelsItems.MAGENTA_TAFFY);
+        Register.registerTaffyRecipe("brown_taffy", SofterPastelsItems.BROWN_POWDER, SofterPastelsItems.BROWN_TAFFY);
+        Register.registerTaffyRecipe("light_gray_taffy", SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsItems.LIGHT_GRAY_TAFFY);
+        Register.registerTaffyRecipe("gray_taffy", SofterPastelsItems.GRAY_POWDER, SofterPastelsItems.GRAY_TAFFY);
+        Register.registerTaffyRecipe("black_taffy", SofterPastelsItems.BLACK_POWDER, SofterPastelsItems.BLACK_TAFFY);
+
     }
 }
