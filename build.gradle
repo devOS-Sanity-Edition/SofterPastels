@@ -1,14 +1,12 @@
 plugins {
     id 'fabric-loom' version '1.0-SNAPSHOT'
+    id "org.ajoberstar.grgit" version "5.0.0-rc.3"
     id 'maven-publish'
 }
 
 archivesBaseName = project.archives_base_name
 group = project.maven_group
-
-ext.buildNumber = System.getenv("GITHUB_RUN_NUMBER")
-String patch = buildNumber != null ? buildNumber : "99999"
-version = project.version.replace("<build>", patch)
+version = "${project.mod_version}-rev.${grgit.head().abbreviatedId}"
 
 // for devenv - sodium
 project.ext.jomlVersion = "1.10.5"
