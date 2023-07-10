@@ -52,7 +52,7 @@ public class SofterPastelsItems {
     public static final Item PURPLE_COTTON_CANDY = registerItem("purple_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().build())));
     public static final Item PURPLE_HARD_CANDY = registerItem("purple_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
-    public static final Item MAGENTA_TAFFY = registerItem("magenta_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.GLOWING, 0, 0), 1.0F).build())));
+    public static final Item MAGENTA_TAFFY = registerItem("magenta_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.GLOWING, 1200, 0), 1.0F).build())));
     public static final Item MAGENTA_COTTON_CANDY = registerItem("magenta_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item MAGENTA_HARD_CANDY = registerItem("magenta_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
