@@ -73,5 +73,21 @@ public class Blockstate {
         Register.registerBlockState("gray_glass", "gray_glass");
         Register.registerBlockState("black_glass", "black_glass");
 
+        // Lights [camera, action!]
+        Register.registerBlockState("white_light", "white_light");
+        Register.registerBlockState("light_red_light", "light_red_light");
+        Register.registerBlockState("red_light", "red_light");
+        Register.registerBlockState("orange_light", "orange_light");
+        Register.registerBlockState("yellow_light", "yellow_light");
+        Register.registerBlockState("light_green_light", "light_green_light");
+        Register.registerBlockState("green_light", "green_light");
+        Register.registerBlockState("light_blue_light", "light_blue_light");
+        Register.registerBlockState("blue_light", "blue_light");
+        Register.registerBlockState("purple_light", "purple_light");
+        Register.registerBlockState("magenta_light", "magenta_light");
+        Register.registerBlockState("brown_light", "brown_light");
+        Register.registerBlockState("light_gray_light", "light_gray_light");
+        Register.registerBlockState("gray_light", "gray_light");
+        Register.registerBlockState("black_light", "black_light");
     }
 }

@@ -234,6 +234,23 @@ public class Recipes {
         Register.registerGlassPaneRectangleRecipe("gray_glass_pane_rectangle", GlassBlocks.GRAY_GLASS_ITEM, GlassBlocks.GRAY_GLASS_PANE_ITEM);
         Register.registerGlassPaneRectangleRecipe("black_glass_pane_rectangle", GlassBlocks.BLACK_GLASS_ITEM, GlassBlocks.BLACK_GLASS_PANE_ITEM);
 
+        // Light
+        Register.registerLightRecipe("white_light", SofterPastelsItems.WHITE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("light_red_light", SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsBlocks.LIGHT_RED_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("red_light", SofterPastelsItems.RED_POWDER, SofterPastelsBlocks.RED_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("orange_light", SofterPastelsItems.ORANGE_POWDER, SofterPastelsBlocks.ORANGE_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("yellow_light", SofterPastelsItems.YELLOW_POWDER, SofterPastelsBlocks.YELLOW_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("light_green_light", SofterPastelsItems.LIGHT_GREEN_POWDER, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("green_light", SofterPastelsItems.GREEN_POWDER, SofterPastelsBlocks.GREEN_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("light_blue_light", SofterPastelsItems.LIGHT_BLUE_POWDER, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("blue_light", SofterPastelsItems.BLUE_POWDER, SofterPastelsBlocks.BLUE_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("purple_light", SofterPastelsItems.PURPLE_POWDER, SofterPastelsBlocks.PURPLE_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("magenta_light", SofterPastelsItems.MAGENTA_POWDER, SofterPastelsBlocks.MAGENTA_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("brown_light", SofterPastelsItems.BROWN_POWDER, SofterPastelsBlocks.BROWN_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("light_gray_light", SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("gray_light", SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_LIGHT_BLOCK);
+        Register.registerLightRecipe("black_light", SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_LIGHT_BLOCK);
+
         Register.registerTaffyRecipe("white_taffy", SofterPastelsItems.WHITE_POWDER, SofterPastelsItems.WHITE_TAFFY);
         Register.registerTaffyRecipe("light_red_taffy", SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsItems.LIGHT_RED_TAFFY);
         Register.registerTaffyRecipe("red_taffy", SofterPastelsItems.RED_POWDER, SofterPastelsItems.RED_TAFFY);

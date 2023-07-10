@@ -235,6 +235,17 @@ public class Register {
         ));
     }
 
+    public static byte[] registerLightRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName + "_v"), JRecipe.shapeless(
+                JIngredients.ingredients()
+                        .add(JIngredient.ingredient()
+                                .item(Items.GLOWSTONE))
+                        .add(JIngredient.ingredient()
+                                .item(ingredientBlockItem)),
+                JResult.item(Item.byBlock(pastelWoolBlockItem))
+        ));
+    }
+
     // Blockstate Datagen
     public static byte[] registerBlockState(String blockstateModelName, String blockstateName) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addBlockState(JState.state(JState.variant(JState.model("softerpastels:block/" + blockstateModelName))), new ResourceLocation("softerpastels", blockstateName));
