@@ -48,9 +48,10 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 
     modImplementation "io.wispforest:owo-lib:${project.owo_version}"
-    modImplementation "net.devtech:arrp:${project.arrp_version}"
     modImplementation "dev.emi:emi-fabric:${project.emi_version}"
     modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
+
+    include(modImplementation "net.devtech:arrp:${project.arrp_version}")
 
     // include this if you don't want force your users to install owo
     // sentinel will warn them and give the option to download it automatically
