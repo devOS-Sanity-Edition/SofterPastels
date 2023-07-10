@@ -12,8 +12,9 @@
         "asoji", "CARTER_1234", "Stereo528"
     ],
     "contact": {
-        "website": "https://devos.one/",
-        "repo": "https://github.com/devOS-Sanity-Edition/SofterPastels"
+        "homepage": "https://devos.one/",
+        "sources": "https://github.com/devOS-Sanity-Edition/SofterPastels",
+        "issues": "https://github.com/devOS-Sanity-Edition/SofterPastels/issues"
     },
     "license": "MIT",
     "icon": "assets/softerpastels/icon.png",
