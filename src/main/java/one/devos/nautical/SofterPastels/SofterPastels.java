@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
+import one.devos.nautical.SofterPastels.common.datagen.Blockstate;
 import one.devos.nautical.SofterPastels.common.datagen.LootTables;
 import one.devos.nautical.SofterPastels.common.datagen.Recipes;
 import org.apache.logging.log4j.LogManager;
@@ -24,7 +25,6 @@ public class SofterPastels implements ModInitializer {
     public static final String MOD_NAME = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getName();
     public static final RuntimeResourcePack RUNTIME_RESOURCE_PACK = RuntimeResourcePack.create(new ResourceLocation(MOD_ID, "arrp"));
 
-
     public static final Logger LOGGER = LogManager.getLogger(MOD_NAME);
 
     public static ResourceLocation locate(String location) {
@@ -35,30 +35,23 @@ public class SofterPastels implements ModInitializer {
         }
     }
 
-    public static final OwoItemGroup SP_ITEM_GROUP = new OwoItemGroup(new ResourceLocation(MOD_ID, "softerpastels")) {
-        @Override
-        protected void setup() {
-            keepStaticTitle();
-            addTab(Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK), "blocks", null);
-            addTab(Icon.of(GlassBlocks.RED_GLASS_ITEM), "decorations", null);
-            addTab(Icon.of(SofterPastelsItems.WHITE_TAFFY), "items", null);
-
-            addButton(ItemGroupButton.github("https://github.com/devOS-Sanity-Edition/SofterPastels"));
-            addButton(ItemGroupButton.link(Icon.of(new ResourceLocation("owo", "textures/gui/icons.png"), 0, 0, 64, 64), "issues", "https://github.com/devOS-Sanity-Edition/SofterPastels/issues"));
-        }
-
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(SofterPastelsBlocks.RED_PASTEL_BLOCK);
-        }
-    };
+    public static final OwoItemGroup SP_ITEM_GROUP = OwoItemGroup
+            .builder(new ResourceLocation(MOD_ID, "softerpastels"), () -> Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK))
+            .disableDynamicTitle()
+            .buttonStackHeight(1)
+            .initializer(owoItemGroup -> {
+                owoItemGroup.addTab(Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK), "blocks", null, true);
+                owoItemGroup.addTab(Icon.of(GlassBlocks.RED_GLASS_ITEM), "decorations", null, false);
+                owoItemGroup.addTab(Icon.of(SofterPastelsItems.WHITE_TAFFY), "items", null, false);
+            }).build();
 
     @Override
     public void onInitialize() {
-        SP_ITEM_GROUP.initialize();
         SofterPastelsBlocks.init();
         SofterPastelsItems.init();
+        SP_ITEM_GROUP.initialize();
 
+        Blockstate.init();
         LootTables.init();
         Recipes.init();
 

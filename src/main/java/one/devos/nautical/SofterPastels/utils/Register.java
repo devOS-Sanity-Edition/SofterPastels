@@ -1,8 +1,10 @@
 package one.devos.nautical.SofterPastels.utils;
 
 import io.wispforest.owo.itemgroup.OwoItemSettings;
+import net.devtech.arrp.json.blockstate.JState;
 import net.devtech.arrp.json.recipe.*;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -11,37 +13,36 @@ import net.minecraft.world.level.block.Block;
 import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
-import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
 
 import static one.devos.nautical.SofterPastels.SofterPastels.MOD_ID;
 
 public class Register {
     public static Block registerBlock(String name, Block block, int tab) {
-        Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(tab)));
-        return Registry.register(Registry.BLOCK, new ResourceLocation(MOD_ID, name), block);
+        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(tab)));
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
     public static Block registerCrop(String name, Block block) {
-        return Registry.register(Registry.BLOCK, new ResourceLocation(MOD_ID, name), block);
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
     public static Block registerGlassBlock(String name, Block block) {
-        return Registry.register(Registry.BLOCK, new ResourceLocation(MOD_ID, name), block);
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
     public static BlockItem registerGlassBlockItem(String name, Block block) {
-        return Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(1)));
+        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(1)));
     }
 
     public static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), item);
+        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), item);
     }
 
     public static BlockItem registerBlockItem(String name, Block block, int tab, Item.Properties properties) {
-        return Registry.register(Registry.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, properties));
+        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, properties));
     }
 
-    // Datagen
+    // Recipe Datagen
     public static byte[] registerPowderBaseRecipe(String recipeName, Item ingredientItem) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
@@ -232,5 +233,10 @@ public class Register {
                                 .item(Items.SUGAR)),
                 JResult.itemStack(pastelCandyItem, 4)
         ));
+    }
+
+    // Blockstate Datagen
+    public static byte[] registerBlockState(String blockstateModelName, String blockstateName) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addBlockState(JState.state(JState.variant(JState.model("softerpastels:block/" + blockstateModelName))), new ResourceLocation("softerpastels", blockstateName));
     }
 }

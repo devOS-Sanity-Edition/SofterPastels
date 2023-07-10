@@ -4,6 +4,7 @@ import net.minecraft.world.level.block.*;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
 import one.devos.nautical.SofterPastels.common.blocks.PeanutCropBlock;
 import one.devos.nautical.SofterPastels.common.blocks.StairBlocks;
+import one.devos.nautical.SofterPastels.common.blocks.FenceGateBlock;
 
 import static net.minecraft.world.level.block.Blocks.*;
 import static net.minecraft.world.level.block.state.BlockBehaviour.Properties.copy;

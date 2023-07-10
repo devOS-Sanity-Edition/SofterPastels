@@ -249,6 +249,5 @@ public class Recipes {
         Register.registerTaffyRecipe("light_gray_taffy", SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsItems.LIGHT_GRAY_TAFFY);
         Register.registerTaffyRecipe("gray_taffy", SofterPastelsItems.GRAY_POWDER, SofterPastelsItems.GRAY_TAFFY);
         Register.registerTaffyRecipe("black_taffy", SofterPastelsItems.BLACK_POWDER, SofterPastelsItems.BLACK_TAFFY);
-
     }
 }
