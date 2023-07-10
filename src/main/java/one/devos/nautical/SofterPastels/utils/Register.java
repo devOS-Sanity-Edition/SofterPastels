@@ -2,6 +2,7 @@ package one.devos.nautical.SofterPastels.utils;
 
 import io.wispforest.owo.itemgroup.OwoItemSettings;
 import net.devtech.arrp.json.blockstate.JState;
+import net.devtech.arrp.json.models.JModel;
 import net.devtech.arrp.json.recipe.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -250,4 +251,14 @@ public class Register {
     public static byte[] registerBlockState(String blockstateModelName, String blockstateName) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addBlockState(JState.state(JState.variant(JState.model("softerpastels:block/" + blockstateModelName))), new ResourceLocation("softerpastels", blockstateName));
     }
+
+    // Basic Model Datagen
+//    public static byte[] registerModel(String modelName) {
+//        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(JModel.model().parent("block/cube_all").textures(JModel.textures().layer0("softerpastels:block/" + modelName)) ,new ResourceLocation("softerpastels", modelName));
+//    }
+//
+//    // Basic Item Datagen
+//    public static byte[] registerItemModel(String itemModelName) {
+//        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(JModel.model().parent("softerpastels:block/" + itemModelName), new ResourceLocation("softerpastels", itemModelName));
+//    }
 }
