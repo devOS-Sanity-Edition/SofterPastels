@@ -115,7 +115,11 @@ jar {
 // configure the maven publication
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        maven(MavenPublication) {
+            groupId = project.maven_group
+            artifactId = project.archives_base_name
+            version = "${project.mod_version}-rev.${grgit.head().abbreviatedId}"
+
             from components.java
         }
     }
