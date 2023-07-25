@@ -1,15 +1,15 @@
 package one.devos.nautical.SofterPastels.common;
 
 import net.minecraft.world.level.block.*;
+import one.devos.nautical.SofterPastels.common.blocks.FenceGateBlock;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
 import one.devos.nautical.SofterPastels.common.blocks.StairBlocks;
-import one.devos.nautical.SofterPastels.common.blocks.FenceGateBlock;
 
 import static net.minecraft.world.level.block.Blocks.*;
 import static net.minecraft.world.level.block.state.BlockBehaviour.Properties.copy;
-import static one.devos.nautical.SofterPastels.utils.BlockProperties.*;
+import static one.devos.nautical.SofterPastels.utils.BlockProperties.PastelBlock;
+import static one.devos.nautical.SofterPastels.utils.BlockProperties.PastelPowder;
 import static one.devos.nautical.SofterPastels.utils.Register.registerBlock;
-import static one.devos.nautical.SofterPastels.utils.Register.registerCrop;
 
 public class SofterPastelsBlocks {
     public static final Block WHITE_PASTEL_BLOCK = registerBlock("white_pastel_block", new Block(PastelBlock()), 0);

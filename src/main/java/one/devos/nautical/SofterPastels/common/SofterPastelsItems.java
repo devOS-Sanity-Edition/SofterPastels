@@ -7,7 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 
 import static one.devos.nautical.SofterPastels.SofterPastels.SP_ITEM_GROUP;
-import static one.devos.nautical.SofterPastels.utils.Register.registerBlockItem;
 import static one.devos.nautical.SofterPastels.utils.Register.registerItem;
 
 public class SofterPastelsItems {

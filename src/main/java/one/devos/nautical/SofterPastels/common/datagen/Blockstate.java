@@ -1,6 +1,5 @@
 package one.devos.nautical.SofterPastels.common.datagen;
 
-import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.utils.Register;
 
 public class Blockstate {

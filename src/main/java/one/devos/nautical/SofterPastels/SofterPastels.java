@@ -2,23 +2,19 @@ package one.devos.nautical.SofterPastels;
 
 import io.wispforest.owo.itemgroup.Icon;
 import io.wispforest.owo.itemgroup.OwoItemGroup;
-import io.wispforest.owo.itemgroup.gui.ItemGroupButton;
 import net.devtech.arrp.api.RRPCallback;
+import net.devtech.arrp.api.RuntimeResourcePack;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.ItemStack;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
 import one.devos.nautical.SofterPastels.common.datagen.Blockstate;
 import one.devos.nautical.SofterPastels.common.datagen.LootTables;
-import one.devos.nautical.SofterPastels.common.datagen.Models;
 import one.devos.nautical.SofterPastels.common.datagen.Recipes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import net.devtech.arrp.api.RuntimeResourcePack;
 
 public class SofterPastels implements ModInitializer {
     public static final String MOD_ID = "softerpastels";
