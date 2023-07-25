@@ -54,7 +54,6 @@ public class SofterPastels implements ModInitializer {
 
         Blockstate.init();
         LootTables.init();
-//        Models.init();
         Recipes.init();
 
         RRPCallback.EVENT.register(a -> a.add(SofterPastels.RUNTIME_RESOURCE_PACK));

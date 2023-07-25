@@ -2,7 +2,6 @@ package one.devos.nautical.SofterPastels.common;
 
 import net.minecraft.world.level.block.*;
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
-import one.devos.nautical.SofterPastels.common.blocks.PeanutCropBlock;
 import one.devos.nautical.SofterPastels.common.blocks.StairBlocks;
 import one.devos.nautical.SofterPastels.common.blocks.FenceGateBlock;
 
@@ -162,8 +161,6 @@ public class SofterPastelsBlocks {
     public static final Block BLACK_PASTEL_STAIR_BLOCK = registerBlock("black_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block BLACK_PASTEL_WOOL_BLOCK = registerBlock("black_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block BLACK_PASTEL_LIGHT_BLOCK = registerBlock("black_light", new Block(copy(GLOWSTONE)), 0);
-
-    public static final Block PEANUT_CROP = registerCrop("peanut_crop", new PeanutCropBlock(Crops()));
 
     public static void init() {
         GlassBlocks.init();

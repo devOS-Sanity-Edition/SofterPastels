@@ -7,7 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 
 import static one.devos.nautical.SofterPastels.SofterPastels.SP_ITEM_GROUP;
-import static one.devos.nautical.SofterPastels.common.SofterPastelsBlocks.PEANUT_CROP;
 import static one.devos.nautical.SofterPastels.utils.Register.registerBlockItem;
 import static one.devos.nautical.SofterPastels.utils.Register.registerItem;
 
@@ -73,13 +72,10 @@ public class SofterPastelsItems {
     public static final Item BLACK_COTTON_CANDY = registerItem("black_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().build())));
     public static final Item BLACK_HARD_CANDY = registerItem("black_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).build())));
 
-    public static final Item PEANUT_BUTTER = registerItem("peanut_butter", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(9).saturationMod(5).build())));
-
     public static final Item COTTON_CANDY_ICE_CREAM = registerItem("cotton_candy_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item CHOCOLATE_ICE_CREAM = registerItem("chocolate_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item STRAWBERRY_ICE_CREAM = registerItem("strawberry_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
     public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
-    public static final Item PEANUT_BUTTER_ICE_CREAM = registerItem("peanut_butter_ice_cream", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
 
     public static final Item WHITE_POWDER = registerItem("white_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
     public static final Item LIGHT_RED_POWDER = registerItem("light_red_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
@@ -98,10 +94,6 @@ public class SofterPastelsItems {
     public static final Item GRAY_POWDER = registerItem("gray_powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
 
     public static final Item POWDER = registerItem("powder", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2)));
-
-
-    //crops
-    public static final Item PEANUT = registerBlockItem("peanut", PEANUT_CROP, 2, new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(4).saturationMod(3).fast().build()));
 
     public static void init() { }
 }

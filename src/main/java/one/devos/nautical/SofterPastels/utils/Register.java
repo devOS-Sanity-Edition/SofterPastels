@@ -3,7 +3,9 @@ package one.devos.nautical.SofterPastels.utils;
 import io.wispforest.owo.itemgroup.OwoItemSettings;
 import net.devtech.arrp.json.blockstate.JState;
 import net.devtech.arrp.json.models.JModel;
+import net.devtech.arrp.json.models.JTextures;
 import net.devtech.arrp.json.recipe.*;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -253,12 +255,27 @@ public class Register {
     }
 
     // Basic Model Datagen
-//    public static byte[] registerModel(String modelName) {
-//        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(JModel.model().parent("block/cube_all").textures(JModel.textures().layer0("softerpastels:block/" + modelName)) ,new ResourceLocation("softerpastels", modelName));
-//    }
-//
-//    // Basic Item Datagen
-//    public static byte[] registerItemModel(String itemModelName) {
-//        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(JModel.model().parent("softerpastels:block/" + itemModelName), new ResourceLocation("softerpastels", itemModelName));
-//    }
+    public static byte[] registerModel(String modelName) {
+        JModel model;
+
+        model = new JModel().parent("block/cube_all").textures(new JTextures().var("all", "softerpastels:block/" + modelName));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(model, new ResourceLocation("softerpastels", "block/" + modelName));
+    }
+
+    // Basic Block Item Datagen
+    public static byte[] registerBlockItemModel(String blockItemModelName) {
+        JModel blockItemModel;
+
+        blockItemModel = new JModel().parent("softerpastels:block/" + blockItemModelName);
+
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(blockItemModel, new ResourceLocation("softerpastels", "item/" + blockItemModelName));
+    }
+
+    // Basic Item Datagen
+
+    public static byte[] registerItemModel(String itemModelName) {
+        JModel itemModel = new JModel().parent("item/generated").textures(new JTextures().var("layer0", "softerpastels:item/" + itemModelName));
+
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(itemModel, new ResourceLocation("softerpastels", "item/" + itemModelName));
+    }
 }
