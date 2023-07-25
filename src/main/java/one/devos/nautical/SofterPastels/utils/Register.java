@@ -46,7 +46,7 @@ public class Register {
 
     // Recipe Datagen
     public static byte[] registerPowderBaseRecipe(String recipeName, Item ingredientItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Items.WHITE_DYE))
@@ -57,7 +57,7 @@ public class Register {
     }
 
     public static byte[] registerColoredPowderRecipe(String recipeName, Item ingredientItem, Item powderItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(SofterPastelsItems.POWDER))
@@ -68,7 +68,7 @@ public class Register {
     }
 
     public static byte[] registerPowderBlockRecipe(String recipeName, Item ingredientItem, Block pastelPowderBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(ingredientItem))
@@ -93,7 +93,7 @@ public class Register {
     }
 
     public static byte[] registerSlabRecipe(String recipeName, Block ingredientBlockItem, Block pastelSlabBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "   ",
                         "   ",
@@ -105,7 +105,7 @@ public class Register {
     }
 
     public static byte[] registerStairsRecipe(String recipeName, Block ingredientBlockItem, Block pastelStairsBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "A  ",
                         "AA ",
@@ -117,7 +117,7 @@ public class Register {
     }
 
     public static byte[] registerVanillaWoolRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName + "_v"), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName + "_v"), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Items.WHITE_WOOL))
@@ -128,7 +128,7 @@ public class Register {
     }
 
     public static byte[] registerPastelWoolRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName + "_sp"), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName + "_sp"), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Item.byBlock(SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK)))
@@ -139,7 +139,7 @@ public class Register {
     }
 
     public static byte[] registerFencesRecipe(String recipeName, Block ingredientBlockItem, Block pastelFencesBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "   ",
                         "ABA",
@@ -152,7 +152,7 @@ public class Register {
     }
 
     public static byte[] registerFenceGateRecipe(String recipeName, Block ingredientBlockItem, Block pastelFenceGateBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "   ",
                         "BAB",
@@ -165,7 +165,7 @@ public class Register {
     }
 
     public static byte[] registerWallRecipe(String recipeName, Block ingredientBlockItem, Block pastelWallBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "   ",
                         "AAA",
@@ -177,7 +177,7 @@ public class Register {
     }
 
     public static byte[] registerGlassSmelting(String recipeName, Block ingredientBlockItem, BlockItem pastelGlassItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.smelting(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.smelting(
                 JIngredient.ingredient()
                         .item(Item.byBlock(ingredientBlockItem)),
                 JResult.item(pastelGlassItem)
@@ -185,7 +185,7 @@ public class Register {
     }
 
     public static byte[] registerGlassRecipe(String recipeName, Item ingredientItem, BlockItem pastelGlassItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "AAA",
                         "ABA",
@@ -198,7 +198,7 @@ public class Register {
     }
 
     public static byte[] registerGlassPaneRecipe(String recipeName, Item ingredientItem, BlockItem pastelGlassPaneItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "AAA",
                         "ABA",
@@ -211,7 +211,7 @@ public class Register {
     }
 
     public static byte[] registerGlassPaneRectangleRecipe(String recipeName, Item ingredientItem, BlockItem pastelGlassPaneItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shaped(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
                 JPattern.pattern(
                         "   ",
                         "AAA",
@@ -223,7 +223,7 @@ public class Register {
     }
 
     public static byte[] registerTaffyRecipe(String recipeName, Item associatedPowder, Item pastelCandyItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Items.PAPER))
@@ -238,7 +238,7 @@ public class Register {
     }
 
     public static byte[] registerLightRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation("softerpastels", recipeName + "_v"), JRecipe.shapeless(
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName + "_v"), JRecipe.shapeless(
                 JIngredients.ingredients()
                         .add(JIngredient.ingredient()
                                 .item(Items.GLOWSTONE))
@@ -250,7 +250,7 @@ public class Register {
 
     // Blockstate Datagen
     public static byte[] registerBlockState(String blockstateModelName, String blockstateName) {
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addBlockState(JState.state(JState.variant(JState.model("softerpastels:block/" + blockstateModelName))), new ResourceLocation("softerpastels", blockstateName));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addBlockState(JState.state(JState.variant(JState.model("softerpastels:block/" + blockstateModelName))), new ResourceLocation(MOD_ID, blockstateName));
     }
 
     // Basic Model Datagen
@@ -258,7 +258,7 @@ public class Register {
         JModel model;
 
         model = new JModel().parent("block/cube_all").textures(new JTextures().var("all", "softerpastels:block/" + modelName));
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(model, new ResourceLocation("softerpastels", "block/" + modelName));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(model, new ResourceLocation(MOD_ID, "block/" + modelName));
     }
 
     // Basic Block Item Datagen
@@ -267,7 +267,7 @@ public class Register {
 
         blockItemModel = new JModel().parent("softerpastels:block/" + blockItemModelName);
 
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(blockItemModel, new ResourceLocation("softerpastels", "item/" + blockItemModelName));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(blockItemModel, new ResourceLocation(MOD_ID, "item/" + blockItemModelName));
     }
 
     // Basic Item Datagen
@@ -275,6 +275,6 @@ public class Register {
     public static byte[] registerItemModel(String itemModelName) {
         JModel itemModel = new JModel().parent("item/generated").textures(new JTextures().var("layer0", "softerpastels:item/" + itemModelName));
 
-        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(itemModel, new ResourceLocation("softerpastels", "item/" + itemModelName));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(itemModel, new ResourceLocation(MOD_ID, "item/" + itemModelName));
     }
 }
