@@ -237,6 +237,14 @@ public class Register {
         ));
     }
 
+    public static byte[] registerHardCandyRecipe(String recipeName, Item associatedTaffy, Item pastelHardCandyItem) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.smelting(
+                JIngredient.ingredient()
+                        .item(associatedTaffy),
+                JResult.item(pastelHardCandyItem)
+        ).cookingTime(200).experience(1));
+    }
+
     public static byte[] registerLightRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName + "_v"), JRecipe.shapeless(
                 JIngredients.ingredients()

@@ -266,5 +266,22 @@ public class Recipes {
         Register.registerTaffyRecipe("light_gray_taffy", SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsItems.LIGHT_GRAY_TAFFY);
         Register.registerTaffyRecipe("gray_taffy", SofterPastelsItems.GRAY_POWDER, SofterPastelsItems.GRAY_TAFFY);
         Register.registerTaffyRecipe("black_taffy", SofterPastelsItems.BLACK_POWDER, SofterPastelsItems.BLACK_TAFFY);
+
+        Register.registerHardCandyRecipe("white_hard_candy", SofterPastelsItems.WHITE_TAFFY, SofterPastelsItems.WHITE_HARD_CANDY);
+        Register.registerHardCandyRecipe("light_red_hard_candy", SofterPastelsItems.LIGHT_RED_TAFFY, SofterPastelsItems.LIGHT_RED_HARD_CANDY);
+        Register.registerHardCandyRecipe("red_hard_candy", SofterPastelsItems.RED_TAFFY, SofterPastelsItems.RED_HARD_CANDY);
+        Register.registerHardCandyRecipe("orange_hard_candy", SofterPastelsItems.ORANGE_TAFFY, SofterPastelsItems.ORANGE_HARD_CANDY);
+        Register.registerHardCandyRecipe("yellow_hard_candy", SofterPastelsItems.YELLOW_TAFFY, SofterPastelsItems.YELLOW_HARD_CANDY);
+        Register.registerHardCandyRecipe("light_green_hard_candy", SofterPastelsItems.LIGHT_GREEN_TAFFY, SofterPastelsItems.LIGHT_GREEN_HARD_CANDY);
+        Register.registerHardCandyRecipe("green_hard_candy", SofterPastelsItems.GREEN_TAFFY, SofterPastelsItems.GREEN_HARD_CANDY);
+        Register.registerHardCandyRecipe("light_blue_hard_candy", SofterPastelsItems.LIGHT_BLUE_TAFFY, SofterPastelsItems.LIGHT_BLUE_HARD_CANDY);
+        Register.registerHardCandyRecipe("blue_hard_candy", SofterPastelsItems.BLUE_TAFFY, SofterPastelsItems.LIGHT_BLUE_HARD_CANDY);
+        Register.registerHardCandyRecipe("purple_hard_candy", SofterPastelsItems.PURPLE_TAFFY, SofterPastelsItems.PURPLE_HARD_CANDY);
+        Register.registerHardCandyRecipe("magenta_hard_candy", SofterPastelsItems.MAGENTA_TAFFY, SofterPastelsItems.MAGENTA_HARD_CANDY);
+        Register.registerHardCandyRecipe("brown_hard_candy", SofterPastelsItems.BROWN_TAFFY, SofterPastelsItems.BROWN_HARD_CANDY);
+        Register.registerHardCandyRecipe("light_gray_hard_candy", SofterPastelsItems.LIGHT_GRAY_TAFFY, SofterPastelsItems.LIGHT_GRAY_HARD_CANDY);
+        Register.registerHardCandyRecipe("gray_hard_candy", SofterPastelsItems.GRAY_TAFFY, SofterPastelsItems.GRAY_HARD_CANDY);
+        Register.registerHardCandyRecipe("white_hard_candy", SofterPastelsItems.WHITE_TAFFY, SofterPastelsItems.WHITE_HARD_CANDY);
+
     }
 }
