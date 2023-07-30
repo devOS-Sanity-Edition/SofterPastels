@@ -21,6 +21,7 @@ public class SofterPastelsBlocks {
     public static final Block WHITE_PASTEL_STAIR_BLOCK = registerBlock("white_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block WHITE_PASTEL_WOOL_BLOCK = registerBlock("white_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block WHITE_PASTEL_LIGHT_BLOCK = registerBlock("white_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block WHITE_PASTEL_CARPET_BLOCK = registerBlock("white_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block LIGHT_RED_PASTEL_BLOCK = registerBlock("light_red_pastel_block", new Block(PastelBlock()), 0);
     public static final Block LIGHT_RED_PASTEL_POWDER_BLOCK = registerBlock("light_red_pastel_powder_block", new ConcretePowderBlock(LIGHT_RED_PASTEL_BLOCK, PastelPowder()), 0);
@@ -31,6 +32,7 @@ public class SofterPastelsBlocks {
     public static final Block LIGHT_RED_PASTEL_STAIR_BLOCK = registerBlock("light_red_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block LIGHT_RED_PASTEL_WOOL_BLOCK = registerBlock("light_red_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block LIGHT_RED_PASTEL_LIGHT_BLOCK = registerBlock("light_red_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block LIGHT_RED_PASTEL_CARPET_BLOCK = registerBlock("light_red_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block RED_PASTEL_BLOCK = registerBlock("red_pastel_block", new Block(PastelBlock()), 0);
     public static final Block RED_PASTEL_POWDER_BLOCK = registerBlock("red_pastel_powder_block", new ConcretePowderBlock(RED_PASTEL_BLOCK, PastelPowder()), 0);
@@ -41,6 +43,7 @@ public class SofterPastelsBlocks {
     public static final Block RED_PASTEL_STAIR_BLOCK = registerBlock("red_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block RED_PASTEL_WOOL_BLOCK = registerBlock("red_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block RED_PASTEL_LIGHT_BLOCK = registerBlock("red_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block RED_PASTEL_CARPET_BLOCK = registerBlock("red_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block ORANGE_PASTEL_BLOCK = registerBlock("orange_pastel_block", new Block(PastelBlock()), 0);
     public static final Block ORANGE_PASTEL_POWDER_BLOCK = registerBlock("orange_pastel_powder_block", new ConcretePowderBlock(ORANGE_PASTEL_BLOCK, PastelPowder()), 0);
@@ -51,6 +54,7 @@ public class SofterPastelsBlocks {
     public static final Block ORANGE_PASTEL_STAIR_BLOCK = registerBlock("orange_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block ORANGE_PASTEL_WOOL_BLOCK = registerBlock("orange_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block ORANGE_PASTEL_LIGHT_BLOCK = registerBlock("orange_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block ORANGE_PASTEL_CARPET_BLOCK = registerBlock("orange_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block YELLOW_PASTEL_BLOCK = registerBlock("yellow_pastel_block", new Block(PastelBlock()), 0);
     public static final Block YELLOW_PASTEL_POWDER_BLOCK = registerBlock("yellow_pastel_powder_block", new ConcretePowderBlock(YELLOW_PASTEL_BLOCK, PastelPowder()), 0);
@@ -61,6 +65,7 @@ public class SofterPastelsBlocks {
     public static final Block YELLOW_PASTEL_STAIR_BLOCK = registerBlock("yellow_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block YELLOW_PASTEL_WOOL_BLOCK = registerBlock("yellow_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block YELLOW_PASTEL_LIGHT_BLOCK = registerBlock("yellow_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block YELLOW_PASTEL_CARPET_BLOCK = registerBlock("yellow_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block LIGHT_GREEN_PASTEL_BLOCK = registerBlock("light_green_pastel_block", new Block(PastelBlock()), 0);
     public static final Block LIGHT_GREEN_PASTEL_POWDER_BLOCK = registerBlock("light_green_pastel_powder_block", new ConcretePowderBlock(LIGHT_GREEN_PASTEL_BLOCK, PastelPowder()), 0);
@@ -71,6 +76,7 @@ public class SofterPastelsBlocks {
     public static final Block LIGHT_GREEN_PASTEL_STAIR_BLOCK = registerBlock("light_green_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block LIGHT_GREEN_PASTEL_WOOL_BLOCK = registerBlock("light_green_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block LIGHT_GREEN_PASTEL_LIGHT_BLOCK = registerBlock("light_green_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block LIGHT_GREEN_PASTEL_CARPET_BLOCK = registerBlock("light_green_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block GREEN_PASTEL_BLOCK = registerBlock("green_pastel_block", new Block(PastelBlock()), 0);
     public static final Block GREEN_PASTEL_POWDER_BLOCK = registerBlock("green_pastel_powder_block", new ConcretePowderBlock(GREEN_PASTEL_BLOCK, PastelPowder()), 0);
@@ -81,6 +87,7 @@ public class SofterPastelsBlocks {
     public static final Block GREEN_PASTEL_STAIR_BLOCK = registerBlock("green_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block GREEN_PASTEL_WOOL_BLOCK = registerBlock("green_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block GREEN_PASTEL_LIGHT_BLOCK = registerBlock("green_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block GREEN_PASTEL_CARPET_BLOCK = registerBlock("green_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block LIGHT_BLUE_PASTEL_BLOCK = registerBlock("light_blue_pastel_block", new Block(PastelBlock()), 0);
     public static final Block LIGHT_BLUE_PASTEL_POWDER_BLOCK = registerBlock("light_blue_pastel_powder_block", new ConcretePowderBlock(LIGHT_BLUE_PASTEL_BLOCK, PastelPowder()), 0);
@@ -91,6 +98,7 @@ public class SofterPastelsBlocks {
     public static final Block LIGHT_BLUE_PASTEL_STAIR_BLOCK = registerBlock("light_blue_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block LIGHT_BLUE_PASTEL_WOOL_BLOCK = registerBlock("light_blue_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block LIGHT_BLUE_PASTEL_LIGHT_BLOCK = registerBlock("light_blue_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block LIGHT_BLUE_PASTEL_CARPET_BLOCK = registerBlock("light_blue_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block BLUE_PASTEL_BLOCK = registerBlock("blue_pastel_block", new Block(PastelBlock()), 0);
     public static final Block BLUE_PASTEL_POWDER_BLOCK = registerBlock("blue_pastel_powder_block", new ConcretePowderBlock(BLUE_PASTEL_BLOCK, PastelPowder()), 0);
@@ -101,6 +109,7 @@ public class SofterPastelsBlocks {
     public static final Block BLUE_PASTEL_STAIR_BLOCK = registerBlock("blue_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block BLUE_PASTEL_WOOL_BLOCK = registerBlock("blue_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block BLUE_PASTEL_LIGHT_BLOCK = registerBlock("blue_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block BLUE_PASTEL_CARPET_BLOCK = registerBlock("blue_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block PURPLE_PASTEL_BLOCK = registerBlock("purple_pastel_block", new Block(PastelBlock()), 0);
     public static final Block PURPLE_PASTEL_POWDER_BLOCK = registerBlock("purple_pastel_powder_block", new ConcretePowderBlock(PURPLE_PASTEL_BLOCK, PastelPowder()), 0);
@@ -111,6 +120,7 @@ public class SofterPastelsBlocks {
     public static final Block PURPLE_PASTEL_STAIR_BLOCK = registerBlock("purple_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block PURPLE_PASTEL_WOOL_BLOCK = registerBlock("purple_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block PURPLE_PASTEL_LIGHT_BLOCK = registerBlock("purple_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block PURPLE_PASTEL_CARPET_BLOCK = registerBlock("purple_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block MAGENTA_PASTEL_BLOCK = registerBlock("magenta_pastel_block", new Block(PastelBlock()), 0);
     public static final Block MAGENTA_PASTEL_POWDER_BLOCK = registerBlock("magenta_pastel_powder_block", new ConcretePowderBlock(MAGENTA_PASTEL_BLOCK, PastelPowder()), 0);
@@ -121,6 +131,7 @@ public class SofterPastelsBlocks {
     public static final Block MAGENTA_PASTEL_STAIR_BLOCK = registerBlock("magenta_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block MAGENTA_PASTEL_WOOL_BLOCK = registerBlock("magenta_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block MAGENTA_PASTEL_LIGHT_BLOCK = registerBlock("magenta_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block MAGENTA_PASTEL_CARPET_BLOCK = registerBlock("magenta_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block BROWN_PASTEL_BLOCK = registerBlock("brown_pastel_block", new Block(PastelBlock()), 0);
     public static final Block BROWN_PASTEL_POWDER_BLOCK = registerBlock("brown_pastel_powder_block", new ConcretePowderBlock(BROWN_PASTEL_BLOCK, PastelPowder()), 0);
@@ -131,6 +142,7 @@ public class SofterPastelsBlocks {
     public static final Block BROWN_PASTEL_STAIR_BLOCK = registerBlock("brown_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block BROWN_PASTEL_WOOL_BLOCK = registerBlock("brown_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block BROWN_PASTEL_LIGHT_BLOCK = registerBlock("brown_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block BROWN_PASTEL_CARPET_BLOCK = registerBlock("brown_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block LIGHT_GRAY_PASTEL_BLOCK = registerBlock("light_gray_pastel_block", new Block(PastelBlock()), 0);
     public static final Block LIGHT_GRAY_PASTEL_POWDER_BLOCK = registerBlock("light_gray_pastel_powder_block", new ConcretePowderBlock(LIGHT_GRAY_PASTEL_BLOCK, PastelPowder()), 0);
@@ -141,6 +153,7 @@ public class SofterPastelsBlocks {
     public static final Block LIGHT_GRAY_PASTEL_STAIR_BLOCK = registerBlock("light_gray_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block LIGHT_GRAY_PASTEL_WOOL_BLOCK = registerBlock("light_gray_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block LIGHT_GRAY_PASTEL_LIGHT_BLOCK = registerBlock("light_gray_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block LIGHT_GRAY_PASTEL_CARPET_BLOCK = registerBlock("light_gray_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block GRAY_PASTEL_BLOCK = registerBlock("gray_pastel_block", new Block(PastelBlock()), 0);
     public static final Block GRAY_PASTEL_POWDER_BLOCK = registerBlock("gray_pastel_powder_block", new ConcretePowderBlock(GRAY_PASTEL_BLOCK, PastelPowder()), 0);
@@ -151,6 +164,7 @@ public class SofterPastelsBlocks {
     public static final Block GRAY_PASTEL_STAIR_BLOCK = registerBlock("gray_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block GRAY_PASTEL_WOOL_BLOCK = registerBlock("gray_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block GRAY_PASTEL_LIGHT_BLOCK = registerBlock("gray_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block GRAY_PASTEL_CARPET_BLOCK = registerBlock("gray_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static final Block BLACK_PASTEL_BLOCK = registerBlock("black_pastel_block", new Block(PastelBlock()), 0);
     public static final Block BLACK_PASTEL_POWDER_BLOCK = registerBlock("black_pastel_powder_block", new ConcretePowderBlock(BLACK_PASTEL_BLOCK, PastelPowder()), 0);
@@ -161,6 +175,7 @@ public class SofterPastelsBlocks {
     public static final Block BLACK_PASTEL_STAIR_BLOCK = registerBlock("black_stairs", new StairBlocks(STONE_STAIRS.defaultBlockState(), copy(WHITE_CONCRETE)), 0);
     public static final Block BLACK_PASTEL_WOOL_BLOCK = registerBlock("black_wool", new Block(copy(WHITE_WOOL)), 0);
     public static final Block BLACK_PASTEL_LIGHT_BLOCK = registerBlock("black_light", new Block(copy(GLOWSTONE)), 0);
+    public static final Block BLACK_PASTEL_CARPET_BLOCK = registerBlock("black_carpet", new CarpetBlock(copy(WHITE_CARPET)), 1);
 
     public static void init() {
         GlassBlocks.init();

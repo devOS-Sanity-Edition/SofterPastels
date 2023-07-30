@@ -88,5 +88,21 @@ public class Blockstate {
         Register.registerBlockState("light_gray_light", "light_gray_light");
         Register.registerBlockState("gray_light", "gray_light");
         Register.registerBlockState("black_light", "black_light");
+
+        Register.registerBlockState("white_carpet", "white_carpet");
+        Register.registerBlockState("light_red_carpet", "light_red_carpet");
+        Register.registerBlockState("red_carpet", "red_carpet");
+        Register.registerBlockState("orange_carpet", "orange_carpet");
+        Register.registerBlockState("yellow_carpet", "yellow_carpet");
+        Register.registerBlockState("light_green_carpet", "light_green_carpet");
+        Register.registerBlockState("green_carpet", "green_carpet");
+        Register.registerBlockState("light_blue_carpet", "light_blue_carpet");
+        Register.registerBlockState("blue_carpet", "blue_carpet");
+        Register.registerBlockState("purple_carpet", "purple_carpet");
+        Register.registerBlockState("magenta_carpet", "magenta_carpet");
+        Register.registerBlockState("brown_carpet", "brown_carpet");
+        Register.registerBlockState("light_gray_carpet", "light_gray_carpet");
+        Register.registerBlockState("gray_carpet", "gray_carpet");
+        Register.registerBlockState("black_carpet", "black_carpet");
     }
 }

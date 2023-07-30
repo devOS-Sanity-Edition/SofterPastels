@@ -283,6 +283,14 @@ public class Register {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(model, new ResourceLocation(MOD_ID, "block/" + modelName));
     }
 
+    // Carpet Model Datagen
+    public static byte[] registerCarpetModel(String woolTexture, String modelName) {
+        JModel model;
+
+        model = new JModel().parent("minecraft:block/carpet").textures(new JTextures().var("wool", "softerpastels:block/" + woolTexture + "_wool"));
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(model, new ResourceLocation(MOD_ID, "block/" + modelName));
+    }
+
     // Basic Block Item Datagen
     public static byte[] registerBlockItemModel(String blockItemModelName) {
         JModel blockItemModel;
