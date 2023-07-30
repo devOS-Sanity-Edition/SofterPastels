@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "orange",
 	"base_block": "softerpastels:orange_pastel_block",
-	"textures": "softerpastels:block/orange_pastel_block",
+	"textures": "softerpastels:block/orange",
 	"recipes": "stonecutting",
 	"map_color": "orange",
 	"types_to_generate": [

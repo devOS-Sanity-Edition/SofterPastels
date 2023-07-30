@@ -260,18 +260,18 @@
   "itemGroup.softerpastels.softerpastels.button.issues": "Issues",
 
 
+  "architecture_extensions.grouped_block.softerpastels.white": "White Pastel",
+  "architecture_extensions.grouped_block.softerpastels.light_red": "Light Red Pastel",
+  "architecture_extensions.grouped_block.softerpastels.red": "Red Pastel",
   "architecture_extensions.grouped_block.softerpastels.orange": "Orange Pastel",
   "architecture_extensions.grouped_block.softerpastels.yellow": "Yellow Pastel",
-  "architecture_extensions.grouped_block.softerpastels.lime": "Lime Pastel",
+  "architecture_extensions.grouped_block.softerpastels.light_green": "Light Green Pastel",
   "architecture_extensions.grouped_block.softerpastels.green": "Green Pastel",
-  "architecture_extensions.grouped_block.softerpastels.blue": "Blue Pastel",
-  "architecture_extensions.grouped_block.softerpastels.cyan": "Cyan Pastel",
   "architecture_extensions.grouped_block.softerpastels.light_blue": "Light Blue Pastel",
+  "architecture_extensions.grouped_block.softerpastels.blue": "Blue Pastel",
   "architecture_extensions.grouped_block.softerpastels.purple": "Purple Pastel",
-  "architecture_extensions.grouped_block.softerpastels.pink": "Pink Pastel",
   "architecture_extensions.grouped_block.softerpastels.magenta": "Magenta Pastel",
   "architecture_extensions.grouped_block.softerpastels.brown": "Brown Pastel",
-  "architecture_extensions.grouped_block.softerpastels.white": "White Pastel",
   "architecture_extensions.grouped_block.softerpastels.light_gray": "Light Gray Pastel",
   "architecture_extensions.grouped_block.softerpastels.gray": "Gray Pastel",
   "architecture_extensions.grouped_block.softerpastels.black": "Black Pastel"

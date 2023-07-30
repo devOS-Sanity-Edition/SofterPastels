@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "red",
 	"base_block": "softerpastels:red_pastel_block",
-	"textures": "softerpastels:block/red_pastel_block",
+	"textures": "softerpastels:block/red",
 	"recipes": "stonecutting",
 	"map_color": "red",
 	"types_to_generate": [

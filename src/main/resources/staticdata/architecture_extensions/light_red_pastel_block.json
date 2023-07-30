@@ -1,10 +1,10 @@
 {
 	"only_if_present": "softerpastels",
-	"name": "lime",
-	"base_block": "softerpastels:lime_pastel_block",
-	"textures": "softerpastels:block/lime_pastel_block",
+	"name": "light_red",
+	"base_block": "softerpastels:light_red_pastel_block",
+	"textures": "softerpastels:block/light_red",
 	"recipes": "stonecutting",
-	"map_color": "lime",
+	"map_color": "light_red",
 	"types_to_generate": [
 		"arch", "wall_column", "roof", "wall_post",
 		"facade", "round_fence_post", "round_arch",

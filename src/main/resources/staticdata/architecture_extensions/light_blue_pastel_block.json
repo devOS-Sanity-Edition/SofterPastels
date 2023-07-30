@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "light_blue",
 	"base_block": "softerpastels:light_blue_pastel_block",
-	"textures": "softerpastels:block/light_blue_pastel_block",
+	"textures": "softerpastels:block/light_blue",
 	"recipes": "stonecutting",
 	"map_color": "light_blue",
 	"types_to_generate": [

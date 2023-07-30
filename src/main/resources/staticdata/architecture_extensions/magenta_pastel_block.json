@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "magenta",
 	"base_block": "softerpastels:magenta_pastel_block",
-	"textures": "softerpastels:block/magenta_pastel_block",
+	"textures": "softerpastels:block/magenta",
 	"recipes": "stonecutting",
 	"map_color": "magenta",
 	"types_to_generate": [

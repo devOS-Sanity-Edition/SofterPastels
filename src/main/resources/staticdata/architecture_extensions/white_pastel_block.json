@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "white",
 	"base_block": "softerpastels:white_pastel_block",
-	"textures": "softerpastels:block/white_pastel_block",
+	"textures": "softerpastels:block/white",
 	"recipes": "stonecutting",
 	"map_color": "white",
 	"types_to_generate": [

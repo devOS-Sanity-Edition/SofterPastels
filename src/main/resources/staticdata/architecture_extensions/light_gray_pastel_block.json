@@ -2,7 +2,7 @@
 	"only_if_present": "softerpastels",
 	"name": "light_gray",
 	"base_block": "softerpastels:light_gray_pastel_block",
-	"textures": "softerpastels:block/light_gray_pastel_block",
+	"textures": "softerpastels:block/light_gray",
 	"recipes": "stonecutting",
 	"map_color": "light_gray",
 	"types_to_generate": [
