@@ -245,6 +245,20 @@ public class Register {
         ).cookingTime(200).experience(1));
     }
 
+    public static byte[] registerCottonCandyRecipe(String recipeName, Item taffyIngredientItem, Item cottonCandyResult) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
+                JPattern.pattern(
+                        " A ",
+                        "ABA",
+                        " C "),
+                JKeys.keys()
+                        .key("A", JIngredient.ingredient().item(Items.STRING))
+                        .key("B", JIngredient.ingredient().item(taffyIngredientItem))
+                        .key("C", JIngredient.ingredient().item(Items.STICK)),
+                JResult.itemStack(cottonCandyResult, 2)
+        ));
+    }
+
     public static byte[] registerLightRecipe(String recipeName, Item ingredientBlockItem, Block pastelWoolBlockItem) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName + "_v"), JRecipe.shapeless(
                 JIngredients.ingredients()
