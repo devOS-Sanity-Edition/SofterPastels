@@ -5,7 +5,7 @@ import one.devos.nautical.SofterPastels.utils.Register;
 public class Blockstate {
     public static void init() {
         // Powered Blocks
-        Register.registerBlockState("white_powder_block", "black_pastel_powder_block");
+        Register.registerBlockState("white_powder_block", "white_pastel_powder_block");
         Register.registerBlockState("light_red_powder_block", "light_red_pastel_powder_block");
         Register.registerBlockState("red_powder_block", "red_pastel_powder_block");
         Register.registerBlockState("orange_powder_block", "orange_pastel_powder_block");
