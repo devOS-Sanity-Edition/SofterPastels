@@ -64,7 +64,7 @@ public class SofterPastelsItems {
 
 
     public static final Item LIGHT_GRAY_TAFFY = registerItem("light_gray_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, SecondsToTicks(30), 0), 1.0F).build())));
-    public static final Item LIGHT_GRAY_COTTON_CANDY = registerItem("light_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, SecondsToTicks(15), 1), 1.0F).build())));
+    public static final Item LIGHT_GRAY_COTTON_CANDY = registerItem("light_gray_cotton_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, SecondsToTicks(15), 1), 1.0F).build())));
     public static final Item LIGHT_GRAY_HARD_CANDY = registerItem("light_gray_hard_candy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(3).saturationMod(2).alwaysEat().effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, SecondsToTicks(240), 2), 1.0F).build())));
 
     public static final Item GRAY_TAFFY = registerItem("gray_taffy", new Item(new OwoItemSettings().group(SP_ITEM_GROUP).tab(2).food(new FoodProperties.Builder().nutrition(2).saturationMod(2).fast().alwaysEat().effect(new MobEffectInstance(MobEffects.ABSORPTION, SecondsToTicks(60), 0), 1.0F).build())));
