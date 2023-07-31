@@ -116,6 +116,23 @@ public class Recipes {
         Register.registerPastelWoolRecipe("gray_wool", SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK);
         Register.registerPastelWoolRecipe("black_wool", SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK);
 
+        // Carpets
+        Register.registerPastelCarpetsRecipe("white_carpet", SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("light_red_carpet", SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("red_carpet", SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.RED_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("orange_carpet", SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("yellow_carpet", SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("light_green_carpet", SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("green_carpet", SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("light_blue_carpet", SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("blue_carpet", SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("purple_carpet", SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("magenta_carpet", SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("brown_carpet", SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("light_gray_carpet", SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("gray_carpet", SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_CARPET_BLOCK);
+        Register.registerPastelCarpetsRecipe("black_carpet", SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_CARPET_BLOCK);
+
         // Fences
         Register.registerFencesRecipe("white_fences", SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_FENCE_BLOCK);
         Register.registerFencesRecipe("light_red_fences", SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_FENCE_BLOCK);
@@ -251,6 +268,7 @@ public class Recipes {
         Register.registerLightRecipe("gray_light", SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_LIGHT_BLOCK);
         Register.registerLightRecipe("black_light", SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_LIGHT_BLOCK);
 
+        // Taffy
         Register.registerTaffyRecipe("white_taffy", SofterPastelsItems.WHITE_POWDER, SofterPastelsItems.WHITE_TAFFY);
         Register.registerTaffyRecipe("light_red_taffy", SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsItems.LIGHT_RED_TAFFY);
         Register.registerTaffyRecipe("red_taffy", SofterPastelsItems.RED_POWDER, SofterPastelsItems.RED_TAFFY);
@@ -267,6 +285,7 @@ public class Recipes {
         Register.registerTaffyRecipe("gray_taffy", SofterPastelsItems.GRAY_POWDER, SofterPastelsItems.GRAY_TAFFY);
         Register.registerTaffyRecipe("black_taffy", SofterPastelsItems.BLACK_POWDER, SofterPastelsItems.BLACK_TAFFY);
 
+        // Cotton Candy
         Register.registerCottonCandyRecipe("white_cotton_candy", SofterPastelsItems.WHITE_TAFFY, SofterPastelsItems.WHITE_COTTON_CANDY);
         Register.registerCottonCandyRecipe("light_red_cotton_candy", SofterPastelsItems.LIGHT_RED_TAFFY, SofterPastelsItems.LIGHT_RED_COTTON_CANDY);
         Register.registerCottonCandyRecipe("red_cotton_candy", SofterPastelsItems.RED_TAFFY, SofterPastelsItems.RED_COTTON_CANDY);
@@ -283,6 +302,7 @@ public class Recipes {
         Register.registerCottonCandyRecipe("gray_cotton_candy", SofterPastelsItems.GRAY_TAFFY, SofterPastelsItems.GRAY_COTTON_CANDY);
         Register.registerCottonCandyRecipe("black_cotton_candy", SofterPastelsItems.BLACK_TAFFY, SofterPastelsItems.BLACK_COTTON_CANDY);
 
+        // Hard Candy
         Register.registerHardCandyRecipe("white_hard_candy", SofterPastelsItems.WHITE_TAFFY, SofterPastelsItems.WHITE_HARD_CANDY);
         Register.registerHardCandyRecipe("light_red_hard_candy", SofterPastelsItems.LIGHT_RED_TAFFY, SofterPastelsItems.LIGHT_RED_HARD_CANDY);
         Register.registerHardCandyRecipe("red_hard_candy", SofterPastelsItems.RED_TAFFY, SofterPastelsItems.RED_HARD_CANDY);
@@ -298,6 +318,5 @@ public class Recipes {
         Register.registerHardCandyRecipe("light_gray_hard_candy", SofterPastelsItems.LIGHT_GRAY_TAFFY, SofterPastelsItems.LIGHT_GRAY_HARD_CANDY);
         Register.registerHardCandyRecipe("gray_hard_candy", SofterPastelsItems.GRAY_TAFFY, SofterPastelsItems.GRAY_HARD_CANDY);
         Register.registerHardCandyRecipe("black_hard_candy", SofterPastelsItems.BLACK_TAFFY, SofterPastelsItems.BLACK_HARD_CANDY);
-
     }
 }

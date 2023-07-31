@@ -119,7 +119,6 @@ public class LootTables {
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_gray_stairs"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_gray_stairs"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_stairs"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_stairs"))));
 
-
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/white_wool"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:white_wool"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_red_wool"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_red_wool"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/red_wool"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:red_wool"))));
@@ -151,5 +150,21 @@ public class LootTables {
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/black_light"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:black_light"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_gray_light"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_gray_light"))));
         SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_light"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_light"))));
+
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/white_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:white_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_red_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_red_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/red_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:red_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/orange_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:orange_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/yellow_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:yellow_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_green_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_green_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/green_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:green_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_blue_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_blue_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/blue_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:blue_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/purple_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:purple_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/magenta_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:magenta_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/brown_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:brown_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/black_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:black_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/light_gray_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:light_gray_carpet"))));
+        SofterPastels.RUNTIME_RESOURCE_PACK.addLootTable(id("softerpastels:blocks/gray_carpet"), loot("minecraft:block").pool(pool().rolls(1).entry(entry().type("minecraft:item").name("softerpastels:gray_carpet"))));
     }
 }

@@ -12,6 +12,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.CarpetBlock;
 import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
@@ -135,6 +136,18 @@ public class Register {
                         .add(JIngredient.ingredient()
                                 .item(ingredientBlockItem)),
                 JResult.item(Item.byBlock(pastelWoolBlockItem))
+        ));
+    }
+
+    public static byte[] registerPastelCarpetsRecipe(String recipeName, Block ingredientBlockItem, Block pastelCarpetBlockItem) {
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shaped(
+                JPattern.pattern(
+                        "   ",
+                        "   ",
+                        "AA "),
+                JKeys.keys()
+                        .key("A", JIngredient.ingredient().item(Item.byBlock(ingredientBlockItem))),
+                JResult.itemStack(Item.byBlock(pastelCarpetBlockItem), 3)
         ));
     }
 
