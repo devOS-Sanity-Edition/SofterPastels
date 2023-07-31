@@ -84,5 +84,21 @@ public class Models {
         Register.registerItemModel("light_gray_hard_candy");
         Register.registerItemModel("gray_hard_candy");
         Register.registerItemModel("black_hard_candy");
+
+        Register.registerHandheldItemModel("white_cotton_candy");
+        Register.registerHandheldItemModel("light_red_cotton_candy");
+        Register.registerHandheldItemModel("red_cotton_candy");
+        Register.registerHandheldItemModel("orange_cotton_candy");
+        Register.registerHandheldItemModel("yellow_cotton_candy");
+        Register.registerHandheldItemModel("light_green_cotton_candy");
+        Register.registerHandheldItemModel("green_cotton_candy");
+        Register.registerHandheldItemModel("light_blue_cotton_candy");
+        Register.registerHandheldItemModel("blue_cotton_candy");
+        Register.registerHandheldItemModel("purple_cotton_candy");
+        Register.registerHandheldItemModel("magenta_cotton_candy");
+        Register.registerHandheldItemModel("brown_cotton_candy");
+        Register.registerHandheldItemModel("light_gray_cotton_candy");
+        Register.registerHandheldItemModel("gray_cotton_candy");
+        Register.registerHandheldItemModel("black_cotton_candy");
     }
 }

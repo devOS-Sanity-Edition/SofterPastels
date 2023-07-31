@@ -316,7 +316,15 @@ public class Register {
     // Basic Item Datagen
 
     public static byte[] registerItemModel(String itemModelName) {
-        JModel itemModel = new JModel().parent("item/generated").textures(new JTextures().var("layer0", "softerpastels:item/" + itemModelName));
+        JModel itemModel = new JModel().parent("minecraft:item/generated").textures(new JTextures().var("layer0", "softerpastels:item/" + itemModelName));
+
+        return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(itemModel, new ResourceLocation(MOD_ID, "item/" + itemModelName));
+    }
+
+    // Basic Handheld Item Datagen
+
+    public static byte[] registerHandheldItemModel(String itemModelName) {
+        JModel itemModel = new JModel().parent("minecraft:item/handheld").textures(new JTextures().var("layer0", "softerpastels:item/" + itemModelName));
 
         return SofterPastels.RUNTIME_RESOURCE_PACK.addModel(itemModel, new ResourceLocation(MOD_ID, "item/" + itemModelName));
     }
