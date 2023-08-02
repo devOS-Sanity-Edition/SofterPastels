@@ -290,5 +290,21 @@
   "architecture_extensions.grouped_block.softerpastels.brown": "Brown Pastel",
   "architecture_extensions.grouped_block.softerpastels.light_gray": "Light Gray Pastel",
   "architecture_extensions.grouped_block.softerpastels.gray": "Gray Pastel",
-  "architecture_extensions.grouped_block.softerpastels.black": "Black Pastel"
+  "architecture_extensions.grouped_block.softerpastels.black": "Black Pastel",
+
+  "architecture_extensions.grouped_block.softerpastels.white_pastel_powder": "White Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.light_red_pastel_powder": "Light Red Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.red_pastel_powder": "Red Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.orange_pastel_powder": "Orange Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.yellow_pastel_powder": "Yellow Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.light_green_pastel_powder": "Light Green Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.green_pastel_powder": "Green Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.light_blue_pastel_powder": "Light Blue Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.blue_pastel_powder": "Blue Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.purple_pastel_powder": "Purple Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.magenta_pastel_powder": "Magenta Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.brown_pastel_powder": "Brown Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.light_gray_pastel_powder": "Light Gray Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.gray_pastel_powder": "Gray Pastel Powder",
+  "architecture_extensions.grouped_block.softerpastels.black_pastel_powder": "Black Pastel Powder"
 }
