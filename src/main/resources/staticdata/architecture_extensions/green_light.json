@@ -1,0 +1,15 @@
+{
+	"only_if_present": "softerpastels",
+	"name": "green_light",
+	"base_block": "softerpastels:green_light",
+	"textures": "softerpastels:block/green_light",
+	"recipes": "stonecutting",
+	"map_color": "green",
+	"types_to_generate": [
+		"arch", "wall_column", "roof", "wall_post", 
+		"facade", "round_fence_post", "round_arch", 
+		"octagonal_column", "beam", "fence_post", 
+		"joist", "crown_molding", "post_cap", "post_lantern", 
+		"lattice", "transom"
+	]
+}
