@@ -4,7 +4,7 @@
 	"base_block": "softerpastels:light_red_light",
 	"textures": "softerpastels:block/light_red_light",
 	"recipes": "stonecutting",
-	"map_color": "light_red",
+	"map_color": "pink",
 	"types_to_generate": [
 		"arch", "wall_column", "roof", "wall_post", 
 		"facade", "round_fence_post", "round_arch", 
