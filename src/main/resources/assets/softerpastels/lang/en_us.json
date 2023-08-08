@@ -386,5 +386,21 @@
   "architecture_extensions.grouped_block.softerpastels.brown_light": "Brown Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.light_gray_light": "Light Gray Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.gray_light": "Gray Pastel Light",
-  "architecture_extensions.grouped_block.softerpastels.black_light": "Black Pastel Light"
+  "architecture_extensions.grouped_block.softerpastels.black_light": "Black Pastel Light",
+
+  "architecture_extensions.grouped_block.softerpastels.white_glass": "White Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.light_red_glass": "Light Red Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.red_glass": "Red Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.orange_glass": "Orange Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.yellow_glass": "Yellow Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.light_green_glass": "Light Green Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.green_glass": "Green Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.light_blue_glass": "Light Blue Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.blue_glass": "Blue Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.purple_glass": "Purple Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.magenta_glass": "Magenta Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.brown_glass": "Brown Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.light_gray_glass": "Light Gray Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.gray_glass": "Gray Pastel Glass",
+  "architecture_extensions.grouped_block.softerpastels.black_glass": "Black Pastel Glass"
 }

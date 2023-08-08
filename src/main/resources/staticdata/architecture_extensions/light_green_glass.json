@@ -1,0 +1,16 @@
+{
+	"only_if_present": "softerpastels",
+	"name": "light_green_glass",
+	"base_block": "softerpastels:light_green_glass",
+	"textures": "softerpastels:block/light_green_glass",
+	"recipes": "stonecutting",
+	"map_color": "lime",
+	"render_layer": "translucent",
+	"types_to_generate": [
+		"arch", "wall_column", "roof", "wall_post", 
+		"facade", "round_fence_post", "round_arch", 
+		"octagonal_column", "beam", "fence_post", 
+		"joist", "crown_molding", "post_cap", "post_lantern", 
+		"lattice", "transom"
+	]
+}
