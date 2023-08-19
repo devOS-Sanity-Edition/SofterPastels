@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.fabric.loom)
 }
 
-val archivesBaseName = "${project.property("archives_base_name").toString()}"
+val archivesBaseName = project.property("archives_base_name").toString()
 group = project.property("maven_group")!!
 version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
 
@@ -82,7 +82,7 @@ publishing {
         create<MavenPublication>("mavenJava") {
             groupId = project.property("maven_group").toString()
             artifactId = project.property("archives_base_name").toString()
-            version = getModVersion()
+            version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
 
             from(components.get("java"))
         }
@@ -99,24 +99,24 @@ publishing {
     }
 }
 
-fun getModVersion(): String {
-    val modVersion = project.property("mod_version")
-
-    // If a git repo can't be found, grgit won't work, this non-null check exists so you don't run grgit stuff without a git repo
-    if (grgit != null) {
-        val head = grgit.head()
-        var id = head.abbreviatedId
-
-        // Flag the build if the build tree is not clean
-        // (aka you have uncommitted changes)
-        if (!grgit.status().isClean()) {
-            id += "-dirty"
-        }
-        // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
-        return "${modVersion}+rev.${id}"
-    }
-
-    // No tracking information could be found about the build
-    return "${modVersion}+unknown"
-
-}
+//fun getModVersion(): String {
+//    val modVersion = project.property("mod_version")
+//
+//    // If a git repo can't be found, grgit won't work, this non-null check exists so you don't run grgit stuff without a git repo
+//    if (grgit != null) {
+//        val head = grgit.head()
+//        var id = head.abbreviatedId
+//
+//        // Flag the build if the build tree is not clean
+//        // (aka you have uncommitted changes)
+//        if (!grgit.status().isClean()) {
+//            id += "-dirty"
+//        }
+//        // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
+//        return "${modVersion}+rev.${id}"
+//    }
+//
+//    // No tracking information could be found about the build
+//    return "${modVersion}+unknown"
+//
+//}
