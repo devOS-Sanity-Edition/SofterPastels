@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.fabric.loom)
 }
 
-val archivesBaseName = project.property("archives_base_name").toString()
+val archivesBaseName = "SofterPastels" // temp workaround
 group = project.property("maven_group")!!
 version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
 
@@ -81,10 +81,10 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = project.property("maven_group").toString()
-            artifactId = project.property("archives_base_name").toString()
+            artifactId = "SofterPastels" // temp workaround
             version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
 
-            from(components.get("java"))
+            from(components["java"])
         }
     }
 
