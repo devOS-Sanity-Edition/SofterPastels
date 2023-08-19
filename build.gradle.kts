@@ -58,7 +58,7 @@ java {
 }
 
 tasks.jar {
-    archiveFileName.set("${project.property("archives_base_name")}-${version}")
+    archiveFileName.set("${project.property("archives_base_name")}-${version}.jar")
 
     from("LICENSE") {
         rename { "${it}_${project.property("archives_base_name")}" }
