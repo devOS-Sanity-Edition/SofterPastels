@@ -79,7 +79,7 @@ task("buildOrPublish") {
 
 publishing {
     publications {
-        create<MavenPublication>("mavenJava") {
+        create<MavenPublication>("maven") {
             groupId = project.property("maven_group").toString()
             artifactId = project.property("archives_base_name").toString()
             version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
