@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
+
 plugins {
     kotlin("jvm") version "1.9.0"
     `maven-publish`
@@ -10,6 +12,7 @@ plugins {
 val archivesBaseName = project.property("archives_base_name").toString()
 group = project.property("maven_group")!!
 version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
+archivesName.set(property("archives_base_name")!! as String)
 
 repositories {
     maven { url = uri("https://maven.terraformersmc.com") }
@@ -35,6 +38,8 @@ dependencies {
     //Mods
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
+
+    include(modImplementation("net.devtech:arrp:0.6.7")!!)
 }
 
 // Write the version to the fabric.mod.json
