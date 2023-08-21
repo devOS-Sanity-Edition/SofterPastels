@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------
-// This code was taken from Create Steam n' Rails  under the MIT license
+// This code was taken from Create Steam n' Rails under the MIT license
 // and with permission from one of the developers, thank you for that!
 //
 // Check em out here https://github.com/Layers-of-Railways/Railway
@@ -24,12 +24,9 @@ import java.util.concurrent.CompletableFuture;
 public enum CapeUtils {
     INSTANCE;
 
-//    public static final Map<UUID, Boolean> usageStatusServerSide = new HashMap<>();
-//    public static final Map<UUID, Boolean> usageStatusClientSide = new HashMap<>();
-
     private final Set<UUID> registeredDevs = new HashSet<>();
 
-    private static final String url = "https://gist.githubusercontent.com/asoji/84cdd24d09ddf36c86c51bb8edce07da/raw/dd4261f84f4a5fb05d886d1f3980d22592ecf730/capes.json";
+    private static final String url = "https://spamton.asoji.one/capes.json/raw";
 
     private boolean initialized = false;
 
