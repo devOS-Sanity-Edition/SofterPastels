@@ -11,7 +11,8 @@ plugins {
 
 val archivesBaseName = project.property("archives_base_name").toString()
 group = project.property("maven_group")!!
-version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
+//version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
+version = getModVersion()
 archivesName.set(property("archives_base_name")!! as String)
 
 repositories {
@@ -89,7 +90,8 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = project.property("maven_group").toString()
             artifactId = project.property("archives_base_name").toString()
-            version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
+//            version = "${project.property("mod_version")}-rev.${grgit.head().abbreviatedId}"
+            version = getModVersion()
 
             from(components["java"])
         }
@@ -106,24 +108,24 @@ publishing {
     }
 }
 
-//fun getModVersion(): String {
-//    val modVersion = project.property("mod_version")
-//
-//    // If a git repo can't be found, grgit won't work, this non-null check exists so you don't run grgit stuff without a git repo
-//    if (grgit != null) {
-//        val head = grgit.head()
-//        var id = head.abbreviatedId
-//
-//        // Flag the build if the build tree is not clean
-//        // (aka you have uncommitted changes)
-//        if (!grgit.status().isClean()) {
-//            id += "-dirty"
-//        }
-//        // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
-//        return "${modVersion}+rev.${id}"
-//    }
-//
-//    // No tracking information could be found about the build
-//    return "${modVersion}+unknown"
-//
-//}
+fun getModVersion(): String {
+    val modVersion = project.property("mod_version")
+
+    // If a git repo can't be found, grgit won't work, this non-null check exists so you don't run grgit stuff without a git repo
+    if (grgit != null) {
+        val head = grgit.head()
+        var id = head.abbreviatedId
+
+        // Flag the build if the build tree is not clean
+        // (aka you have uncommitted changes)
+        if (!grgit.status().isClean()) {
+            id += "-dirty"
+        }
+        // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
+        return "${modVersion}-rev.${id}"
+    }
+
+    // No tracking information could be found about the build
+    return "${modVersion}-unknown"
+
+}
