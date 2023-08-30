@@ -25,10 +25,6 @@ public class Register {
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
-    public static Block registerCrop(String name, Block block) {
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
-    }
-
     public static Block registerGlassBlock(String name, Block block) {
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
