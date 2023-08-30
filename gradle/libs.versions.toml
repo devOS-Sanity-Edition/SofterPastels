@@ -27,7 +27,7 @@ arrp = { module = "net.devtech:arrp", version.ref = "arrp" }
 emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
 
 [bundles]
-dev_mods = [ "joml", "sodium" ]
+dev_mods = [ "joml", "sodium", "emi" ]
 dependencies = [ "mod_menu", "owo_lib", "arrp" ]
 
 
