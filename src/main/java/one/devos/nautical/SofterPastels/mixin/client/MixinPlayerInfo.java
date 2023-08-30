@@ -3,6 +3,7 @@
 // and with permission from one of the developers, thank you for that!
 //
 // Check em out here https://github.com/Layers-of-Railways/Railway
+// Original Source: https://github.com/Layers-of-Railways/Railway/blob/1.20/dev/common/src/main/java/com/railwayteam/railways/mixin/client/MixinPlayerInfo.java
 // --------------------------------------------------------------------------------
 
 package one.devos.nautical.SofterPastels.mixin.client;
