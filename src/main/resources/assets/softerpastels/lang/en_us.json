@@ -323,6 +323,23 @@
   "itemGroup.softerpastels.softerpastels.button.github": "GitHub",
   "itemGroup.softerpastels.softerpastels.button.issues": "Issues",
 
+  "advancement.softerpastels.root.title": "Softer Pastels",
+  "advancement.softerpastels.root.description": "The start of some softer, pastel colored items and blocks!",
+  "advancement.softerpastels.pastel_powder_blocks.title": "Colorful Condensed Powders",
+  "advancement.softerpastels.pastel_powder_blocks.description": "Obtain your first Pastel Powder Block!",
+  "advancement.softerpastels.pastel_blocks.title": "Block of Softer Color!",
+  "advancement.softerpastels.pastel_blocks.description": "Obtain your first Pastel Block!",
+  "advancement.softerpastels.pastel_lights.title": "Softened Illuminance!",
+  "advancement.softerpastels.pastel_lights.description": "Obtain your first Pastel Light Block!",
+  "advancement.softerpastels.pastel_candies.title": "Sweet Powder",
+  "advancement.softerpastels.pastel_candies.description": "Obtain your first piece of candy!",
+  "advancement.softerpastels.pastel_hard_candies.title": "Transparent Bites",
+  "advancement.softerpastels.pastel_hard_candies.description": "Obtain your first piece of hard candy!",
+  "advancement.softerpastels.regretful_candy.title": "Taste of Regret",
+  "advancement.softerpastels.regretful_candy.description": "Yeah... that probably made you feel a bit of dread huh...",
+  "advancement.softerpastels.luck_too_long.title": "Lucky Bites?",
+  "advancement.softerpastels.luck_too_long.description": "Well... at least you get to feel lucky for 24 minutes.",
+
 
   "architecture_extensions.grouped_block.softerpastels.white": "White Pastel",
   "architecture_extensions.grouped_block.softerpastels.light_red": "Light Red Pastel",
