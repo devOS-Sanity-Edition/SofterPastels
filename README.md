@@ -11,6 +11,10 @@ Mods that adds blocks and foods from the discontinued "Pastel Wonderland"
 
 ![sp8](https://github.com/devOS-Sanity-Edition/SofterPastels/assets/99072163/d1dfee44-2d4a-46d7-b1f5-8c34f108722f)
 
+## Quick Credits
+
+Thank you to the [Create Steam 'n' Rails](https://github.com/Layers-of-Railways/Railway) team for providing the code for contributor capes!
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
