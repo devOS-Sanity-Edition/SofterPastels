@@ -9,6 +9,8 @@ Mods that adds blocks and foods from the discontinued "Pastel Wonderland"
     </picture>
   </a>
 
+![sp8](https://github.com/devOS-Sanity-Edition/SofterPastels/assets/99072163/d1dfee44-2d4a-46d7-b1f5-8c34f108722f)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
