@@ -99,7 +99,7 @@ publishing {
 
     repositories {
         maven {
-            url = uri("https://mvn.devos.one/${System.getenv()["PUBLISH_SUFFIX"]}/")
+            url = uri("https://mvn.devos.gay/${System.getenv()["PUBLISH_SUFFIX"]}/")
             credentials {
                 username = System.getenv()["MAVEN_USER"]
                 password = System.getenv()["MAVEN_PASS"]
