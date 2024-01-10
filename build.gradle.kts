@@ -19,7 +19,6 @@ repositories {
     maven { url = uri("https://maven.terraformersmc.com") }
     maven { url = uri("https://api.modrinth.com/maven") }
     maven { url = uri("https://maven.parchmentmc.org") }
-    maven { url = uri("https://maven.wispforest.io") }
     maven { url = uri("https://ueaj.dev/maven") }
     maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
 }

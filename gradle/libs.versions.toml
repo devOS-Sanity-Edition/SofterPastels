@@ -8,7 +8,6 @@ joml = "1.10.5"
 sodium = "mc1.20.1-0.5.0"
 
 mod_menu = "7.2.0"
-owo_lib = "0.11.1+1.20"
 arrp = "0.6.7"
 emi = "1.0.19+1.20.1"
 
@@ -22,13 +21,12 @@ joml = { module = "org.joml:joml", version.ref = "joml" }
 sodium = { module = "maven.modrinth:sodium", version.ref = "sodium" }
 
 mod_menu = { module = "com.terraformersmc:modmenu", version.ref = "mod_menu" }
-owo_lib = { module = "io.wispforest:owo-lib", version.ref = "owo_lib"}
 arrp = { module = "net.devtech:arrp", version.ref = "arrp" }
 emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
 
 [bundles]
 dev_mods = [ "joml", "sodium", "emi" ]
-dependencies = [ "mod_menu", "owo_lib", "arrp" ]
+dependencies = [ "mod_menu", "arrp" ]
 
 
 [plugins]
