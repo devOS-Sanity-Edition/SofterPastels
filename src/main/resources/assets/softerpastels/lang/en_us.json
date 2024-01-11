@@ -316,12 +316,7 @@
 
   "item.softerpastels.powder": "Pastel Powder",
 
-  "itemGroup.softerpastels.softerpastels": "Softer Pastels",
-  "itemGroup.softerpastels.softerpastels.tab.blocks": "Blocks",
-  "itemGroup.softerpastels.softerpastels.tab.decorations": "Decorations",
-  "itemGroup.softerpastels.softerpastels.tab.items": "Items",
-  "itemGroup.softerpastels.softerpastels.button.github": "GitHub",
-  "itemGroup.softerpastels.softerpastels.button.issues": "Issues",
+  "itemGroup.softerpastels": "Softer Pastels",
 
   "advancement.softerpastels.root.title": "Softer Pastels",
   "advancement.softerpastels.root.description": "The start of some softer, pastel colored items and blocks!",

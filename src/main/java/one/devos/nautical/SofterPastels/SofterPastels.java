@@ -1,15 +1,19 @@
 package one.devos.nautical.SofterPastels;
 
-import io.wispforest.owo.itemgroup.Icon;
-import io.wispforest.owo.itemgroup.OwoItemGroup;
 import net.devtech.arrp.api.RRPCallback;
 import net.devtech.arrp.api.RuntimeResourcePack;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
-import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks;
+import one.devos.nautical.SofterPastels.common.SofterPastelsTab;
 import one.devos.nautical.SofterPastels.common.datagen.Blockstate;
 import one.devos.nautical.SofterPastels.common.datagen.LootTables;
 import one.devos.nautical.SofterPastels.common.datagen.Recipes;
@@ -32,21 +36,18 @@ public class SofterPastels implements ModInitializer {
         }
     }
 
-    public static final OwoItemGroup SP_ITEM_GROUP = OwoItemGroup
-            .builder(new ResourceLocation(MOD_ID, "softerpastels"), () -> Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK))
-            .disableDynamicTitle()
-            .buttonStackHeight(1)
-            .initializer(owoItemGroup -> {
-                owoItemGroup.addTab(Icon.of(SofterPastelsBlocks.RED_PASTEL_BLOCK), "blocks", null, true);
-                owoItemGroup.addTab(Icon.of(GlassBlocks.RED_GLASS_ITEM), "decorations", null, false);
-                owoItemGroup.addTab(Icon.of(SofterPastelsItems.WHITE_TAFFY), "items", null, false);
-            }).build();
+    public static final CreativeModeTab SP_ITEM_GROUP = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(SofterPastelsBlocks.RED_PASTEL_BLOCK))
+            .title(Component.translatable("itemGroup.softerpastels"))
+            .displayItems(SofterPastelsTab::build)
+            .build();
 
     @Override
     public void onInitialize() {
         SofterPastelsBlocks.init();
         SofterPastelsItems.init();
-        SP_ITEM_GROUP.initialize();
+
+        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, locate("main"), SP_ITEM_GROUP);
 
         Blockstate.init();
         LootTables.init();

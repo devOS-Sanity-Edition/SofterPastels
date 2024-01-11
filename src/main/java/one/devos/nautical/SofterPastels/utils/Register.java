@@ -1,6 +1,5 @@
 package one.devos.nautical.SofterPastels.utils;
 
-import io.wispforest.owo.itemgroup.OwoItemSettings;
 import net.devtech.arrp.json.blockstate.JState;
 import net.devtech.arrp.json.models.JModel;
 import net.devtech.arrp.json.models.JTextures;
@@ -12,7 +11,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.CarpetBlock;
 import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks;
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
@@ -21,7 +19,7 @@ import static one.devos.nautical.SofterPastels.SofterPastels.MOD_ID;
 
 public class Register {
     public static Block registerBlock(String name, Block block, int tab) {
-        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(tab)));
+        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new Item.Properties()));
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
@@ -30,7 +28,7 @@ public class Register {
     }
 
     public static BlockItem registerGlassBlockItem(String name, Block block) {
-        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new OwoItemSettings().group(SofterPastels.SP_ITEM_GROUP).tab(1)));
+        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new Item.Properties()));
     }
 
     public static Item registerItem(String name, Item item) {
