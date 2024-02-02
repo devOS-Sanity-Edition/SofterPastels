@@ -31,9 +31,9 @@
         "softerpastels.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=0.14.21",
+        "fabricloader": ">=0.15.6",
         "fabric": "*",
-        "minecraft": "1.20.1"
+        "minecraft": "1.20.4"
     },
     "recommends": {
         "architecture_extensions": ">=3.4.0+1.20.1",
