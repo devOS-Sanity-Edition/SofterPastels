@@ -9,21 +9,19 @@
 package one.devos.nautical.SofterPastels.mixin.client;
 
 import com.mojang.authlib.GameProfile;
-import com.mojang.authlib.minecraft.MinecraftProfileTexture;
 import net.minecraft.client.multiplayer.PlayerInfo;
+import net.minecraft.client.resources.PlayerSkin;
 import net.minecraft.resources.ResourceLocation;
 import one.devos.nautical.SofterPastels.SofterPastels;
 import one.devos.nautical.SofterPastels.utils.CapeUtils;
-import org.spongepowered.asm.mixin.Final;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import java.util.Map;
 import java.util.Objects;
+import java.util.function.Supplier;
 
 @Mixin(value = PlayerInfo.class, priority = 1100)
 public class MixinPlayerInfo {
@@ -31,26 +29,34 @@ public class MixinPlayerInfo {
     @Final
     private GameProfile profile;
 
-    @Shadow @Final
-    private Map<MinecraftProfileTexture.Type, ResourceLocation> textureLocations;
-
+    @Mutable
+    @Shadow @Final private Supplier<PlayerSkin> skinLookup;
     @Unique
     private boolean softerpastels$texturesLoaded;
 
     private static ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
 
-    @Inject(at = @At("HEAD"), method = "getCapeLocation")
-    protected void registerTextures(CallbackInfoReturnable<ResourceLocation> cir) {
+    @Inject(method = "<init>", at = @At("TAIL"))
+    private void replaceSkinInfoIfNeeded(GameProfile gameProfile, boolean bl, CallbackInfo ci) {
         if (!softerpastels$texturesLoaded && CapeUtils.INSTANCE.useDevCape(profile.getId())) {
             softerpastels$texturesLoaded = true;
-            this.textureLocations.put(MinecraftProfileTexture.Type.CAPE, DEV_CAPE);
+            var original = this.skinLookup;
+            this.skinLookup = () -> {
+                var originalResult = original.get();
+                return new PlayerSkin(originalResult.texture(), originalResult.textureUrl(), DEV_CAPE, originalResult.elytraTexture(), originalResult.model(), originalResult.secure());
+            };
         }
     }
 
-    @Inject(method = "getCapeLocation", at = @At("RETURN"), cancellable = true)
-    private void skinCapeIfNeeded(CallbackInfoReturnable<ResourceLocation> cir) {
-        if (Objects.equals(DEV_CAPE, cir.getReturnValue()) && !CapeUtils.INSTANCE.useDevCape(profile.getId())) {
-            cir.setReturnValue(null);
+    @Inject(method = "getSkin", at = @At("RETURN"), cancellable = true)
+    private void replaceSkinCapeIfNeeded(CallbackInfoReturnable<PlayerSkin> cir) {
+        var skin = cir.getReturnValue();
+
+        if (Objects.equals(DEV_CAPE, skin.capeTexture()) && !CapeUtils.INSTANCE.useDevCape(profile.getId())) {
+            var playerSkin = new PlayerSkin(skin.texture(), skin.textureUrl(), null, skin.elytraTexture(), skin.model(), skin.secure());;
+
+            this.skinLookup = () -> playerSkin;
+            cir.setReturnValue(playerSkin);
         }
     }
 }
