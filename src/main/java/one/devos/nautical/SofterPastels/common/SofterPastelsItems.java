@@ -1,12 +1,11 @@
 package one.devos.nautical.SofterPastels.common;
 
-import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import one.devos.nautical.SofterPastels.utils.CandyTooltipItem;
 
 import static one.devos.nautical.SofterPastels.utils.Register.*;
+import static one.devos.nautical.SofterPastels.utils.helpers.Food.*;
 
 public class SofterPastelsItems {
     public static final CandyTooltipItem WHITE_TAFFY = registerTaffy("white_taffy", MobEffects.INVISIBILITY, 30);
@@ -69,28 +68,29 @@ public class SofterPastelsItems {
     public static final CandyTooltipItem BLACK_COTTON_CANDY = registerCottonCandy("black_cotton_candy");
     public static final CandyTooltipItem BLACK_HARD_CANDY = registerHardCandy("black_hard_candy");
 
-    public static final Item COTTON_CANDY_ICE_CREAM = registerItem("cotton_candy_ice_cream", new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
-    public static final Item CHOCOLATE_ICE_CREAM = registerItem("chocolate_ice_cream", new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
-    public static final Item STRAWBERRY_ICE_CREAM = registerItem("strawberry_ice_cream", new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
-    public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(5).build())));
+    public static final Item COTTON_CANDY_ICE_CREAM = registerIceCream("cotton_candy_ice_cream");
+    public static final Item CHOCOLATE_ICE_CREAM = registerIceCream("chocolate_ice_cream");
+    public static final Item STRAWBERRY_ICE_CREAM = registerIceCream("strawberry_ice_cream");
+    public static final Item VANILLA_ICE_CREAM = registerIceCream("vanilla_ice_cream");
 
-    public static final Item WHITE_POWDER = registerItem("white_powder", new Item(new Item.Properties()));
-    public static final Item LIGHT_RED_POWDER = registerItem("light_red_powder", new Item(new Item.Properties()));
-    public static final Item RED_POWDER = registerItem("red_powder", new Item(new Item.Properties()));
-    public static final Item ORANGE_POWDER = registerItem("orange_powder", new Item(new Item.Properties()));
-    public static final Item YELLOW_POWDER = registerItem("yellow_powder", new Item(new Item.Properties()));
-    public static final Item LIGHT_GREEN_POWDER = registerItem("light_green_powder", new Item(new Item.Properties()));
-    public static final Item GREEN_POWDER = registerItem("green_powder", new Item(new Item.Properties()));
-    public static final Item LIGHT_BLUE_POWDER = registerItem("light_blue_powder", new Item(new Item.Properties()));
-    public static final Item BLUE_POWDER = registerItem("blue_powder", new Item(new Item.Properties()));
-    public static final Item PURPLE_POWDER = registerItem("purple_powder", new Item(new Item.Properties()));
-    public static final Item MAGENTA_POWDER = registerItem("magenta_powder", new Item(new Item.Properties()));
-    public static final Item BROWN_POWDER = registerItem("brown_powder", new Item(new Item.Properties()));
-    public static final Item BLACK_POWDER = registerItem("black_powder", new Item(new Item.Properties()));
-    public static final Item LIGHT_GRAY_POWDER = registerItem("light_gray_powder", new Item(new Item.Properties()));
-    public static final Item GRAY_POWDER = registerItem("gray_powder", new Item(new Item.Properties()));
+    public static final Item WHITE_POWDER = registerRegularItem("white_powder");
+    public static final Item LIGHT_RED_POWDER = registerRegularItem("light_red_powder");
+    public static final Item RED_POWDER = registerRegularItem("red_powder");
+    public static final Item ORANGE_POWDER = registerRegularItem("orange_powder");
+    public static final Item YELLOW_POWDER = registerRegularItem("yellow_powder");
+    public static final Item LIGHT_GREEN_POWDER = registerRegularItem("light_green_powder");
+    public static final Item LIGHT_BLUE_POWDER = registerRegularItem("light_blue_powder");
+    public static final Item GREEN_POWDER = registerRegularItem("green_powder");
+    public static final Item BLUE_POWDER = registerRegularItem("blue_powder");
+    public static final Item PURPLE_POWDER = registerRegularItem("purple_powder");
+    public static final Item MAGENTA_POWDER = registerRegularItem("magenta_powder");
+    public static final Item BROWN_POWDER = registerRegularItem("brown_powder");
+    public static final Item BLACK_POWDER = registerRegularItem("black_powder");
+    public static final Item LIGHT_GRAY_POWDER = registerRegularItem("light_gray_powder");
+    public static final Item GRAY_POWDER = registerRegularItem("gray_powder");
 
-    public static final Item POWDER = registerItem("powder", new Item(new Item.Properties()));
+    public static final Item POWDER = registerRegularItem("powder");
 
-    public static void init() { }
+    public static void init() {
+    }
 }

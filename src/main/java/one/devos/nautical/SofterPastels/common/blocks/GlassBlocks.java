@@ -6,12 +6,11 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.StainedGlassBlock;
 import net.minecraft.world.level.block.StainedGlassPaneBlock;
-import net.minecraft.world.level.block.TintedGlassBlock;
 import net.minecraft.world.level.material.MapColor;
 
 import static net.minecraft.world.level.block.Blocks.WHITE_STAINED_GLASS;
-import static one.devos.nautical.SofterPastels.utils.Register.registerGlassBlock;
-import static one.devos.nautical.SofterPastels.utils.Register.registerGlassBlockItem;
+import static one.devos.nautical.SofterPastels.utils.helpers.Blocks.registerGlassBlock;
+import static one.devos.nautical.SofterPastels.utils.helpers.Blocks.registerGlassBlockItem;
 
 public class GlassBlocks {
     // Glass is a special child and i have to call each one manually elsewhere soooooooooo - originally stereo
