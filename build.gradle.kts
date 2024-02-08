@@ -16,6 +16,7 @@ version = getModVersion()
 archivesName.set(property("archives_base_name")!! as String)
 
 repositories {
+    maven { url = uri("https://mvn.devos.one/snapshots") }
     maven { url = uri("https://maven.terraformersmc.com") }
     maven { url = uri("https://api.modrinth.com/maven") }
     maven { url = uri("https://maven.parchmentmc.org") }
@@ -40,6 +41,7 @@ dependencies {
     modLocalRuntime(libs.bundles.dev.mods)
 
     include(modImplementation("net.devtech:arrp:0.6.7")!!)
+    include(modImplementation("gay.asoji:fmw:1.0.0+build.2")!!)
 }
 
 // Write the version to the fabric.mod.json

@@ -1,5 +1,6 @@
 package one.devos.nautical.SofterPastels;
 
+import gay.asoji.fmw.FMW;
 import net.devtech.arrp.api.RRPCallback;
 import net.devtech.arrp.api.RuntimeResourcePack;
 import net.fabricmc.api.ModInitializer;
@@ -22,8 +23,8 @@ import org.apache.logging.log4j.Logger;
 
 public class SofterPastels implements ModInitializer {
     public static final String MOD_ID = "softerpastels";
-    public static final String VERSION = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getVersion().getFriendlyString();
-    public static final String MOD_NAME = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getName();
+    public static final String VERSION = FMW.getVersionString(MOD_ID);
+    public static final String MOD_NAME = FMW.getName(MOD_ID);
     public static final RuntimeResourcePack RUNTIME_RESOURCE_PACK = RuntimeResourcePack.create(new ResourceLocation(MOD_ID, "arrp"));
 
     public static final Logger LOGGER = LogManager.getLogger(MOD_NAME);
