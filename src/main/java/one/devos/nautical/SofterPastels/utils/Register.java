@@ -7,6 +7,10 @@ import net.devtech.arrp.json.recipe.*;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -18,27 +22,6 @@ import one.devos.nautical.SofterPastels.common.SofterPastelsItems;
 import static one.devos.nautical.SofterPastels.SofterPastels.MOD_ID;
 
 public class Register {
-    public static Block registerBlock(String name, Block block, int tab) {
-        Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new Item.Properties()));
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
-    }
-
-    public static Block registerGlassBlock(String name, Block block) {
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
-    }
-
-    public static BlockItem registerGlassBlockItem(String name, Block block) {
-        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, new Item.Properties()));
-    }
-
-    public static Item registerItem(String name, Item item) {
-        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), item);
-    }
-
-    public static BlockItem registerBlockItem(String name, Block block, int tab, Item.Properties properties) {
-        return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(MOD_ID, name), new BlockItem(block, properties));
-    }
-
     // Recipe Datagen
     public static byte[] registerPowderBaseRecipe(String recipeName, Item ingredientItem) {
         return SofterPastels.RUNTIME_RESOURCE_PACK.addRecipe(new ResourceLocation(MOD_ID, recipeName), JRecipe.shapeless(

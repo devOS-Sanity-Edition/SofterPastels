@@ -8,7 +8,7 @@ joml = "1.10.5"
 sodium = "mc1.20.4-0.5.8"
 
 mod_menu = "9.0.0"
-arrp = "0.6.7"
+arrp = "0.8.1"
 emi = "1.1.0+1.20.4"
 
 [libraries]
@@ -27,7 +27,6 @@ emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
 [bundles]
 dev_mods = [ "joml", "sodium", "emi" ]
 dependencies = [ "mod_menu", "arrp" ]
-
 
 [plugins]
 fabric_loom = { id = "fabric-loom", version = "1.5-SNAPSHOT" }
