@@ -9,7 +9,7 @@ import one.devos.nautical.SofterPastels.utils.CandyTooltipItem;
 import static one.devos.nautical.SofterPastels.utils.SecondsToTicks.SecondsToTicks;
 import static one.devos.nautical.SofterPastels.utils.helpers.Items.registerItem;
 
-public class Food {
+public class Foods {
     public static CandyTooltipItem registerCandy(String name, int nutrition, int saturation, MobEffect effect, int amplifier, int seconds) {
         return (CandyTooltipItem) registerItem(name, new CandyTooltipItem(new Item.Properties().food(new FoodProperties.Builder()
                 .nutrition(nutrition)

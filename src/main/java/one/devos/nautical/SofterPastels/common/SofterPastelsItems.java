@@ -4,8 +4,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import one.devos.nautical.SofterPastels.utils.CandyTooltipItem;
 
-import static one.devos.nautical.SofterPastels.utils.Register.*;
-import static one.devos.nautical.SofterPastels.utils.helpers.Food.*;
+import static one.devos.nautical.SofterPastels.utils.helpers.Foods.*;
 
 public class SofterPastelsItems {
     public static final CandyTooltipItem WHITE_TAFFY = registerTaffy("white_taffy", MobEffects.INVISIBILITY, 30);

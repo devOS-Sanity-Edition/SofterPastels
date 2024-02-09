@@ -13,7 +13,6 @@ import static one.devos.nautical.SofterPastels.utils.helpers.Blocks.registerGlas
 import static one.devos.nautical.SofterPastels.utils.helpers.Blocks.registerGlassBlockItem;
 
 public class GlassBlocks {
-    // Glass is a special child and i have to call each one manually elsewhere soooooooooo - originally stereo
     public static final Block WHITE_GLASS = registerGlassBlock("white_glass", new StainedGlassBlock(DyeColor.WHITE, FabricBlockSettings.copyOf(WHITE_STAINED_GLASS)));
     public static final Block WHITE_GLASS_PANE = registerGlassBlock("white_glass_pane", new StainedGlassPaneBlock(DyeColor.WHITE, FabricBlockSettings.copyOf(WHITE_STAINED_GLASS).mapColor(DyeColor.WHITE)));
     public static final BlockItem WHITE_GLASS_ITEM = registerGlassBlockItem("white_glass", WHITE_GLASS);
