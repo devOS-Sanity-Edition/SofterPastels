@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "softerpastels:item/chocolate_ice_cream"
-	}
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "softerpastels:item/chocolate_ice_cream"
+  }
 }

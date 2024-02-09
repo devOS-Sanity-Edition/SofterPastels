@@ -1,13 +1,13 @@
 {
-    "variants": {
-        "type=bottom": {
-            "model": "softerpastels:block/light_red_slab"
-        },
-        "type=double": {
-            "model": "softerpastels:block/light_red"
-        },
-        "type=top": {
-            "model": "softerpastels:block/light_red_slab_top"
-        }
+  "variants": {
+    "type=bottom": {
+      "model": "softerpastels:block/light_red_slab"
+    },
+    "type=double": {
+      "model": "softerpastels:block/light_red"
+    },
+    "type=top": {
+      "model": "softerpastels:block/light_red_slab_top"
     }
+  }
 }

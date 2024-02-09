@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "softerpastels:block/magenta_wool"
-    }
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "softerpastels:block/magenta_wool"
+  }
 }

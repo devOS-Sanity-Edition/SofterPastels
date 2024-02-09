@@ -1,6 +1,6 @@
 {
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "softerpastels:item/light_blue_powder"
-    }
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "softerpastels:item/light_blue_powder"
+  }
 }

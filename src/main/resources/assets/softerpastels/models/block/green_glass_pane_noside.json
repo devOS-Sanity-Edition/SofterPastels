@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/template_glass_pane_noside",
-    "textures": {
-        "pane": "softerpastels:block/green_glass"
-    }
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "softerpastels:block/green_glass"
+  }
 }

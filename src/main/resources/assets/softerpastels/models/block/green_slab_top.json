@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/slab_top",
-    "textures": {
-        "top": "softerpastels:block/green",
-        "bottom": "softerpastels:block/green",
-        "side": "softerpastels:block/green"
-    }
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "top": "softerpastels:block/green",
+    "bottom": "softerpastels:block/green",
+    "side": "softerpastels:block/green"
+  }
 }

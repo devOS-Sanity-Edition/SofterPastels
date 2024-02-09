@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/slab_top",
-    "textures": {
-        "top": "softerpastels:block/blue",
-        "bottom": "softerpastels:block/blue",
-        "side": "softerpastels:block/blue"
-    }
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "top": "softerpastels:block/blue",
+    "bottom": "softerpastels:block/blue",
+    "side": "softerpastels:block/blue"
+  }
 }
