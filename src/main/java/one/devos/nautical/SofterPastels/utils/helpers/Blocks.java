@@ -1,5 +1,6 @@
 package one.devos.nautical.SofterPastels.utils.helpers;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -24,8 +25,12 @@ public class Blocks {
         return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
     }
 
-    public static Block registerGlassBlock(String name, Block block) {
-        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), block);
+    public static Block registerGlassBlock(String name, DyeColor dyeColor) {
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), new StainedGlassBlock(dyeColor, FabricBlockSettings.copyOf(WHITE_STAINED_GLASS).mapColor(dyeColor)));
+    }
+
+    public static Block registerGlassPaneBlock(String name, DyeColor dyeColor) {
+        return Registry.register(BuiltInRegistries.BLOCK, new ResourceLocation(MOD_ID, name), new StainedGlassPaneBlock(dyeColor, FabricBlockSettings.copyOf(WHITE_STAINED_GLASS).mapColor(dyeColor)));
     }
 
     public static BlockItem registerGlassBlockItem(String name, Block block) {
