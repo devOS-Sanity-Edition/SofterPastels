@@ -24,7 +24,7 @@ enum class CapeUtils {
         refresh()
     }
 
-    fun refresh() {
+    private fun refresh() {
         CompletableFuture.runAsync {
             val client = HttpClient.newHttpClient()
             val request = HttpRequest.newBuilder(URI.create(url))

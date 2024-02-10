@@ -7,6 +7,7 @@ plugins {
 
     alias(libs.plugins.grgit)
     alias(libs.plugins.fabric.loom)
+    alias(libs.plugins.dokka)
 }
 
 val archivesBaseName = project.property("archives_base_name").toString()

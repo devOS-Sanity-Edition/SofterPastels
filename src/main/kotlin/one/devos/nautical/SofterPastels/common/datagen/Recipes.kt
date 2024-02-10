@@ -42,7 +42,7 @@ object Recipes {
         Register.registerColoredPowderRecipe("gray_powder", Items.GRAY_DYE, SofterPastelsItems.GRAY_POWDER)
         Register.registerColoredPowderRecipe("black_powder", Items.BLACK_DYE, SofterPastelsItems.BLACK_POWDER)
 
-        // Pastel Powder Blocks.kt
+        // Pastel Powder Block
         Register.registerPowderBlockRecipe(
             "white_powder_block",
             SofterPastelsItems.WHITE_POWDER,

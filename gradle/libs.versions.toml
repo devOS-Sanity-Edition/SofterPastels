@@ -33,3 +33,4 @@ dependencies = [ "mod_menu", "arrp" ]
 [plugins]
 fabric_loom = { id = "fabric-loom", version = "1.5-SNAPSHOT" }
 grgit = { id = "org.ajoberstar.grgit", version = "5.0.0-rc.3" }
+dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }

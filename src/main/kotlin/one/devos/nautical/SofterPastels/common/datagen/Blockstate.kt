@@ -4,7 +4,7 @@ import one.devos.nautical.SofterPastels.utils.Register
 
 object Blockstate {
     fun init() {
-        // Powered Blocks.kt
+        // Powered Block
         Register.registerBlockState("white_powder_block", "white_pastel_powder_block")
         Register.registerBlockState("light_red_powder_block", "light_red_pastel_powder_block")
         Register.registerBlockState("red_powder_block", "red_pastel_powder_block")
@@ -21,7 +21,7 @@ object Blockstate {
         Register.registerBlockState("gray_powder_block", "gray_pastel_powder_block")
         Register.registerBlockState("black_powder_block", "black_pastel_powder_block")
 
-        // Blocks.kt
+        // Block
         Register.registerBlockState("white", "white_pastel_block")
         Register.registerBlockState("light_red", "light_red_pastel_block")
         Register.registerBlockState("red", "red_pastel_block")
