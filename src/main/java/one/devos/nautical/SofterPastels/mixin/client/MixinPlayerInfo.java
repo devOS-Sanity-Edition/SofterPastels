@@ -25,16 +25,16 @@ import java.util.function.Supplier;
 
 @Mixin(value = PlayerInfo.class, priority = 1100)
 public class MixinPlayerInfo {
+    private static ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
     @Shadow
     @Final
     private GameProfile profile;
-
     @Mutable
-    @Shadow @Final private Supplier<PlayerSkin> skinLookup;
+    @Shadow
+    @Final
+    private Supplier<PlayerSkin> skinLookup;
     @Unique
     private boolean softerpastels$texturesLoaded;
-
-    private static ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
 
     @Inject(method = "<init>", at = @At("TAIL"))
     private void replaceSkinInfoIfNeeded(GameProfile gameProfile, boolean bl, CallbackInfo ci) {
@@ -53,7 +53,8 @@ public class MixinPlayerInfo {
         var skin = cir.getReturnValue();
 
         if (Objects.equals(DEV_CAPE, skin.capeTexture()) && !CapeUtils.INSTANCE.useDevCape(profile.getId())) {
-            var playerSkin = new PlayerSkin(skin.texture(), skin.textureUrl(), null, skin.elytraTexture(), skin.model(), skin.secure());;
+            var playerSkin = new PlayerSkin(skin.texture(), skin.textureUrl(), null, skin.elytraTexture(), skin.model(), skin.secure());
+            ;
 
             this.skinLookup = () -> playerSkin;
             cir.setReturnValue(playerSkin);

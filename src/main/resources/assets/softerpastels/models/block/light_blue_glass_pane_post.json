@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:block/template_glass_pane_post",
-    "textures": {
-        "pane": "softerpastels:block/light_blue_glass",
-        "edge": "softerpastels:block/light_blue_glass_pane_top"
-    }
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "softerpastels:block/light_blue_glass",
+    "edge": "softerpastels:block/light_blue_glass_pane_top"
+  }
 }

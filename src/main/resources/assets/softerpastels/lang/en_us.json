@@ -14,7 +14,6 @@
   "block.softerpastels.black_pastel_block": "Black Pastel Block",
   "block.softerpastels.brown_pastel_block": "Brown Pastel Block",
   "block.softerpastels.white_pastel_block": "White Pastel Block",
-
   "block.softerpastels.light_red_pastel_powder_block": "Light Red Pastel Powder Block",
   "block.softerpastels.red_pastel_powder_block": "Red Pastel Powder Block",
   "block.softerpastels.orange_pastel_powder_block": "Orange Pastel Powder Block",
@@ -30,7 +29,6 @@
   "block.softerpastels.black_pastel_powder_block": "Black Pastel Powder Block",
   "block.softerpastels.brown_pastel_powder_block": "Brown Pastel Powder Block",
   "block.softerpastels.white_pastel_powder_block": "White Pastel Powder Block",
-
   "block.softerpastels.light_red_fence": "Light Red Pastel Fence",
   "block.softerpastels.red_fence": "Red Pastel Fence",
   "block.softerpastels.orange_fence": "Orange Pastel Fence",
@@ -46,7 +44,6 @@
   "block.softerpastels.gray_fence": "Gray Pastel Fence",
   "block.softerpastels.white_fence": "White Pastel Fence",
   "block.softerpastels.brown_fence": "Brown Pastel Fence",
-
   "block.softerpastels.light_red_fence_gate": "Light Red Pastel Fence Gate",
   "block.softerpastels.red_fence_gate": "Red Pastel Fence Gate",
   "block.softerpastels.orange_fence_gate": "Orange Pastel Fence Gate",
@@ -62,7 +59,6 @@
   "block.softerpastels.gray_fence_gate": "Gray Pastel Fence Gate",
   "block.softerpastels.white_fence_gate": "White Pastel Fence Gate",
   "block.softerpastels.brown_fence_gate": "Brown Pastel Fence Gate",
-
   "block.softerpastels.light_red_wall": "Light Red Pastel Wall",
   "block.softerpastels.red_wall": "Red Pastel Wall",
   "block.softerpastels.orange_wall": "Orange Pastel Wall",
@@ -78,7 +74,6 @@
   "block.softerpastels.gray_wall": "Gray Pastel Wall",
   "block.softerpastels.white_wall": "White Pastel Wall",
   "block.softerpastels.brown_wall": "Brown Pastel Wall",
-
   "block.softerpastels.light_red_glass": "Light Red Pastel Glass",
   "block.softerpastels.red_glass": "Red Pastel Glass",
   "block.softerpastels.orange_glass": "Orange Pastel Glass",
@@ -94,7 +89,6 @@
   "block.softerpastels.gray_glass": "Gray Pastel Glass",
   "block.softerpastels.white_glass": "White Pastel Glass",
   "block.softerpastels.brown_glass": "Brown Pastel Glass",
-
   "block.softerpastels.light_red_glass_pane": "Light Red Pastel Glass Pane",
   "block.softerpastels.red_glass_pane": "Red Pastel Glass Pane",
   "block.softerpastels.orange_glass_pane": "Orange Pastel Glass Pane",
@@ -110,7 +104,6 @@
   "block.softerpastels.gray_glass_pane": "Gray Pastel Glass Pane",
   "block.softerpastels.white_glass_pane": "White Pastel Glass Pane",
   "block.softerpastels.brown_glass_pane": "Brown Pastel Glass Pane",
-
   "block.softerpastels.light_red_slab": "Light Red Pastel Slab",
   "block.softerpastels.red_slab": "Red Pastel Slab",
   "block.softerpastels.orange_slab": "Orange Pastel Slab",
@@ -126,7 +119,6 @@
   "block.softerpastels.gray_slab": "Gray Pastel Slab",
   "block.softerpastels.white_slab": "White Pastel Slab",
   "block.softerpastels.brown_slab": "Brown Pastel Slab",
-
   "block.softerpastels.light_red_stairs": "Light Red Pastel Stairs",
   "block.softerpastels.red_stairs": "Red Pastel Stairs",
   "block.softerpastels.orange_stairs": "Orange Pastel Stairs",
@@ -142,7 +134,6 @@
   "block.softerpastels.gray_stairs": "Gray Pastel Stairs",
   "block.softerpastels.white_stairs": "White Pastel Stairs",
   "block.softerpastels.brown_stairs": "Brown Pastel Stairs",
-
   "block.softerpastels.light_red_wool": "Light Red Pastel Wool",
   "block.softerpastels.red_wool": "Red Pastel Wool",
   "block.softerpastels.orange_wool": "Orange Pastel Wool",
@@ -158,7 +149,6 @@
   "block.softerpastels.gray_wool": "Gray Pastel Wool",
   "block.softerpastels.white_wool": "White Pastel Wool",
   "block.softerpastels.brown_wool": "Brown Pastel Wool",
-
   "block.softerpastels.light_red_carpet": "Light Red Pastel Carpet",
   "block.softerpastels.red_carpet": "Red Pastel Carpet",
   "block.softerpastels.orange_carpet": "Orange Pastel Carpet",
@@ -174,7 +164,6 @@
   "block.softerpastels.gray_carpet": "Gray Pastel Carpet",
   "block.softerpastels.white_carpet": "White Pastel Carpet",
   "block.softerpastels.brown_carpet": "Brown Pastel Carpet",
-
   "block.softerpastels.light_red_light": "Light Red Pastel Light",
   "block.softerpastels.red_light": "Red Pastel Light",
   "block.softerpastels.orange_light": "Orange Pastel Light",
@@ -190,18 +179,14 @@
   "block.softerpastels.gray_light": "Gray Pastel Light",
   "block.softerpastels.white_light": "White Pastel Light",
   "block.softerpastels.brown_light": "Brown Pastel Light",
-
   "item.softerpastels.peanut": "Peanut",
   "item.softerpastels.peanut_choker": "Peanut Brittle",
   "item.softerpastels.peanut_butter": "Peanut Butter",
-
   "item.softerpastels.cotton_candy_ice_cream": "Cotton Candy Ice Cream",
   "item.softerpastels.vanilla_ice_cream": "Vanilla Ice Cream",
   "item.softerpastels.strawberry_ice_cream": "Strawberry Ice Cream",
-
   "item.softerpastels.candies.hunger.description": "§61.0 x Hunger",
   "item.softerpastels.candies.hunger.alwayseat": "§aYou can always gulp these down!",
-
   "item.softerpastels.white_taffy": "White Taffy",
   "item.softerpastels.light_red_taffy": "Light Red Taffy",
   "item.softerpastels.red_taffy": "Red Taffy",
@@ -217,7 +202,6 @@
   "item.softerpastels.light_gray_taffy": "Light Gray Taffy",
   "item.softerpastels.gray_taffy": "Gray Taffy",
   "item.softerpastels.black_taffy": "Black Taffy",
-
   "item.softerpastels.white_cotton_candy": "White Cotton Candy",
   "item.softerpastels.light_red_cotton_candy": "Light Red Cotton Candy",
   "item.softerpastels.red_cotton_candy": "Red Cotton Candy",
@@ -233,7 +217,6 @@
   "item.softerpastels.light_gray_cotton_candy": "Light Gray Cotton Candy",
   "item.softerpastels.gray_cotton_candy": "Gray Cotton Candy",
   "item.softerpastels.black_cotton_candy": "Black Cotton Candy",
-
   "item.softerpastels.white_hard_candy": "White Hard Candy",
   "item.softerpastels.light_red_hard_candy": "Light Red Hard Candy",
   "item.softerpastels.red_hard_candy": "Red Hard Candy",
@@ -249,7 +232,6 @@
   "item.softerpastels.light_gray_hard_candy": "Light Gray Hard Candy",
   "item.softerpastels.gray_hard_candy": "Gray Hard Candy",
   "item.softerpastels.black_hard_candy": "Black Hard Candy",
-
   "item.softerpastels.white_powder": "White Pastel Powder",
   "item.softerpastels.light_red_powder": "Light Red Pastel Powder",
   "item.softerpastels.red_powder": "Red Pastel Powder",
@@ -265,11 +247,8 @@
   "item.softerpastels.light_gray_powder": "Light Gray Pastel Powder",
   "item.softerpastels.gray_powder": "Gray Pastel Powder",
   "item.softerpastels.black_powder": "Black Pastel Powder",
-
   "item.softerpastels.powder": "Pastel Powder",
-
   "itemGroup.softerpastels": "Softer Pastels",
-
   "advancement.softerpastels.root.title": "Softer Pastels",
   "advancement.softerpastels.root.description": "The start of some softer, pastel colored items and blocks!",
   "advancement.softerpastels.pastel_powder_blocks.title": "Colorful Condensed Powders",
@@ -286,8 +265,6 @@
   "advancement.softerpastels.regretful_candy.description": "Yeah... that probably made you feel a bit of dread huh...",
   "advancement.softerpastels.luck_too_long.title": "Lucky Bites?",
   "advancement.softerpastels.luck_too_long.description": "Well... at least you get to feel lucky for 24 minutes.",
-
-
   "architecture_extensions.grouped_block.softerpastels.white": "White Pastel",
   "architecture_extensions.grouped_block.softerpastels.light_red": "Light Red Pastel",
   "architecture_extensions.grouped_block.softerpastels.red": "Red Pastel",
@@ -303,7 +280,6 @@
   "architecture_extensions.grouped_block.softerpastels.light_gray": "Light Gray Pastel",
   "architecture_extensions.grouped_block.softerpastels.gray": "Gray Pastel",
   "architecture_extensions.grouped_block.softerpastels.black": "Black Pastel",
-
   "architecture_extensions.grouped_block.softerpastels.white_pastel_powder": "White Pastel Powder",
   "architecture_extensions.grouped_block.softerpastels.light_red_pastel_powder": "Light Red Pastel Powder",
   "architecture_extensions.grouped_block.softerpastels.red_pastel_powder": "Red Pastel Powder",
@@ -319,7 +295,6 @@
   "architecture_extensions.grouped_block.softerpastels.light_gray_pastel_powder": "Light Gray Pastel Powder",
   "architecture_extensions.grouped_block.softerpastels.gray_pastel_powder": "Gray Pastel Powder",
   "architecture_extensions.grouped_block.softerpastels.black_pastel_powder": "Black Pastel Powder",
-
   "architecture_extensions.grouped_block.softerpastels.white_wool": "White Pastel Wool",
   "architecture_extensions.grouped_block.softerpastels.light_red_wool": "Light Red Pastel Wool",
   "architecture_extensions.grouped_block.softerpastels.red_wool": "Red Pastel Wool",
@@ -335,7 +310,6 @@
   "architecture_extensions.grouped_block.softerpastels.light_gray_wool": "Light Gray Pastel Wool",
   "architecture_extensions.grouped_block.softerpastels.gray_wool": "Gray Pastel Wool",
   "architecture_extensions.grouped_block.softerpastels.black_wool": "Black Pastel Wool",
-
   "architecture_extensions.grouped_block.softerpastels.white_light": "White Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.light_red_light": "Light Red Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.red_light": "Red Pastel Light",
@@ -351,7 +325,6 @@
   "architecture_extensions.grouped_block.softerpastels.light_gray_light": "Light Gray Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.gray_light": "Gray Pastel Light",
   "architecture_extensions.grouped_block.softerpastels.black_light": "Black Pastel Light",
-
   "architecture_extensions.grouped_block.softerpastels.white_glass": "White Pastel Glass",
   "architecture_extensions.grouped_block.softerpastels.light_red_glass": "Light Red Pastel Glass",
   "architecture_extensions.grouped_block.softerpastels.red_glass": "Red Pastel Glass",

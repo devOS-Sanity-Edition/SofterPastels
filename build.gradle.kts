@@ -7,6 +7,7 @@ plugins {
 
     alias(libs.plugins.grgit)
     alias(libs.plugins.fabric.loom)
+    alias(libs.plugins.dokka)
 }
 
 val archivesBaseName = project.property("archives_base_name").toString()
@@ -35,6 +36,7 @@ dependencies {
     //Fabric
     modImplementation(libs.fabric.loader)
     modImplementation(libs.fabric.api)
+    modImplementation(libs.fabric.language.kotlin)
 
     //Mods
     modImplementation(libs.bundles.dependencies)
@@ -105,6 +107,30 @@ publishing {
                 username = System.getenv()["MAVEN_USER"]
                 password = System.getenv()["MAVEN_PASS"]
             }
+        }
+    }
+}
+
+loom {
+    runs {
+        create("datagen") {
+            client()
+            name("Data Generation")
+            vmArgs(
+                    "-Dfabric-api.datagen",
+                    "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
+                    "-Dfabric-api.datagen.modid=${project.extra["mod_id"] as String}"
+            )
+            runDir("build/datagen")
+        }
+    }
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir("src/main/generated")
+            exclude("src/main/generated/.cache")
         }
     }
 }

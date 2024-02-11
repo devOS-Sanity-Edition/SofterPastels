@@ -1,15 +1,26 @@
 {
-	"only_if_present": "softerpastels",
-	"name": "magenta_light",
-	"base_block": "softerpastels:magenta_light",
-	"textures": "softerpastels:block/magenta_light",
-	"recipes": "stonecutting",
-	"map_color": "magenta",
-	"types_to_generate": [
-		"arch", "wall_column", "roof", "wall_post", 
-		"facade", "round_fence_post", "round_arch", 
-		"octagonal_column", "beam", "fence_post", 
-		"joist", "crown_molding", "post_cap", "post_lantern", 
-		"lattice", "transom"
-	]
+  "only_if_present": "softerpastels",
+  "name": "magenta_light",
+  "base_block": "softerpastels:magenta_light",
+  "textures": "softerpastels:block/magenta_light",
+  "recipes": "stonecutting",
+  "map_color": "magenta",
+  "types_to_generate": [
+    "arch",
+    "wall_column",
+    "roof",
+    "wall_post",
+    "facade",
+    "round_fence_post",
+    "round_arch",
+    "octagonal_column",
+    "beam",
+    "fence_post",
+    "joist",
+    "crown_molding",
+    "post_cap",
+    "post_lantern",
+    "lattice",
+    "transom"
+  ]
 }

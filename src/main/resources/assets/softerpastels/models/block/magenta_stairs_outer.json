@@ -1,8 +1,8 @@
 {
-    "parent": "minecraft:block/outer_stairs",
-    "textures": {
-        "bottom": "softerpastels:block/magenta",
-        "top": "softerpastels:block/magenta",
-        "side": "softerpastels:block/magenta"
-    }
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "softerpastels:block/magenta",
+    "top": "softerpastels:block/magenta",
+    "side": "softerpastels:block/magenta"
+  }
 }

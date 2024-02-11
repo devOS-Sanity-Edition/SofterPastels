@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/wall_inventory",
-    "textures": {
-        "wall": "softerpastels:block/blue"
-    }
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "softerpastels:block/blue"
+  }
 }

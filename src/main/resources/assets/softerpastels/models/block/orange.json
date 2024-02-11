@@ -1,6 +1,6 @@
 {
-    "parent": "block/cube_all",
-    "textures": {
-      "all": "softerpastels:block/orange"
-    }
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "softerpastels:block/orange"
   }
+}

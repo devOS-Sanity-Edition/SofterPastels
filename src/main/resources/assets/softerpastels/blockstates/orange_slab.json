@@ -1,13 +1,13 @@
 {
-    "variants": {
-        "type=bottom": {
-            "model": "softerpastels:block/orange_slab"
-        },
-        "type=double": {
-            "model": "softerpastels:block/orange"
-        },
-        "type=top": {
-            "model": "softerpastels:block/orange_slab_top"
-        }
+  "variants": {
+    "type=bottom": {
+      "model": "softerpastels:block/orange_slab"
+    },
+    "type=double": {
+      "model": "softerpastels:block/orange"
+    },
+    "type=top": {
+      "model": "softerpastels:block/orange_slab_top"
     }
+  }
 }

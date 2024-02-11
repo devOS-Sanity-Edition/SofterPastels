@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:block/template_glass_pane_side_alt",
-    "textures": {
-        "pane": "softerpastels:block/light_gray_glass",
-        "edge": "softerpastels:block/light_gray_glass_pane_top"
-    }
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "pane": "softerpastels:block/light_gray_glass",
+    "edge": "softerpastels:block/light_gray_glass_pane_top"
+  }
 }
