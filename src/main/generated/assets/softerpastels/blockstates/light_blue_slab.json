@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "softerpastels:block/light_blue_slab"
+    },
+    "type=double": {
+      "model": "softerpastels:block/light_blue_pastel_block"
+    },
+    "type=top": {
+      "model": "softerpastels:block/light_blue_slab_top"
+    }
+  }
+}

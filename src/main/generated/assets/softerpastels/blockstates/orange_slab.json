@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "softerpastels:block/orange_slab"
+    },
+    "type=double": {
+      "model": "softerpastels:block/orange_pastel_block"
+    },
+    "type=top": {
+      "model": "softerpastels:block/orange_slab_top"
+    }
+  }
+}

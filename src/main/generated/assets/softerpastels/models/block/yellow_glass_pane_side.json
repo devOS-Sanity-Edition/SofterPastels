@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "softerpastels:block/yellow_glass_pane_top",
+    "pane": "softerpastels:block/yellow_glass"
+  }
+}

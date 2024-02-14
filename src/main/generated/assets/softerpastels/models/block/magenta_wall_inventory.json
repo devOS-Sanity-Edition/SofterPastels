@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "softerpastels:block/magenta_pastel_block"
+  }
+}
