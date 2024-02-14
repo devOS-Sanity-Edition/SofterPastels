@@ -14,9 +14,9 @@ import net.minecraft.world.item.ItemStack
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems
 import one.devos.nautical.SofterPastels.common.SofterPastelsTab
-import one.devos.nautical.SofterPastels.common.datagen.Blockstate
-import one.devos.nautical.SofterPastels.common.datagen.LootTables
-import one.devos.nautical.SofterPastels.common.datagen.Recipes
+//import one.devos.nautical.SofterPastels.common.datagen.Blockstate
+//import one.devos.nautical.SofterPastels.common.datagen.LootTables
+//import one.devos.nautical.SofterPastels.common.datagen.Recipes
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 
@@ -24,7 +24,7 @@ object SofterPastels : ModInitializer {
     const val MOD_ID: String = "softerpastels"
     val VERSION: String = FMW.getVersionString(MOD_ID)
     val MOD_NAME: String = FMW.getName(MOD_ID)
-    var RUNTIME_RESOURCE_PACK: RuntimeResourcePack = RuntimeResourcePack.create(ResourceLocation(MOD_ID, "arrp"))
+//    var RUNTIME_RESOURCE_PACK: RuntimeResourcePack = RuntimeResourcePack.create(ResourceLocation(MOD_ID, "arrp"))
 
     val LOGGER: Logger = LogManager.getLogger(MOD_NAME)
 
@@ -48,11 +48,11 @@ object SofterPastels : ModInitializer {
 
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, locate("main"), SP_ITEM_GROUP)
 
-        Blockstate.init()
-        LootTables.init()
-        Recipes.init()
+//        Blockstate.init()
+//        LootTables.init()
+//        Recipes.init()
 
-        RRPCallback.EVENT.register(RRPCallback { a -> a.add(RUNTIME_RESOURCE_PACK) })
+//        RRPCallback.EVENT.register(RRPCallback { a -> a.add(RUNTIME_RESOURCE_PACK) })
 
         LOGGER.info("[${MOD_NAME}] Version ${VERSION} loaded.")
         LOGGER.info("[${MOD_NAME}] Getting ready to load some soft sweet eye candy.")

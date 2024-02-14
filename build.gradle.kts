@@ -133,7 +133,7 @@ loom {
 sourceSets {
     main {
         resources {
-            srcDirs += setOf(file("src/main/generated"))
+            srcDirs("src/main/generated")
             exclude("src/main/generated/.cache")
         }
     }
