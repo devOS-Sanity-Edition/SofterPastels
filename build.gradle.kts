@@ -66,6 +66,10 @@ java {
     targetCompatibility = JavaVersion.VERSION_17
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 tasks.jar {
     archiveFileName.set("${project.property("archives_base_name")}-${version}.jar")
 
@@ -129,7 +133,7 @@ loom {
 sourceSets {
     main {
         resources {
-            srcDir("src/main/generated")
+            srcDirs += setOf(file("src/main/generated"))
             exclude("src/main/generated/.cache")
         }
     }
@@ -159,3 +163,4 @@ fun getModVersion(): String {
     return "${modVersion}-unknown"
 
 }
+

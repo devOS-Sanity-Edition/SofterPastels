@@ -25,7 +25,10 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "one.devos.nautical.SofterPastels.datagen.SofterPastelsDataGenerator"
+      {
+        "adapter": "kotlin",
+        "value": "one.devos.nautical.SofterPastels.datagen.SofterPastelsDataGenerator"
+      }
     ],
     "client": [
       {
