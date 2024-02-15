@@ -1,8 +1,6 @@
 package one.devos.nautical.SofterPastels
 
 import gay.asoji.fmw.FMW
-import net.devtech.arrp.api.RRPCallback
-import net.devtech.arrp.api.RuntimeResourcePack
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.minecraft.core.Registry

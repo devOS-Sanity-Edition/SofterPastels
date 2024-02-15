@@ -404,6 +404,7 @@ object SofterPastelsTab {
         output.accept(SofterPastelsItems.LIGHT_BLUE_POWDER)
         output.accept(SofterPastelsItems.BLUE_POWDER)
         output.accept(SofterPastelsItems.PURPLE_POWDER)
+        output.accept(SofterPastelsItems.MAGENTA_POWDER)
         output.accept(SofterPastelsItems.BROWN_POWDER)
         output.accept(SofterPastelsItems.LIGHT_GRAY_POWDER)
         output.accept(SofterPastelsItems.GRAY_POWDER)

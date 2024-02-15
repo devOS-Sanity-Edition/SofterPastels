@@ -1,3 +1,4 @@
+import net.fabricmc.loom.configuration.providers.minecraft.MinecraftJar.Client
 import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
 
 plugins {
@@ -42,8 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("net.devtech:arrp:0.6.7")!!)
-    include(modImplementation("gay.asoji:fmw:1.0.0+build.2")!!)
+    include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 
 // Write the version to the fabric.mod.json
@@ -121,9 +121,9 @@ loom {
             client()
             name("Data Generation")
             vmArgs(
-                    "-Dfabric-api.datagen",
-                    "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
-                    "-Dfabric-api.datagen.modid=${project.extra["mod_id"] as String}"
+                "-Dfabric-api.datagen",
+                "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
+                "-Dfabric-api.datagen.modid=${project.extra["mod_id"] as String}"
             )
             runDir("build/datagen")
         }

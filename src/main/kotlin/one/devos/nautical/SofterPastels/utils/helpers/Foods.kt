@@ -76,7 +76,5 @@ object Foods {
         )
     }
 
-    fun registerRegularItem(name: String?): Item {
-        return Items.registerItem(name, Item(Item.Properties()))
-    }
+
 }

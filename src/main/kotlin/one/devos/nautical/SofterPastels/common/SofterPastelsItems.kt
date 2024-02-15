@@ -4,6 +4,7 @@ import net.minecraft.world.effect.MobEffects
 import net.minecraft.world.item.Item
 import one.devos.nautical.SofterPastels.utils.CandyTooltipItem
 import one.devos.nautical.SofterPastels.utils.helpers.Foods
+import one.devos.nautical.SofterPastels.utils.helpers.Items
 
 object SofterPastelsItems {
     val WHITE_TAFFY: CandyTooltipItem = Foods.registerTaffy("white_taffy", MobEffects.INVISIBILITY, 30)
@@ -86,23 +87,23 @@ object SofterPastelsItems {
     val STRAWBERRY_ICE_CREAM: Item = Foods.registerIceCream("strawberry_ice_cream")
     val VANILLA_ICE_CREAM: Item = Foods.registerIceCream("vanilla_ice_cream")
 
-    val WHITE_POWDER: Item = Foods.registerRegularItem("white_powder")
-    val LIGHT_RED_POWDER: Item = Foods.registerRegularItem("light_red_powder")
-    val RED_POWDER: Item = Foods.registerRegularItem("red_powder")
-    val ORANGE_POWDER: Item = Foods.registerRegularItem("orange_powder")
-    val YELLOW_POWDER: Item = Foods.registerRegularItem("yellow_powder")
-    val LIGHT_GREEN_POWDER: Item = Foods.registerRegularItem("light_green_powder")
-    val LIGHT_BLUE_POWDER: Item = Foods.registerRegularItem("light_blue_powder")
-    val GREEN_POWDER: Item = Foods.registerRegularItem("green_powder")
-    val BLUE_POWDER: Item = Foods.registerRegularItem("blue_powder")
-    val PURPLE_POWDER: Item = Foods.registerRegularItem("purple_powder")
-    val MAGENTA_POWDER: Item = Foods.registerRegularItem("magenta_powder")
-    val BROWN_POWDER: Item = Foods.registerRegularItem("brown_powder")
-    val BLACK_POWDER: Item = Foods.registerRegularItem("black_powder")
-    val LIGHT_GRAY_POWDER: Item = Foods.registerRegularItem("light_gray_powder")
-    val GRAY_POWDER: Item = Foods.registerRegularItem("gray_powder")
+    val WHITE_POWDER: Item = Items.registerRegularItem("white_powder")
+    val LIGHT_RED_POWDER: Item = Items.registerRegularItem("light_red_powder")
+    val RED_POWDER: Item = Items.registerRegularItem("red_powder")
+    val ORANGE_POWDER: Item = Items.registerRegularItem("orange_powder")
+    val YELLOW_POWDER: Item = Items.registerRegularItem("yellow_powder")
+    val LIGHT_GREEN_POWDER: Item = Items.registerRegularItem("light_green_powder")
+    val LIGHT_BLUE_POWDER: Item = Items.registerRegularItem("light_blue_powder")
+    val GREEN_POWDER: Item = Items.registerRegularItem("green_powder")
+    val BLUE_POWDER: Item = Items.registerRegularItem("blue_powder")
+    val PURPLE_POWDER: Item = Items.registerRegularItem("purple_powder")
+    val MAGENTA_POWDER: Item = Items.registerRegularItem("magenta_powder")
+    val BROWN_POWDER: Item = Items.registerRegularItem("brown_powder")
+    val BLACK_POWDER: Item = Items.registerRegularItem("black_powder")
+    val LIGHT_GRAY_POWDER: Item = Items.registerRegularItem("light_gray_powder")
+    val GRAY_POWDER: Item = Items.registerRegularItem("gray_powder")
 
-    val POWDER: Item = Foods.registerRegularItem("powder")
+    val POWDER: Item = Items.registerRegularItem("powder")
 
     fun init() {
     }

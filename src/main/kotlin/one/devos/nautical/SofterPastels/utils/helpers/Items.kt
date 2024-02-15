@@ -13,6 +13,10 @@ object Items {
         return Registry.register(BuiltInRegistries.ITEM, ResourceLocation(SofterPastels.MOD_ID, name), item)
     }
 
+    fun registerRegularItem(name: String?): Item {
+        return registerItem(name, Item(Item.Properties()))
+    }
+
     fun registerBlockItem(name: String?, block: Block?, tab: Int, properties: Item.Properties?): BlockItem {
         return Registry.register(
             BuiltInRegistries.ITEM,
