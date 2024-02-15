@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
 
-class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTableProvider(dataOutput) {
+class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput) : FabricBlockLootTableProvider(dataOutput) {
     override fun generate() {
         dropSelf(SofterPastelsBlocks.WHITE_PASTEL_BLOCK)
         dropSelf(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK)
@@ -151,21 +151,21 @@ class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput?) : FabricBloc
         dropSelf(SofterPastelsBlocks.GRAY_PASTEL_LIGHT_BLOCK)
         dropSelf(SofterPastelsBlocks.BLACK_PASTEL_LIGHT_BLOCK)
 
-        dropSelf(SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK);
-        dropSelf(SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK);
+        dropSelf(SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK)
+        dropSelf(SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK)
 
         dropWhenSilkTouch(GlassBlocks.WHITE_GLASS)
         dropWhenSilkTouch(GlassBlocks.LIGHT_RED_GLASS)

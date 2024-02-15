@@ -11,9 +11,8 @@ class SofterPastelsBlockTagsProvider(
     output: FabricDataOutput,
     registriesFuture: CompletableFuture<HolderLookup.Provider>
 ) : FabricTagProvider.BlockTagProvider(output, registriesFuture) {
-    companion object {
+    companion object;
 
-    }
     override fun addTags(arg: HolderLookup.Provider) {
         getOrCreateTagBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
             .add(SofterPastelsBlocks.WHITE_PASTEL_BLOCK)

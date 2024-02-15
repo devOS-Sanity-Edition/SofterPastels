@@ -9,19 +9,16 @@ import net.minecraft.world.level.block.Block
 import one.devos.nautical.SofterPastels.SofterPastels
 
 object Items {
-    fun registerItem(name: String?, item: Item): Item {
+    fun registerItem(name: String, item: Item): Item {
         return Registry.register(BuiltInRegistries.ITEM, ResourceLocation(SofterPastels.MOD_ID, name), item)
     }
 
-    fun registerRegularItem(name: String?): Item {
+    fun registerRegularItem(name: String): Item {
         return registerItem(name, Item(Item.Properties()))
     }
 
-    fun registerBlockItem(name: String?, block: Block?, tab: Int, properties: Item.Properties?): BlockItem {
-        return Registry.register(
-            BuiltInRegistries.ITEM,
-            ResourceLocation(SofterPastels.MOD_ID, name),
-            BlockItem(block, properties)
+    fun registerBlockItem(name: String, block: Block, tab: Int, properties: Item.Properties): BlockItem {
+        return Registry.register(BuiltInRegistries.ITEM, ResourceLocation(SofterPastels.MOD_ID, name), BlockItem(block, properties)
         )
     }
 }

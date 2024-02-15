@@ -25,7 +25,7 @@ import java.util.function.Supplier;
 
 @Mixin(value = PlayerInfo.class, priority = 1100)
 public class MixinPlayerInfo {
-    private static ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
+    private static final ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
     @Shadow
     @Final
     private GameProfile profile;
@@ -54,7 +54,6 @@ public class MixinPlayerInfo {
 
         if (Objects.equals(DEV_CAPE, skin.capeTexture()) && !CapeUtils.INSTANCE.useDevCape(profile.getId())) {
             var playerSkin = new PlayerSkin(skin.texture(), skin.textureUrl(), null, skin.elytraTexture(), skin.model(), skin.secure());
-            ;
 
             this.skinLookup = () -> playerSkin;
             cir.setReturnValue(playerSkin);

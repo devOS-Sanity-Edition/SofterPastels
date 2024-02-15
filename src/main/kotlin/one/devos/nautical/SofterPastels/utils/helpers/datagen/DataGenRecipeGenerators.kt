@@ -1,9 +1,12 @@
 package one.devos.nautical.SofterPastels.utils.helpers.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
-import net.minecraft.data.recipes.*
+import net.minecraft.data.recipes.RecipeCategory
+import net.minecraft.data.recipes.RecipeOutput
 import net.minecraft.data.recipes.RecipeProvider.getHasName
 import net.minecraft.data.recipes.RecipeProvider.has
+import net.minecraft.data.recipes.ShapedRecipeBuilder
+import net.minecraft.data.recipes.ShapelessRecipeBuilder
 import net.minecraft.world.item.Items
 import net.minecraft.world.level.ItemLike
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
@@ -17,12 +20,38 @@ object DataGenRecipeGenerators {
     // is it lengthy? yes! is it verbose? yeah! does it tell you right away what it is? YES! and that helps imo
 
     // Documentation later
-    fun registerSmeltingPastelGlass(exporter: RecipeOutput, smeltableList: List<ItemLike>, outputPastelGlassItem: ItemLike, group: String) {
-        return FabricRecipeProvider.oreSmelting(exporter, smeltableList, RecipeCategory.DECORATIONS, outputPastelGlassItem, 0.7f, 200, group)
+    fun registerSmeltingPastelGlass(
+        exporter: RecipeOutput,
+        smeltableList: List<ItemLike>,
+        outputPastelGlassItem: ItemLike,
+        group: String
+    ) {
+        return FabricRecipeProvider.oreSmelting(
+            exporter,
+            smeltableList,
+            RecipeCategory.DECORATIONS,
+            outputPastelGlassItem,
+            0.7f,
+            200,
+            group
+        )
     }
 
-    fun registerSmeltingPastelHardCandy(exporter: RecipeOutput, smeltableList: List<ItemLike>, outputPastelHardCandyItem: ItemLike, group: String) {
-        return FabricRecipeProvider.oreSmelting(exporter, smeltableList, RecipeCategory.FOOD, outputPastelHardCandyItem, 1f, 200, group)
+    fun registerSmeltingPastelHardCandy(
+        exporter: RecipeOutput,
+        smeltableList: List<ItemLike>,
+        outputPastelHardCandyItem: ItemLike,
+        group: String
+    ) {
+        return FabricRecipeProvider.oreSmelting(
+            exporter,
+            smeltableList,
+            RecipeCategory.FOOD,
+            outputPastelHardCandyItem,
+            1f,
+            200,
+            group
+        )
     }
 
     fun registerCraftingPastelPowderBaseItem(exporter: RecipeOutput, inputPastelGlowingItem: ItemLike) {
@@ -35,7 +64,11 @@ object DataGenRecipeGenerators {
             .save(exporter, SofterPastelsItems.POWDER.toString() + "_" + inputPastelGlowingItem)
     }
 
-    fun registerCraftingPastelColoredPowderItem(exporter: RecipeOutput, inputDyeItem: ItemLike, outputPastelPowderItem: ItemLike) {
+    fun registerCraftingPastelColoredPowderItem(
+        exporter: RecipeOutput,
+        inputDyeItem: ItemLike,
+        outputPastelPowderItem: ItemLike
+    ) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, outputPastelPowderItem, 1)
             .requires(SofterPastelsItems.POWDER)
             .requires(inputDyeItem)
@@ -45,7 +78,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelPowderBlock(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelPowderBlock: ItemLike) {
+    fun registerCraftingPastelPowderBlock(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelPowderBlock: ItemLike
+    ) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, outputPastelPowderBlock, 8)
             .requires(Items.SAND)
             .requires(Items.SAND)
@@ -63,7 +100,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelSlabBlock(exporter: RecipeOutput, inputPastelBlock: ItemLike, outputPastelSlabBlock: ItemLike) {
+    fun registerCraftingPastelSlabBlock(
+        exporter: RecipeOutput,
+        inputPastelBlock: ItemLike,
+        outputPastelSlabBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, outputPastelSlabBlock, 6)
             .pattern("AAA")
             .define('A', inputPastelBlock)
@@ -72,7 +113,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelStairBlock(exporter: RecipeOutput, inputPastelBlock: ItemLike, outputPastelStairBlock: ItemLike) {
+    fun registerCraftingPastelStairBlock(
+        exporter: RecipeOutput,
+        inputPastelBlock: ItemLike,
+        outputPastelStairBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, outputPastelStairBlock, 4)
             .pattern("A  ")
             .pattern("AA ")
@@ -83,17 +128,29 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelWoolBlockV(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelWoolBlock: ItemLike) {
+    fun registerCraftingPastelWoolBlockV(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelWoolBlock: ItemLike
+    ) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, outputPastelWoolBlock, 1)
             .requires(Items.WHITE_WOOL)
             .requires(inputPastelPowderItem)
             .unlockedBy(getHasName(Items.WHITE_WOOL), has(Items.WHITE_WOOL))
             .unlockedBy(getHasName(inputPastelPowderItem), has(inputPastelPowderItem))
             .unlockedBy(getHasName(outputPastelWoolBlock), has(outputPastelWoolBlock))
-            .save(exporter, outputPastelWoolBlock.toString().lowercase().removePrefix("block{softerpastels:").replace("}", "") + "_v")
+            .save(
+                exporter,
+                outputPastelWoolBlock.toString().lowercase().removePrefix("block{softerpastels:")
+                    .replace("}", "") + "_v"
+            )
     }
 
-    fun registerCraftingPastelWoolBlock(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelWoolBlock: ItemLike) {
+    fun registerCraftingPastelWoolBlock(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelWoolBlock: ItemLike
+    ) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, outputPastelWoolBlock, 1)
             .requires(SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK)
             .requires(inputPastelPowderItem)
@@ -103,7 +160,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelCarpetBlock(exporter: RecipeOutput, inputPastelWoolBlock: ItemLike, outputPastelCarpetBlock: ItemLike) {
+    fun registerCraftingPastelCarpetBlock(
+        exporter: RecipeOutput,
+        inputPastelWoolBlock: ItemLike,
+        outputPastelCarpetBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelCarpetBlock, 3)
             .pattern("AA")
             .define('A', inputPastelWoolBlock)
@@ -112,7 +173,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelFenceBlock(exporter: RecipeOutput, inputPastelBlock: ItemLike, outputPastelFenceBlock: ItemLike) {
+    fun registerCraftingPastelFenceBlock(
+        exporter: RecipeOutput,
+        inputPastelBlock: ItemLike,
+        outputPastelFenceBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelFenceBlock, 3)
             .pattern("ABA")
             .pattern("ABA")
@@ -124,7 +189,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelFenceGateBlock(exporter: RecipeOutput, inputPastelBlock: ItemLike, outputPastelFenceGateBlock: ItemLike) {
+    fun registerCraftingPastelFenceGateBlock(
+        exporter: RecipeOutput,
+        inputPastelBlock: ItemLike,
+        outputPastelFenceGateBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelFenceGateBlock, 1)
             .pattern("BAB")
             .pattern("BAB")
@@ -136,7 +205,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelWallBlock(exporter: RecipeOutput, inputPastelBlock: ItemLike, outputPastelWallBlock: ItemLike) {
+    fun registerCraftingPastelWallBlock(
+        exporter: RecipeOutput,
+        inputPastelBlock: ItemLike,
+        outputPastelWallBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelWallBlock, 6)
             .pattern("AAA")
             .pattern("AAA")
@@ -146,7 +219,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelGlassBlock(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelGlassBlock: ItemLike) {
+    fun registerCraftingPastelGlassBlock(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelGlassBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelGlassBlock, 8)
             .pattern("AAA")
             .pattern("ABA")
@@ -159,7 +236,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelGlassPaneBlock(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelGlassPaneBlock: ItemLike) {
+    fun registerCraftingPastelGlassPaneBlock(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelGlassPaneBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelGlassPaneBlock, 8)
             .pattern("AAA")
             .pattern("ABA")
@@ -172,17 +253,29 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelGlassPaneRectangleBlock(exporter: RecipeOutput, inputPastelGlassBlockItem: ItemLike, outputPastelGlassPaneBlock: ItemLike) {
+    fun registerCraftingPastelGlassPaneRectangleBlock(
+        exporter: RecipeOutput,
+        inputPastelGlassBlockItem: ItemLike,
+        outputPastelGlassPaneBlock: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, outputPastelGlassPaneBlock, 16)
             .pattern("AAA")
             .pattern("AAA")
             .define('A', inputPastelGlassBlockItem)
             .unlockedBy(getHasName(inputPastelGlassBlockItem), has(inputPastelGlassBlockItem))
             .unlockedBy(getHasName(outputPastelGlassPaneBlock), has(outputPastelGlassPaneBlock))
-            .save(exporter, outputPastelGlassPaneBlock.toString().lowercase().removePrefix("block{softerpastels:").replace("}", "") + "_rect")
+            .save(
+                exporter,
+                outputPastelGlassPaneBlock.toString().lowercase().removePrefix("block{softerpastels:")
+                    .replace("}", "") + "_rect"
+            )
     }
 
-    fun registerCraftingPastelLightBlock(exporter: RecipeOutput, inputPastelPowderItem: ItemLike, outputPastelLightBlock: ItemLike) {
+    fun registerCraftingPastelLightBlock(
+        exporter: RecipeOutput,
+        inputPastelPowderItem: ItemLike,
+        outputPastelLightBlock: ItemLike
+    ) {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.DECORATIONS, outputPastelLightBlock, 1)
             .requires(Items.GLOWSTONE)
             .requires(inputPastelPowderItem)
@@ -206,7 +299,11 @@ object DataGenRecipeGenerators {
             .save(exporter)
     }
 
-    fun registerCraftingPastelCottonCandyItem(exporter: RecipeOutput, inputTaffyItem: ItemLike, outputCottonCandyItem: ItemLike) {
+    fun registerCraftingPastelCottonCandyItem(
+        exporter: RecipeOutput,
+        inputTaffyItem: ItemLike,
+        outputCottonCandyItem: ItemLike
+    ) {
         ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, outputCottonCandyItem, 2)
             .pattern(" A ")
             .pattern("ABA")

@@ -45,385 +45,85 @@ class SofterPastelsModelProvider(generator: FabricDataOutput) : FabricModelProvi
         blockStateModelGenerator.createTrivialCube(SofterPastelsBlocks.GRAY_PASTEL_POWDER_BLOCK)
         blockStateModelGenerator.createTrivialCube(SofterPastelsBlocks.BLACK_PASTEL_POWDER_BLOCK)
 
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.WHITE_PASTEL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.ORANGE_PASTEL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.YELLOW_PASTEL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.PURPLE_PASTEL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.BROWN_PASTEL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFence(
-            SofterPastelsBlocks.BLACK_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_FENCE_BLOCK,
-            blockStateModelGenerator
-        )
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.RED_PASTEL_BLOCK, SofterPastelsBlocks.RED_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.ORANGE_PASTEL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.YELLOW_PASTEL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.GREEN_PASTEL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.BLUE_PASTEL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.PURPLE_PASTEL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.BROWN_PASTEL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.GRAY_PASTEL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFence(SofterPastelsBlocks.BLACK_PASTEL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_FENCE_BLOCK, blockStateModelGenerator)
 
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.WHITE_PASTEL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.ORANGE_PASTEL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.YELLOW_PASTEL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.PURPLE_PASTEL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.BROWN_PASTEL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createFenceGate(
-            SofterPastelsBlocks.BLACK_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_FENCE_GATE_BLOCK,
-            blockStateModelGenerator
-        )
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.RED_PASTEL_BLOCK, SofterPastelsBlocks.RED_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.ORANGE_PASTEL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.YELLOW_PASTEL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.GREEN_PASTEL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.BLUE_PASTEL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.PURPLE_PASTEL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.BROWN_PASTEL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.GRAY_PASTEL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createFenceGate(SofterPastelsBlocks.BLACK_PASTEL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_FENCE_GATE_BLOCK, blockStateModelGenerator)
 
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.WHITE_PASTEL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.ORANGE_PASTEL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.YELLOW_PASTEL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.PURPLE_PASTEL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.BROWN_PASTEL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createWall(
-            SofterPastelsBlocks.BLACK_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_WALL_BLOCK,
-            blockStateModelGenerator
-        )
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.RED_PASTEL_BLOCK, SofterPastelsBlocks.RED_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.ORANGE_PASTEL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.YELLOW_PASTEL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.GREEN_PASTEL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.BLUE_PASTEL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.PURPLE_PASTEL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.BROWN_PASTEL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.GRAY_PASTEL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_WALL_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createWall(SofterPastelsBlocks.BLACK_PASTEL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_WALL_BLOCK, blockStateModelGenerator)
 
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.WHITE_PASTEL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.ORANGE_PASTEL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.YELLOW_PASTEL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.PURPLE_PASTEL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.BROWN_PASTEL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createSlabs(
-            SofterPastelsBlocks.BLACK_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_SLAB_BLOCK,
-            blockStateModelGenerator
-        )
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.RED_PASTEL_BLOCK, SofterPastelsBlocks.RED_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.ORANGE_PASTEL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.YELLOW_PASTEL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.GREEN_PASTEL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.BLUE_PASTEL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.PURPLE_PASTEL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.BROWN_PASTEL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.GRAY_PASTEL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createSlabs(SofterPastelsBlocks.BLACK_PASTEL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_SLAB_BLOCK, blockStateModelGenerator)
 
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.WHITE_PASTEL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.RED_PASTEL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.ORANGE_PASTEL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.YELLOW_PASTEL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.GREEN_PASTEL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.BLUE_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.PURPLE_PASTEL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.BROWN_PASTEL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.GRAY_PASTEL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
-        DataGenModelGenerators.createStairs(
-            SofterPastelsBlocks.BLACK_PASTEL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_STAIR_BLOCK,
-            blockStateModelGenerator
-        )
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.WHITE_PASTEL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.LIGHT_RED_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.RED_PASTEL_BLOCK, SofterPastelsBlocks.RED_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.ORANGE_PASTEL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.YELLOW_PASTEL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.GREEN_PASTEL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.BLUE_PASTEL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.PURPLE_PASTEL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.MAGENTA_PASTEL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.BROWN_PASTEL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.GRAY_PASTEL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
+        DataGenModelGenerators.createStairs(SofterPastelsBlocks.BLACK_PASTEL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_STAIR_BLOCK, blockStateModelGenerator)
 
         blockStateModelGenerator.createGlassBlocks(GlassBlocks.WHITE_GLASS, GlassBlocks.WHITE_GLASS_PANE)
         blockStateModelGenerator.createGlassBlocks(GlassBlocks.LIGHT_RED_GLASS, GlassBlocks.LIGHT_RED_GLASS_PANE)
@@ -441,66 +141,21 @@ class SofterPastelsModelProvider(generator: FabricDataOutput) : FabricModelProvi
         blockStateModelGenerator.createGlassBlocks(GlassBlocks.GRAY_GLASS, GlassBlocks.GRAY_GLASS_PANE)
         blockStateModelGenerator.createGlassBlocks(GlassBlocks.BLACK_GLASS, GlassBlocks.BLACK_GLASS_PANE)
 
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.WHITE_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.LIGHT_RED_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.RED_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.ORANGE_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.YELLOW_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GREEN_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.GREEN_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.LIGHT_BLUE_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.BLUE_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.PURPLE_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.MAGENTA_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.BROWN_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.LIGHT_GRAY_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.GRAY_PASTEL_CARPET_BLOCK
-        )
-        blockStateModelGenerator.createFullAndCarpetBlocks(
-            SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK,
-            SofterPastelsBlocks.BLACK_PASTEL_CARPET_BLOCK
-        )
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.RED_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_CARPET_BLOCK)
+        blockStateModelGenerator.createFullAndCarpetBlocks(SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_CARPET_BLOCK)
 
         blockStateModelGenerator.createTrivialCube(SofterPastelsBlocks.WHITE_PASTEL_LIGHT_BLOCK)
         blockStateModelGenerator.createTrivialCube(SofterPastelsBlocks.LIGHT_RED_PASTEL_LIGHT_BLOCK)

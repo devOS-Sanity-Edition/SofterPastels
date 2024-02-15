@@ -2,12 +2,17 @@ package one.devos.nautical.SofterPastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
-import net.minecraft.data.recipes.*
+import net.minecraft.data.recipes.RecipeOutput
 import net.minecraft.world.item.Items
 import net.minecraft.world.level.ItemLike
 import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
 import one.devos.nautical.SofterPastels.common.SofterPastelsItems
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
+
+// dont- dont ask. please. lmao
+// i might just prefix all of the calls with DataGenRecipeGenerators and then be able to star the datagen package
+// this is my one major gripe with kotlin tbh, u can just DataGenRecipeGenerators.* it, cant do import-on-demand
+// for object functions[?], but u can for multiple classes in a package
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelCarpetBlock
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelColoredPowderItem
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelCottonCandyItem
@@ -22,13 +27,13 @@ import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGener
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelSlabBlock
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelStairBlock
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWallBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWoolBlockV
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWoolBlock
+import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWoolBlockV
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerPastelTaffyItem
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerSmeltingPastelGlass
 import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerSmeltingPastelHardCandy
 
-class SofterPastelsRecipeProvider(output: FabricDataOutput?) : FabricRecipeProvider(output) {
+class SofterPastelsRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
     // i was forced against my own will to make a List<ItemLike> for a smelting recipe that only neeeds... 🥁🥁🥁
     // 1. fucking. item. [as of right now]
     // but then again once the sand gets added i guess this comes in handy because now 2 different blocks can make

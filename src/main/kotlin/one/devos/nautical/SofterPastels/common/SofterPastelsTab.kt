@@ -6,7 +6,7 @@ import net.minecraft.world.level.ItemLike
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
 
 object SofterPastelsTab {
-    fun build(params: ItemDisplayParameters?, output: CreativeModeTab.Output) {
+    fun build(params: ItemDisplayParameters, output: CreativeModeTab.Output) {
         addBlocks(output)
         addDecorations(output)
         addCandy(output)

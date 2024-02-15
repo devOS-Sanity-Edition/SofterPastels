@@ -6,7 +6,6 @@ import net.fabricmc.api.Environment
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap
 import net.minecraft.client.renderer.RenderType
 import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
-//import one.devos.nautical.SofterPastels.common.datagen.Models
 import one.devos.nautical.SofterPastels.utils.CapeUtils
 
 @Environment(EnvType.CLIENT)
