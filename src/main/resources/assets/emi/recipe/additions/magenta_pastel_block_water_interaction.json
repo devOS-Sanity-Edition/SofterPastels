@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:softerpastels:magenta_pastel_powder_block",
+  "right": "fluid:minecraft:water",
+  "output": "item:softerpastels:magenta_pastel_block"
+}

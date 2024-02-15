@@ -1,0 +1,6 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:softerpastels:red_pastel_powder_block",
+  "right": "fluid:minecraft:water",
+  "output": "item:softerpastels:red_pastel_block"
+}
