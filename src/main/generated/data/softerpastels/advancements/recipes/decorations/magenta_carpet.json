@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_carpet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:magenta_carpet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:magenta_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:magenta_carpet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magenta_wool",
+      "has_magenta_carpet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:magenta_carpet"
+    ]
+  }
+}

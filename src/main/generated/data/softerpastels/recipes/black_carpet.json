@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "softerpastels:black_wool"
+    }
+  },
+  "pattern": [
+    "AA"
+  ],
+  "result": {
+    "count": 3,
+    "item": "softerpastels:black_carpet"
+  }
+}

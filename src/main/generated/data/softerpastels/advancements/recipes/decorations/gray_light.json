@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glowstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gray_light": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:gray_light"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gray_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:gray_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:gray_light"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glowstone",
+      "has_gray_powder",
+      "has_gray_light"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:gray_light"
+    ]
+  }
+}

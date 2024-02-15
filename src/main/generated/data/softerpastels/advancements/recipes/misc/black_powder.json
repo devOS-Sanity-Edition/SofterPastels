@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_black_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_black_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:black_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:black_powder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_powder",
+      "has_black_dye",
+      "has_black_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:black_powder"
+    ]
+  }
+}

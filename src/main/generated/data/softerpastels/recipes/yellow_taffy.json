@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "softerpastels:yellow_powder"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "softerpastels:yellow_taffy"
+  }
+}

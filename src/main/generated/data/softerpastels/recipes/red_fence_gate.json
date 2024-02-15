@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "softerpastels:red_pastel_block"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "result": {
+    "item": "softerpastels:red_fence_gate"
+  }
+}

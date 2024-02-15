@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "softerpastels:gray_powder"
+    }
+  ],
+  "result": {
+    "item": "softerpastels:gray_wool"
+  }
+}

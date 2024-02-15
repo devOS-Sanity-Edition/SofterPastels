@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gravel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sand"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:white_pastel_powder_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_pastel_powder_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_pastel_powder_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sand",
+      "has_gravel",
+      "has_white_powder",
+      "has_white_pastel_powder_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:white_pastel_powder_block"
+    ]
+  }
+}
