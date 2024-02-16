@@ -8,9 +8,10 @@ class SofterPastelsDataGenerator : DataGeneratorEntrypoint {
     override fun onInitializeDataGenerator(fabricDataGenerator: FabricDataGenerator) {
         val pack: FabricDataGenerator.Pack = fabricDataGenerator.createPack()
 
-        pack.addProvider(::SofterPastelsModelProvider)
         pack.addProvider(::SofterPastelsBlockTagsProvider)
+        pack.addProvider(::SofterPastelsEnglishLanguageProvider)
         pack.addProvider(::SofterPastelsLootTableProvider)
+        pack.addProvider(::SofterPastelsModelProvider)
         pack.addProvider(::SofterPastelsRecipeProvider)
     }
 }
