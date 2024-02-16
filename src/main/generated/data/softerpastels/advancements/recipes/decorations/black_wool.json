@@ -31,12 +31,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_white_pastel_block": {
+    "has_white_wool": {
       "conditions": {
         "items": [
           {
             "items": [
-              "softerpastels:white_pastel_block"
+              "softerpastels:white_wool"
             ]
           }
         ]
@@ -47,7 +47,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_white_pastel_block",
+      "has_white_wool",
       "has_black_powder",
       "has_black_wool"
     ]
