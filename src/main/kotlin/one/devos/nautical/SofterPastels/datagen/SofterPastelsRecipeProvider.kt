@@ -4,23 +4,23 @@ package one.devos.nautical.softerpastels.datagen
 // i might just prefix all of the calls with DataGenRecipeGenerators and then be able to star the datagen package
 // this is my one major gripe with kotlin tbh, u can just DataGenRecipeGenerators.* it, cant do import-on-demand
 // for object functions[?], but u can for multiple classes in a package
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelCarpetBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelCottonCandyItem
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelFenceBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelFenceGateBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassPaneBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassPaneRectangleBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelLightBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelPowderBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelSlabBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelStairBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWallBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWoolBlock
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWoolBlockV
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerPastelTaffyItem
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerSmeltingPastelGlass
-import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerSmeltingPastelHardCandy
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelCarpetBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelCottonCandyItem
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelFenceBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelFenceGateBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelGlassBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelGlassPaneBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelGlassPaneRectangleBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelLightBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelPowderBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelSlabBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelStairBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelWallBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelWoolBlock
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelWoolBlockV
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerPastelTaffyItem
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerSmeltingPastelGlass
+import gay.asoji.innerpastels.datagen.RecipeGenerators.registerSmeltingPastelHardCandy
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
 import net.minecraft.data.recipes.RecipeOutput

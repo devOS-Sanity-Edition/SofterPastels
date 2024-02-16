@@ -15,6 +15,7 @@ object DataGenRecipeGenerators {
 
     // Generally, the order is register[TypeOfCrafting][PastelOrNone][NameOfItem][Item,Block,OrFoodName][VorNone]
     // is it lengthy? yes! is it verbose? yeah! does it tell you right away what it is? YES! and that helps imo
+    // feb 16th - this is all in Inner Pastels lib now lol lmao
 
     // Documentation later
     fun registerCraftingPastelPowderBaseItem(exporter: RecipeOutput, inputPastelGlowingItem: ItemLike) {

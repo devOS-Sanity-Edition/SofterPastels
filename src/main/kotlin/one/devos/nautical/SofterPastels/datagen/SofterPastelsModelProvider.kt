@@ -1,10 +1,10 @@
 package one.devos.nautical.softerpastels.datagen
 
-import gay.asoji.internalpastelslib.datagen.ModelGenerators.createFence
-import gay.asoji.internalpastelslib.datagen.ModelGenerators.createFenceGate
-import gay.asoji.internalpastelslib.datagen.ModelGenerators.createSlabs
-import gay.asoji.internalpastelslib.datagen.ModelGenerators.createStairs
-import gay.asoji.internalpastelslib.datagen.ModelGenerators.createWall
+import gay.asoji.innerpastels.datagen.ModelGenerators.createFence
+import gay.asoji.innerpastels.datagen.ModelGenerators.createFenceGate
+import gay.asoji.innerpastels.datagen.ModelGenerators.createSlabs
+import gay.asoji.innerpastels.datagen.ModelGenerators.createStairs
+import gay.asoji.innerpastels.datagen.ModelGenerators.createWall
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider
 import net.minecraft.data.models.BlockModelGenerators

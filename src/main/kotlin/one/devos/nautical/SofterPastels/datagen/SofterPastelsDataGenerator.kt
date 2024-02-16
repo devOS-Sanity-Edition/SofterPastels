@@ -10,6 +10,7 @@ class SofterPastelsDataGenerator : DataGeneratorEntrypoint {
 
         pack.addProvider(::SofterPastelsBlockTagsProvider)
         pack.addProvider(::SofterPastelsEnglishLanguageProvider)
+        pack.addProvider(::SofterPastelsItemTagsProvider)
         pack.addProvider(::SofterPastelsLootTableProvider)
         pack.addProvider(::SofterPastelsModelProvider)
         pack.addProvider(::SofterPastelsRecipeProvider)

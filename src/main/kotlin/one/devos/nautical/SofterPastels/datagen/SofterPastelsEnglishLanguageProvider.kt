@@ -275,9 +275,6 @@ class SofterPastelsEnglishLanguageProvider(dataGenerator: FabricDataOutput) :
         translationBuilder.add(SofterPastelsItems.STRAWBERRY_ICE_CREAM, "Strawberry Ice Cream")
         translationBuilder.add(SofterPastelsItems.VANILLA_ICE_CREAM, "Vanilla Ice Cream")
 
-        translationBuilder.add("item.internalpastelslib.candies.hunger.description", "§61.0 x Hunger")
-        translationBuilder.add("item.internalpastelslib.candies.hunger.alwayseat", "§aYou can always gulp these down!")
-
         translationBuilder.add("itemGroup.softerpastels", "Softer Pastels")
 
         translationBuilder.add("advancement.softerpastels.root.description", "The start of some softer pastel colored items and blocks!")

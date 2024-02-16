@@ -1,6 +1,6 @@
 package one.devos.nautical.softerpastels.common
 
-import gay.asoji.internalpastelslib.blocks.*
+import gay.asoji.innerpastels.blocks.*
 import net.minecraft.world.item.DyeColor
 import net.minecraft.world.level.block.Block
 import net.minecraft.world.level.material.MapColor
