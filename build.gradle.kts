@@ -43,6 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
+    include(modImplementation("gay.asoji:internalpastelslib:1.0.0+build.2")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 
@@ -123,7 +124,7 @@ loom {
             vmArgs(
                 "-Dfabric-api.datagen",
                 "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
-                "-Dfabric-api.datagen.modid=${project.extra["mod_id"] as String}"
+                "-Dfabric-api.datagen.modid=${project.extra["archives_base_name"] as String}"
             )
             runDir("build/datagen")
         }

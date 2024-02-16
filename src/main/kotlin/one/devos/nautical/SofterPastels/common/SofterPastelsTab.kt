@@ -1,9 +1,9 @@
-package one.devos.nautical.SofterPastels.common
+package one.devos.nautical.softerpastels.common
 
 import net.minecraft.world.item.CreativeModeTab
 import net.minecraft.world.item.CreativeModeTab.ItemDisplayParameters
 import net.minecraft.world.level.ItemLike
-import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
+import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 
 object SofterPastelsTab {
     fun build(params: ItemDisplayParameters, output: CreativeModeTab.Output) {

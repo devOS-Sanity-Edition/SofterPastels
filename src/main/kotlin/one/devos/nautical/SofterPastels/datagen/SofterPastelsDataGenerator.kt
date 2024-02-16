@@ -1,4 +1,4 @@
-package one.devos.nautical.SofterPastels.datagen
+package one.devos.nautical.softerpastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator

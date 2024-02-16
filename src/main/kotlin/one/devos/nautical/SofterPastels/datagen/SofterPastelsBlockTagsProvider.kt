@@ -1,10 +1,10 @@
-package one.devos.nautical.SofterPastels.datagen
+package one.devos.nautical.softerpastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider
 import net.minecraft.core.HolderLookup
 import net.minecraft.tags.BlockTags
-import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
+import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
 import java.util.concurrent.CompletableFuture
 
 class SofterPastelsBlockTagsProvider(

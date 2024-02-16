@@ -6,14 +6,14 @@
 // Original Source: https://github.com/Layers-of-Railways/Railway/blob/1.20/dev/common/src/main/java/com/railwayteam/railways/mixin/client/MixinPlayerInfo.java
 // --------------------------------------------------------------------------------
 
-package one.devos.nautical.SofterPastels.mixin.client;
+package one.devos.nautical.softerpastels.mixin.client;
 
 import com.mojang.authlib.GameProfile;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.resources.PlayerSkin;
 import net.minecraft.resources.ResourceLocation;
-import one.devos.nautical.SofterPastels.SofterPastels;
-import one.devos.nautical.SofterPastels.utils.CapeUtils;
+import one.devos.nautical.softerpastels.SofterPastels;
+import one.devos.nautical.softerpastels.utils.CapeUtils;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

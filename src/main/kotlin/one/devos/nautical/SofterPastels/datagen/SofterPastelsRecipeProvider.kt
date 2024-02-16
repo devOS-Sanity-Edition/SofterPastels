@@ -1,37 +1,36 @@
-package one.devos.nautical.SofterPastels.datagen
-
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
-import net.minecraft.data.recipes.RecipeOutput
-import net.minecraft.world.item.Items
-import net.minecraft.world.level.ItemLike
-import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
-import one.devos.nautical.SofterPastels.common.SofterPastelsItems
-import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
+package one.devos.nautical.softerpastels.datagen
 
 // dont- dont ask. please. lmao
 // i might just prefix all of the calls with DataGenRecipeGenerators and then be able to star the datagen package
 // this is my one major gripe with kotlin tbh, u can just DataGenRecipeGenerators.* it, cant do import-on-demand
 // for object functions[?], but u can for multiple classes in a package
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelCarpetBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelColoredPowderItem
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelCottonCandyItem
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelFenceBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelFenceGateBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelGlassBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelGlassPaneBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelGlassPaneRectangleBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelLightBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelPowderBaseItem
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelPowderBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelSlabBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelStairBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWallBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWoolBlock
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelWoolBlockV
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerPastelTaffyItem
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerSmeltingPastelGlass
-import one.devos.nautical.SofterPastels.utils.helpers.datagen.DataGenRecipeGenerators.registerSmeltingPastelHardCandy
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelCarpetBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelCottonCandyItem
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelFenceBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelFenceGateBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassPaneBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelGlassPaneRectangleBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelLightBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelPowderBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelSlabBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelStairBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWallBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWoolBlock
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerCraftingPastelWoolBlockV
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerPastelTaffyItem
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerSmeltingPastelGlass
+import gay.asoji.internalpastelslib.datagen.RecipeGenerators.registerSmeltingPastelHardCandy
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
+import net.minecraft.data.recipes.RecipeOutput
+import net.minecraft.world.item.Items
+import net.minecraft.world.level.ItemLike
+import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
+import one.devos.nautical.softerpastels.common.SofterPastelsItems
+import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
+import one.devos.nautical.softerpastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelColoredPowderItem
+import one.devos.nautical.softerpastels.utils.helpers.datagen.DataGenRecipeGenerators.registerCraftingPastelPowderBaseItem
 
 class SofterPastelsRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
     // i was forced against my own will to make a List<ItemLike> for a smelting recipe that only neeeds... 🥁🥁🥁
@@ -188,21 +187,21 @@ class SofterPastelsRecipeProvider(output: FabricDataOutput) : FabricRecipeProvid
         registerCraftingPastelWoolBlockV(exporter, SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK)
         registerCraftingPastelWoolBlockV(exporter, SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK)
 
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.WHITE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.RED_POWDER, SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.ORANGE_POWDER, SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.YELLOW_POWDER, SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_GREEN_POWDER, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.GREEN_POWDER, SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_BLUE_POWDER, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BLUE_POWDER, SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.PURPLE_POWDER, SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.MAGENTA_POWDER, SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BROWN_POWDER, SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK)
-        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.WHITE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.RED_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.RED_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.ORANGE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.ORANGE_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.YELLOW_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.YELLOW_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_GREEN_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GREEN_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.GREEN_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GREEN_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_BLUE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_BLUE_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BLUE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLUE_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.PURPLE_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.PURPLE_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.MAGENTA_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.MAGENTA_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BROWN_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BROWN_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.GRAY_PASTEL_WOOL_BLOCK)
+        registerCraftingPastelWoolBlock(exporter, SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.BLACK_PASTEL_WOOL_BLOCK)
 
         registerCraftingPastelCarpetBlock(exporter, SofterPastelsBlocks.WHITE_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.WHITE_PASTEL_CARPET_BLOCK)
         registerCraftingPastelCarpetBlock(exporter, SofterPastelsBlocks.LIGHT_RED_PASTEL_WOOL_BLOCK, SofterPastelsBlocks.LIGHT_RED_PASTEL_CARPET_BLOCK)

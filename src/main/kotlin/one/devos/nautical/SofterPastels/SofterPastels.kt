@@ -1,4 +1,4 @@
-package one.devos.nautical.SofterPastels
+package one.devos.nautical.softerpastels
 
 import gay.asoji.fmw.FMW
 import net.fabricmc.api.ModInitializer
@@ -9,9 +9,9 @@ import net.minecraft.network.chat.Component
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.world.item.CreativeModeTab
 import net.minecraft.world.item.ItemStack
-import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
-import one.devos.nautical.SofterPastels.common.SofterPastelsItems
-import one.devos.nautical.SofterPastels.common.SofterPastelsTab
+import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
+import one.devos.nautical.softerpastels.common.SofterPastelsItems
+import one.devos.nautical.softerpastels.common.SofterPastelsTab
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 

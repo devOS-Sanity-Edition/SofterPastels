@@ -27,19 +27,19 @@
     "fabric-datagen": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.SofterPastels.datagen.SofterPastelsDataGenerator"
+        "value": "one.devos.nautical.softerpastels.datagen.SofterPastelsDataGenerator"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.SofterPastels.client.SofterPastelsClient"
+        "value": "one.devos.nautical.softerpastels.client.SofterPastelsClient"
       }
     ],
     "main": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.SofterPastels.SofterPastels"
+        "value": "one.devos.nautical.softerpastels.SofterPastels"
       }
     ]
   },

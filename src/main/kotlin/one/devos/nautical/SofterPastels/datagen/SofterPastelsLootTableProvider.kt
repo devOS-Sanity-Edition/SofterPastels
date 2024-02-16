@@ -1,9 +1,9 @@
-package one.devos.nautical.SofterPastels.datagen
+package one.devos.nautical.softerpastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider
-import one.devos.nautical.SofterPastels.common.SofterPastelsBlocks
-import one.devos.nautical.SofterPastels.common.blocks.GlassBlocks
+import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
+import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 
 class SofterPastelsLootTableProvider(dataOutput: FabricDataOutput) : FabricBlockLootTableProvider(dataOutput) {
     override fun generate() {
