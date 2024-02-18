@@ -1,0 +1,86 @@
+name: Bug Report
+description: Create a bug report for Softer Pastels
+labels: [ "bug" ]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: Describe clearly what the bug is
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce said bug
+      description: Give the steps to reproduce said bug
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Result
+      description: What was the expected behavior?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Crash Log or any notable logs
+      description: Please use https://mclo.gs/ and link any related logs or snippets from your log that's notable. If it's a crash, please link that specific crash log.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: OS
+      description: What operating system are you using?
+      placeholder: Windows 10
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Mod Version
+      description: What mod version did this happen in?
+      options:
+        - "v0.5.0"
+        - "v0.6.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Inner Pastels Version
+      description: What Inner Pastels version was attached? [look in your log for `[SofterPastels] Internal Library Version`]
+      options:
+        - "1.0.0+build.10"
+    validations:
+      required: false
+
+  - type: dropdown
+    attributes:
+      label: Minecraft Version
+      description: What Minecraft version did this happen in?
+      options:
+        - "1.20.4"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Other Mods
+      description: What other mods are you using with this?
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Is there anything else that should be known with this report?
+    validations:
+      required: false
