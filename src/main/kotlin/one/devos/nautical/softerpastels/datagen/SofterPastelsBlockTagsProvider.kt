@@ -307,5 +307,13 @@ class SofterPastelsBlockTagsProvider(
 
         getOrCreateTagBuilder(ConventionalBlockTags.GLASS_PANES)
             .addTag(InnerPastelsBlockTags.GLASS_PANES)
+
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+            .addTag(InnerPastelsBlockTags.PASTEL_BLOCKS)
+            .addTag(InnerPastelsBlockTags.GLASS_BLOCKS)
+            .addTag(InnerPastelsBlockTags.STAIRS)
+            .addTag(InnerPastelsBlockTags.SLABS)
+            .addTag(InnerPastelsBlockTags.LIGHTS)
+
     }
 }
