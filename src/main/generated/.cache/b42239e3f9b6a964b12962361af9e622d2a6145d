@@ -1,11 +1,26 @@
-// 1.20.4	2024-02-16T06:55:37.9946768	Softer Pastels/Tags for minecraft:block
-662bbbc6c71b97fcc2845f756f6f058e98966547 data\minecraft\tags\blocks\wool_carpets.json
+// 1.20.4	2024-02-17T22:30:17.1130515	Softer Pastels/Tags for minecraft:block
 889fc575565a4384b45cda70fbcae9e4126277a4 data\minecraft\tags\blocks\fence_gates.json
-f50452938c1b0b2320d3fd8bda7f01fb1544eefd data\minecraft\tags\blocks\mineable\pickaxe.json
-73a35a5545fa297c2ba857501881c64ffb5a1aa3 data\minecraft\tags\blocks\mineable\shovel.json
 52db19967b0d8aad8b6451aa1a49992248dde019 data\minecraft\tags\blocks\walls.json
-146da87fd7316669079682ed47de71f2c4a0ef5f data\minecraft\tags\blocks\slabs.json
-01355845ccbf18de91b5909e2b73646232ba1d69 data\minecraft\tags\blocks\stairs.json
-73a35a5545fa297c2ba857501881c64ffb5a1aa3 data\minecraft\tags\blocks\smelts_to_glass.json
+de028ae417c77eb1531c2a6aea1f66c2b980c359 data\innerpastels\tags\blocks\glass_blocks.json
+9f77fcb40180fa3ecbf6a7e2d35284392c4a2db5 data\innerpastels\tags\blocks\fences.json
+889fc575565a4384b45cda70fbcae9e4126277a4 data\innerpastels\tags\blocks\fence_gates.json
+52db19967b0d8aad8b6451aa1a49992248dde019 data\innerpastels\tags\blocks\walls.json
+02e3845656a550626f5098958537ba3f26c0f4c0 data\minecraft\tags\blocks\concrete_powder.json
+015b45986aa4d4397f988d4027224b89f218c195 data\minecraft\tags\blocks\slabs.json
+9ed5ef19a8cb6960d4f053c36c4adc09820f54aa data\minecraft\tags\blocks\stairs.json
 9f77fcb40180fa3ecbf6a7e2d35284392c4a2db5 data\minecraft\tags\blocks\fences.json
-dfe76e6200f5e26ca69b4e69f23c8e543c63318b data\minecraft\tags\blocks\wool.json
+83e923d32ad424d292e11962e0c0c2e5449ff5d1 data\innerpastels\tags\blocks\glass_panes.json
+662bbbc6c71b97fcc2845f756f6f058e98966547 data\innerpastels\tags\blocks\carpets.json
+01355845ccbf18de91b5909e2b73646232ba1d69 data\innerpastels\tags\blocks\stairs.json
+2a482d2b51822d34a83d94771a58911ee5c8bed4 data\minecraft\tags\blocks\wool_carpets.json
+dfe76e6200f5e26ca69b4e69f23c8e543c63318b data\innerpastels\tags\blocks\wools.json
+727a3736e0534d378fe3de59d1de95897878a964 data\c\tags\blocks\glass_panes.json
+146da87fd7316669079682ed47de71f2c4a0ef5f data\innerpastels\tags\blocks\slabs.json
+02e3845656a550626f5098958537ba3f26c0f4c0 data\minecraft\tags\blocks\smelts_to_glass.json
+1c8172a2afe7b9869e9d8ce904b9cabed80943be data\minecraft\tags\blocks\wool.json
+542e6ffc0bcb70c27e2c29d25792bc64cede6a1a data\innerpastels\tags\blocks\lights.json
+0f32f8c1041d343ace79fc2824406e97286c2ad7 data\c\tags\blocks\glass_blocks.json
+2ee79c8f370bfdacbe789e29dbd7f51e7948225f data\innerpastels\tags\blocks\pastel_blocks.json
+53a46b35029e057c5dee065aef0ae444b5cca346 data\minecraft\tags\blocks\mineable\pickaxe.json
+02e3845656a550626f5098958537ba3f26c0f4c0 data\minecraft\tags\blocks\mineable\shovel.json
+73a35a5545fa297c2ba857501881c64ffb5a1aa3 data\innerpastels\tags\blocks\pastel_powder_blocks.json

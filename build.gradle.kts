@@ -1,4 +1,3 @@
-import net.fabricmc.loom.configuration.providers.minecraft.MinecraftJar.Client
 import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
 
 plugins {
@@ -43,7 +42,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.0.0+build.4")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.0.0+build.10")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 

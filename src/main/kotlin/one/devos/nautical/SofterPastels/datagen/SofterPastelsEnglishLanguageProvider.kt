@@ -2,10 +2,8 @@ package one.devos.nautical.softerpastels.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider
-import one.devos.nautical.softerpastels.SofterPastels
 import one.devos.nautical.softerpastels.common.SofterPastelsBlocks
 import one.devos.nautical.softerpastels.common.SofterPastelsItems
-import one.devos.nautical.softerpastels.common.SofterPastelsTab
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 
 

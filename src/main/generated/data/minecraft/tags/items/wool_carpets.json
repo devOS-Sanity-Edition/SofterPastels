@@ -1,20 +1,6 @@
 {
   "replace": false,
   "values": [
-    "softerpastels:white_carpet",
-    "softerpastels:light_red_carpet",
-    "softerpastels:red_carpet",
-    "softerpastels:orange_carpet",
-    "softerpastels:yellow_carpet",
-    "softerpastels:light_green_carpet",
-    "softerpastels:green_carpet",
-    "softerpastels:light_blue_carpet",
-    "softerpastels:blue_carpet",
-    "softerpastels:purple_carpet",
-    "softerpastels:magenta_carpet",
-    "softerpastels:brown_carpet",
-    "softerpastels:light_gray_carpet",
-    "softerpastels:gray_carpet",
-    "softerpastels:black_carpet"
+    "#innerpastels:carpets"
   ]
 }

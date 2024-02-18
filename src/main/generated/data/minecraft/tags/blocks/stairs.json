@@ -1,20 +1,6 @@
 {
   "replace": false,
   "values": [
-    "softerpastels:white_stairs",
-    "softerpastels:light_red_stairs",
-    "softerpastels:red_stairs",
-    "softerpastels:orange_stairs",
-    "softerpastels:yellow_stairs",
-    "softerpastels:light_green_stairs",
-    "softerpastels:green_stairs",
-    "softerpastels:light_blue_stairs",
-    "softerpastels:blue_stairs",
-    "softerpastels:purple_stairs",
-    "softerpastels:magenta_stairs",
-    "softerpastels:brown_stairs",
-    "softerpastels:light_gray_stairs",
-    "softerpastels:gray_stairs",
-    "softerpastels:black_stairs"
+    "#innerpastels:stairs"
   ]
 }

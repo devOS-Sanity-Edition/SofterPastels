@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:powder",
+    "softerpastels:white_powder",
+    "softerpastels:light_red_powder",
+    "softerpastels:red_powder",
+    "softerpastels:orange_powder",
+    "softerpastels:yellow_powder",
+    "softerpastels:light_green_powder",
+    "softerpastels:green_powder",
+    "softerpastels:light_blue_powder",
+    "softerpastels:blue_powder",
+    "softerpastels:purple_powder",
+    "softerpastels:magenta_powder",
+    "softerpastels:brown_powder",
+    "softerpastels:light_gray_powder",
+    "softerpastels:gray_powder",
+    "softerpastels:black_powder"
+  ]
+}
