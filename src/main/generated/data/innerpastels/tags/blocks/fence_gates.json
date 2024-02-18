@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_fence_gate",
+    "softerpastels:light_red_fence_gate",
+    "softerpastels:red_fence_gate",
+    "softerpastels:orange_fence_gate",
+    "softerpastels:yellow_fence_gate",
+    "softerpastels:light_green_fence_gate",
+    "softerpastels:green_fence_gate",
+    "softerpastels:light_blue_fence_gate",
+    "softerpastels:blue_fence_gate",
+    "softerpastels:purple_fence_gate",
+    "softerpastels:magenta_fence_gate",
+    "softerpastels:brown_fence_gate",
+    "softerpastels:light_gray_fence_gate",
+    "softerpastels:gray_fence_gate",
+    "softerpastels:black_fence_gate"
+  ]
+}

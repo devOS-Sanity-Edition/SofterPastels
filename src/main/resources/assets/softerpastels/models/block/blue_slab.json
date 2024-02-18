@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "top": "softerpastels:block/blue",
-    "bottom": "softerpastels:block/blue",
-    "side": "softerpastels:block/blue"
-  }
-}

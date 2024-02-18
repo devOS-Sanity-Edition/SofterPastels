@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:blue_glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:blue_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:blue_glass"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glass",
+      "has_blue_powder",
+      "has_blue_glass"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:blue_glass"
+    ]
+  }
+}

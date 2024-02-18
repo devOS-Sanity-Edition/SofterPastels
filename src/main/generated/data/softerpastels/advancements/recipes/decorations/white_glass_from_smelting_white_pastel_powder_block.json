@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_glass_from_smelting_white_pastel_powder_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_pastel_powder_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_pastel_powder_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_pastel_powder_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_glass_from_smelting_white_pastel_powder_block"
+    ]
+  }
+}

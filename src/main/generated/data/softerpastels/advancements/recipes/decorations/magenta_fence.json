@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magenta_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:magenta_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:magenta_pastel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:magenta_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stick",
+      "has_magenta_pastel_block",
+      "has_magenta_fence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:magenta_fence"
+    ]
+  }
+}

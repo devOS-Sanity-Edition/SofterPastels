@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "pastel_glass",
+  "ingredient": {
+    "item": "softerpastels:blue_pastel_powder_block"
+  },
+  "result": "softerpastels:blue_glass"
+}

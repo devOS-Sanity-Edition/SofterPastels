@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "softerpastels:light_red_powder"
+    }
+  ],
+  "result": {
+    "item": "softerpastels:light_red_light"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_glass",
+    "softerpastels:light_red_glass",
+    "softerpastels:red_glass",
+    "softerpastels:orange_glass",
+    "softerpastels:yellow_glass",
+    "softerpastels:light_green_glass",
+    "softerpastels:green_glass",
+    "softerpastels:light_blue_glass",
+    "softerpastels:blue_glass",
+    "softerpastels:purple_glass",
+    "softerpastels:magenta_glass",
+    "softerpastels:brown_glass",
+    "softerpastels:light_gray_glass",
+    "softerpastels:gray_glass",
+    "softerpastels:black_glass"
+  ]
+}

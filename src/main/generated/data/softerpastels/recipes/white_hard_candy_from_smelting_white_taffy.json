@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "pastel_hard_candy",
+  "ingredient": {
+    "item": "softerpastels:white_taffy"
+  },
+  "result": "softerpastels:white_hard_candy"
+}

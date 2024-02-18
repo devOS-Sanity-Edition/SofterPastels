@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_light",
+    "softerpastels:light_red_light",
+    "softerpastels:red_light",
+    "softerpastels:orange_light",
+    "softerpastels:yellow_light",
+    "softerpastels:light_green_light",
+    "softerpastels:green_light",
+    "softerpastels:light_blue_light",
+    "softerpastels:blue_light",
+    "softerpastels:purple_light",
+    "softerpastels:magenta_light",
+    "softerpastels:brown_light",
+    "softerpastels:light_gray_light",
+    "softerpastels:gray_light",
+    "softerpastels:black_light"
+  ]
+}

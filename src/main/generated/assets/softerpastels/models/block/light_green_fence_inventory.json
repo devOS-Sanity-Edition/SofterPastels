@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "softerpastels:block/light_green_pastel_block"
+  }
+}

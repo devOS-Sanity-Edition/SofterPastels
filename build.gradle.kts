@@ -42,8 +42,8 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("net.devtech:arrp:0.6.7")!!)
-    include(modImplementation("gay.asoji:fmw:1.0.0+build.2")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.0.0+build.10")!!)
+    include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 
 // Write the version to the fabric.mod.json
@@ -64,6 +64,10 @@ java {
 
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
+}
+
+kotlin {
+    jvmToolchain(17)
 }
 
 tasks.jar {
@@ -117,9 +121,9 @@ loom {
             client()
             name("Data Generation")
             vmArgs(
-                    "-Dfabric-api.datagen",
-                    "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
-                    "-Dfabric-api.datagen.modid=${project.extra["mod_id"] as String}"
+                "-Dfabric-api.datagen",
+                "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}",
+                "-Dfabric-api.datagen.modid=${project.extra["archives_base_name"] as String}"
             )
             runDir("build/datagen")
         }
@@ -129,7 +133,7 @@ loom {
 sourceSets {
     main {
         resources {
-            srcDir("src/main/generated")
+            srcDirs("src/main/generated")
             exclude("src/main/generated/.cache")
         }
     }
@@ -159,3 +163,4 @@ fun getModVersion(): String {
     return "${modVersion}-unknown"
 
 }
+

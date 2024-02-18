@@ -25,18 +25,21 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "one.devos.nautical.SofterPastels.datagen.SofterPastelsDataGenerator"
+      {
+        "adapter": "kotlin",
+        "value": "one.devos.nautical.softerpastels.datagen.SofterPastelsDataGenerator"
+      }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.SofterPastels.client.SofterPastelsClient"
+        "value": "one.devos.nautical.softerpastels.client.SofterPastelsClient"
       }
     ],
     "main": [
       {
         "adapter": "kotlin",
-        "value": "one.devos.nautical.SofterPastels.SofterPastels"
+        "value": "one.devos.nautical.softerpastels.SofterPastels"
       }
     ]
   },
@@ -44,8 +47,10 @@
     "softerpastels.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.15.6",
     "fabric": "*",
+    "fabric-language-kotlin": ">=1.10.17+kotlin.1.9.22",
+    "fabricloader": ">=0.15.6",
+    "innerpastels": "*",
     "minecraft": "1.20.4"
   },
   "recommends": {

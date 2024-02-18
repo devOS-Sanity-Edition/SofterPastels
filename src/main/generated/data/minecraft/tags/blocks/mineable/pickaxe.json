@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#innerpastels:pastel_blocks",
+    "#innerpastels:fences",
+    "#innerpastels:fence_gates",
+    "#innerpastels:walls",
+    "#innerpastels:stairs"
+  ]
+}

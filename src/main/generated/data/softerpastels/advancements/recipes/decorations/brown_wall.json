@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_pastel_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:brown_pastel_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brown_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:brown_wall"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:brown_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_pastel_block",
+      "has_brown_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:brown_wall"
+    ]
+  }
+}

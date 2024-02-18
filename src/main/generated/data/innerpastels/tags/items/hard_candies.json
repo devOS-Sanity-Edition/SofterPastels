@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_hard_candy",
+    "softerpastels:light_red_hard_candy",
+    "softerpastels:red_hard_candy",
+    "softerpastels:orange_hard_candy",
+    "softerpastels:yellow_hard_candy",
+    "softerpastels:light_green_hard_candy",
+    "softerpastels:green_hard_candy",
+    "softerpastels:light_blue_hard_candy",
+    "softerpastels:blue_hard_candy",
+    "softerpastels:purple_hard_candy",
+    "softerpastels:magenta_hard_candy",
+    "softerpastels:brown_hard_candy",
+    "softerpastels:light_gray_hard_candy",
+    "softerpastels:gray_hard_candy",
+    "softerpastels:black_hard_candy"
+  ]
+}

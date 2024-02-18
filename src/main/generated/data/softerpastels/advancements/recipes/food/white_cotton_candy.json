@@ -1,0 +1,73 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "softerpastels:white_cotton_candy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_cotton_candy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_cotton_candy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_string",
+      "has_stick",
+      "has_white_powder",
+      "has_white_cotton_candy"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "softerpastels:white_cotton_candy"
+    ]
+  }
+}

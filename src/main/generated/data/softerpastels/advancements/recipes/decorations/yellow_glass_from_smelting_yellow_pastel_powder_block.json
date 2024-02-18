@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellow_glass_from_smelting_yellow_pastel_powder_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_pastel_powder_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:yellow_pastel_powder_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yellow_pastel_powder_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_glass_from_smelting_yellow_pastel_powder_block"
+    ]
+  }
+}

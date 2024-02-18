@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_hard_candy_from_smelting_white_taffy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_taffy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "softerpastels:white_taffy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_taffy"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_hard_candy_from_smelting_white_taffy"
+    ]
+  }
+}

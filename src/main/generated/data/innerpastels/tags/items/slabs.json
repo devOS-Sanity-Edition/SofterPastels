@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_slab",
+    "softerpastels:light_red_slab",
+    "softerpastels:red_slab",
+    "softerpastels:orange_slab",
+    "softerpastels:yellow_slab",
+    "softerpastels:light_green_slab",
+    "softerpastels:green_slab",
+    "softerpastels:light_blue_slab",
+    "softerpastels:blue_slab",
+    "softerpastels:purple_slab",
+    "softerpastels:magenta_slab",
+    "softerpastels:brown_slab",
+    "softerpastels:light_gray_slab",
+    "softerpastels:gray_slab",
+    "softerpastels:black_slab"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "softerpastels:item/purple_cotton_candy"
+  }
+}

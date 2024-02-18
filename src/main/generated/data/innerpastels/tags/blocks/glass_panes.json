@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "softerpastels:white_glass_pane",
+    "softerpastels:light_red_glass_pane",
+    "softerpastels:red_glass_pane",
+    "softerpastels:orange_glass_pane",
+    "softerpastels:yellow_glass_pane",
+    "softerpastels:light_green_glass_pane",
+    "softerpastels:green_glass_pane",
+    "softerpastels:light_blue_glass_pane",
+    "softerpastels:blue_glass_pane",
+    "softerpastels:purple_glass_pane",
+    "softerpastels:magenta_glass_pane",
+    "softerpastels:brown_glass_pane",
+    "softerpastels:light_gray_glass_pane",
+    "softerpastels:gray_glass_pane",
+    "softerpastels:black_glass_pane"
+  ]
+}
