@@ -56,7 +56,6 @@ class SofterPastelsClient : ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS, RenderType.translucent())
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS_PANE, RenderType.translucent())
 
-//        Models.init()
         CapeUtils.INSTANCE.init()
     }
 }
