@@ -24,7 +24,7 @@ import java.util.Objects;
 import java.util.function.Supplier;
 
 @Mixin(value = PlayerInfo.class, priority = 1100)
-public class MixinPlayerInfo {
+public class PlayerInfoMixin {
     private static final ResourceLocation DEV_CAPE = new ResourceLocation(SofterPastels.MOD_ID, "textures/misc/cape.png");
     @Shadow
     @Final

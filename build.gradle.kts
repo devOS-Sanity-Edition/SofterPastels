@@ -17,6 +17,7 @@ version = getModVersion()
 archivesName.set(property("archives_base_name")!! as String)
 
 repositories {
+    mavenLocal()
     maven { url = uri("https://mvn.devos.one/snapshots") }
     maven { url = uri("https://maven.terraformersmc.com") }
     maven { url = uri("https://api.modrinth.com/maven") }
@@ -42,7 +43,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.0.0+build.10")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.0.2+build.22")!!)
     include(modImplementation("gay.asoji:fmw:1.0.0+build.8")!!)
 }
 

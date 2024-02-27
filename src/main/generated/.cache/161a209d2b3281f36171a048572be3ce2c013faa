@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-18T12:36:37.9859363	Softer Pastels/Block Loot Tables
+// 1.20.4	2024-02-27T08:07:19.8788724	Softer Pastels/Block Loot Tables
 a3be23a4b33f877f759ecde526c79141b1b8bbea data\softerpastels\loot_tables\blocks\red_glass.json
 e7f9c5d90904aa0156864fee54326d1592ca4cb4 data\softerpastels\loot_tables\blocks\light_green_wool.json
 aab53464e4891ebc18b773a85c62b83baeebdb70 data\softerpastels\loot_tables\blocks\orange_pastel_powder_block.json
@@ -54,8 +54,8 @@ e5f50b0466793d9815c544a18e87245a8dfbd798 data\softerpastels\loot_tables\blocks\l
 572778d111d2a240e34fd1bda9f85ce39aa0122c data\softerpastels\loot_tables\blocks\green_slab.json
 5053a5be523cdbb7bee5fde3bed223cfa43715b6 data\softerpastels\loot_tables\blocks\magenta_wool.json
 043395965bf7f3a4cb956cc687258c89bcf158e4 data\softerpastels\loot_tables\blocks\magenta_slab.json
-78764674857e8a0c8aab070d9c5815b940480dc0 data\softerpastels\loot_tables\blocks\gray_light.json
 d977e7e3d480aa2cd62fea892ad5e7523bb669df data\softerpastels\loot_tables\blocks\light_blue_fence_gate.json
+78764674857e8a0c8aab070d9c5815b940480dc0 data\softerpastels\loot_tables\blocks\gray_light.json
 b9355e5352ff5d44a8dd1b8a68f73101c39a9168 data\softerpastels\loot_tables\blocks\light_red_glass_pane.json
 71fff89ac91acde1274166e852ddaa1a44f5b451 data\softerpastels\loot_tables\blocks\light_blue_glass.json
 5c34519e100e832265cd8a6515a1c43baba8cb27 data\softerpastels\loot_tables\blocks\black_carpet.json

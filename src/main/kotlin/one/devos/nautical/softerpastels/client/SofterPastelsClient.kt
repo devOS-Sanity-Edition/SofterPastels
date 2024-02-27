@@ -1,10 +1,14 @@
 package one.devos.nautical.softerpastels.client
 
+import gay.asoji.fmw.FMW
+import gay.asoji.innerpastels.InnerPastels
+import gay.asoji.innerpastels.misc.DevDisclaimer
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.api.EnvType
 import net.fabricmc.api.Environment
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap
 import net.minecraft.client.renderer.RenderType
+import one.devos.nautical.softerpastels.SofterPastels
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
 import one.devos.nautical.softerpastels.utils.CapeUtils
 
@@ -56,7 +60,7 @@ class SofterPastelsClient : ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS, RenderType.translucent())
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS_PANE, RenderType.translucent())
 
-//        Models.init()
         CapeUtils.INSTANCE.init()
+        DevDisclaimer.init()
     }
 }

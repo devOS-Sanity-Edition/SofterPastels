@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "client.MixinPlayerInfo"
+    "client.DevEnvDebugScreenOverlayMixin",
+    "client.PlayerInfoMixin"
   ],
   "injectors": {
     "defaultRequire": 1

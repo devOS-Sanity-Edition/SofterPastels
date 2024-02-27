@@ -4,6 +4,7 @@ package one.devos.nautical.softerpastels.datagen
 // i might just prefix all of the calls with DataGenRecipeGenerators and then be able to star the datagen package
 // this is my one major gripe with kotlin tbh, u can just DataGenRecipeGenerators.* it, cant do import-on-demand
 // for object functions[?], but u can for multiple classes in a package
+import gay.asoji.innerpastels.crab.CrabInTheCode
 import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelCarpetBlock
 import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelCottonCandyItem
 import gay.asoji.innerpastels.datagen.RecipeGenerators.registerCraftingPastelFenceBlock
@@ -330,6 +331,8 @@ class SofterPastelsRecipeProvider(output: FabricDataOutput) : FabricRecipeProvid
         registerCraftingPastelLightBlock(exporter, SofterPastelsItems.LIGHT_GRAY_POWDER, SofterPastelsBlocks.LIGHT_GRAY_PASTEL_LIGHT_BLOCK)
         registerCraftingPastelLightBlock(exporter, SofterPastelsItems.GRAY_POWDER, SofterPastelsBlocks.GRAY_PASTEL_LIGHT_BLOCK)
         registerCraftingPastelLightBlock(exporter, SofterPastelsItems.BLACK_POWDER, SofterPastelsBlocks.BLACK_PASTEL_LIGHT_BLOCK)
+
+        CrabInTheCode.crabDeezNuts("im trying to make a pastel colored soup, could you add some pastel powders in?")
 
         registerPastelTaffyItem(exporter, SofterPastelsItems.WHITE_POWDER, SofterPastelsItems.WHITE_TAFFY)
         registerPastelTaffyItem(exporter, SofterPastelsItems.LIGHT_RED_POWDER, SofterPastelsItems.LIGHT_RED_TAFFY)

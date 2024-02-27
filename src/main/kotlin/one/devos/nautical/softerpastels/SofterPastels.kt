@@ -1,6 +1,7 @@
 package one.devos.nautical.softerpastels
 
 import gay.asoji.fmw.FMW
+import gay.asoji.innerpastels.InnerPastels
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
 import net.minecraft.core.Registry
@@ -22,6 +23,7 @@ object SofterPastels : ModInitializer {
 
     val LOGGER: Logger = LogManager.getLogger(MOD_NAME)
 
+    // could prob be ridded of tbh, the only place this has ever been used is line 44... i dont even know why this exists, legacy codebase?
     fun locate(location: String): ResourceLocation {
         return if (location.contains(":")) {
             ResourceLocation(location) //probably useful if its from another mod
@@ -41,6 +43,8 @@ object SofterPastels : ModInitializer {
         SofterPastelsItems.init()
 
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, locate("main"), SP_ITEM_GROUP)
+
+        InnerPastels.registerMods(MOD_ID)
 
         LOGGER.info("[${MOD_NAME}] Version ${VERSION} loaded.")
         LOGGER.info("[${MOD_NAME}] Internal Library Version ${FMW.getVersionString("innerpastels")} loaded. Please include this when reporting bugs!!!")
