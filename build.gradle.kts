@@ -153,9 +153,9 @@ fun getModVersion(): String {
 
         // jan 11 - temp commit out dirty flag, caused github actions produced jar to be mark dirty somehow
         // will prob look at later. i dont fuckin know why
-//        if (!grgit.status().isClean()) {
-//            id += "-dirty"
-//        }
+        if (!grgit.status().isClean()) {
+            id += "-dirty"
+        }
         // ex: 1.0.0+rev.91949fa or 1.0.0+rev.91949fa-dirty
         return "${modVersion}-rev.${id}"
     }
