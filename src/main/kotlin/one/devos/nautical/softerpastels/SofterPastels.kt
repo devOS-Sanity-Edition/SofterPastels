@@ -4,6 +4,7 @@ import gay.asoji.fmw.FMW
 import gay.asoji.innerpastels.InnerPastels
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
+import net.fabricmc.loader.api.FabricLoader
 import net.minecraft.core.Registry
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.network.chat.Component
@@ -46,8 +47,11 @@ object SofterPastels : ModInitializer {
 
         InnerPastels.registerMods(MOD_ID)
 
-        LOGGER.info("[${MOD_NAME}] Version ${VERSION} loaded.")
-        LOGGER.info("[${MOD_NAME}] Internal Library Version ${FMW.getVersionString("innerpastels")} loaded. Please include this when reporting bugs!!!")
-        LOGGER.info("[${MOD_NAME}] Getting ready to load some soft sweet eye candy.")
+        if (!FabricLoader.getInstance().isModLoaded("desolatedpastels")) { // Reduce a little bit of log spam if Desolated is loaded, otherwise, run.
+            LOGGER.info("[${MOD_NAME}] Version ${VERSION} loaded.")
+            LOGGER.info("[${MOD_NAME}] Internal Library Version ${FMW.getVersionString("innerpastels")} loaded. Please include this when reporting bugs!!!")
+            LOGGER.info("[${MOD_NAME}] Getting ready to load some soft sweet eye candy.")
+        }
+
     }
 }
