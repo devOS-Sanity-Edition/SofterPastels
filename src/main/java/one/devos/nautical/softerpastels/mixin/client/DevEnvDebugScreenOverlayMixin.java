@@ -19,12 +19,14 @@ public class DevEnvDebugScreenOverlayMixin {
     @Inject(method = "getSystemInformation", at = @At("RETURN"))
     private void appendInfo(CallbackInfoReturnable<List<String>> cir) {
         if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
-            List<String> messages = cir.getReturnValue();
+            if (!FabricLoader.getInstance().isModLoaded("desolatedpastels")) {
+                List<String> messages = cir.getReturnValue();
 
-            messages.add("");
-            messages.add("[" + FMW.getName(SofterPastels.MOD_ID) + " - Development Environment]");
-            messages.add("Internal Library Version:" + FMW.getVersion("innerpastels"));
-            messages.add("Version: " + FMW.getVersion(SofterPastels.MOD_ID));
+                messages.add("");
+                messages.add("[" + FMW.getName(SofterPastels.MOD_ID) + " - Development Environment]");
+                messages.add("Internal Library Version:" + FMW.getVersion("innerpastels"));
+                messages.add("Version: " + FMW.getVersion(SofterPastels.MOD_ID));
+            }
         }
     }
 }
