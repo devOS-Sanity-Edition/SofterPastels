@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
+    kotlin("jvm") version "2.1.10"
     `maven-publish`
     java
 
@@ -41,7 +41,7 @@ dependencies {
     modImplementation(libs.bundles.dependencies)
     modLocalRuntime(libs.bundles.dev.mods)
 
-    include(modImplementation("gay.asoji:innerpastels:1.3.2+rev.863e92f+branch.kt.1.21.main")!!)
+    include(modImplementation("gay.asoji:innerpastels:1.3.13+rev.e7bb3c8-branch.kt.1.21.main")!!)
 }
 
 // Write the version to the fabric.mod.json

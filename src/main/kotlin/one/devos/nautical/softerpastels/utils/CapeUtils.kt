@@ -62,6 +62,6 @@ enum class CapeUtils {
     }
 
     companion object {
-        private const val url = "https://spamton.asoji.one/capes.json/raw"
+        private const val url = "https://raw.githubusercontent.com/asoji/CapeData/refs/heads/main/SofterPastels.json"
     }
 }

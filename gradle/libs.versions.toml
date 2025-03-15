@@ -1,12 +1,13 @@
 [versions]
-minecraft = "1.21"
-fabric-loader = "0.15.11"
-fabric-api = "0.102.0+1.21"
-fabric_language_kotlin = "1.11.0+kotlin.2.0.0"
-joml = "1.10.5"
-sodium = "mc1.21-0.5.11"
-mod_menu = "11.0.1"
-#emi = "1.1.0+1.20.4"
+minecraft = "1.21.1"
+fabric-loader = "0.16.10"
+fabric-api = "0.115.1+1.21.1"
+fabric_language_kotlin = "1.13.1+kotlin.2.1.10"
+#joml = "1.10.5"
+sodium = "mc1.21.1-0.6.9-fabric"
+mod_menu = "11.0.3"
+emi = "1.1.20+1.21.1+fabric"
+
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
@@ -15,17 +16,17 @@ fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-l
 fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric-api" }
 fabric_language_kotlin = { module = "net.fabricmc:fabric-language-kotlin", version.ref = "fabric_language_kotlin" }
 
-joml = { module = "org.joml:joml", version.ref = "joml" }
+#joml = { module = "org.joml:joml", version.ref = "joml" }
 sodium = { module = "maven.modrinth:sodium", version.ref = "sodium" }
 
 mod_menu = { module = "com.terraformersmc:modmenu", version.ref = "mod_menu" }
-#emi = { module = "dev.emi:emi-fabric", version.ref = "emi" }
+emi = { module = "maven.modrinth:emi", version.ref = "emi" }
 
 [bundles]
-dev_mods = [ "joml", "sodium" ]
+dev_mods = [ "sodium", "mod_menu", "emi" ]
 dependencies = [ "mod_menu" ]
 
 [plugins]
-fabric_loom = { id = "fabric-loom", version = "1.7-SNAPSHOT" }
+fabric_loom = { id = "fabric-loom", version = "1.10-SNAPSHOT" }
 grgit = { id = "org.ajoberstar.grgit", version = "5.0.0-rc.3" }
 dokka = { id = "org.jetbrains.dokka", version = "1.9.10" }
