@@ -7,7 +7,6 @@ import net.fabricmc.api.Environment
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap
 import net.minecraft.client.renderer.RenderType
 import one.devos.nautical.softerpastels.common.blocks.GlassBlocks
-import one.devos.nautical.softerpastels.utils.CapeUtils
 
 @Environment(EnvType.CLIENT)
 class SofterPastelsClient : ClientModInitializer {
@@ -57,7 +56,6 @@ class SofterPastelsClient : ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS, RenderType.translucent())
         BlockRenderLayerMap.INSTANCE.putBlock(GlassBlocks.GRAY_GLASS_PANE, RenderType.translucent())
 
-        CapeUtils.INSTANCE.init()
         DevDisclaimer.init()
     }
 }
