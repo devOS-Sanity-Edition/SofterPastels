@@ -1,4 +1,8 @@
-# SofterPastels
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/0d1b7bad-db67-465b-96a6-aaa57a0d2c69" width="256" height="256"></img>
+</p>
+
+# Softer Pastels
 
 Mods that adds blocks and foods from the discontinued "Pastel Wonderland"
 
